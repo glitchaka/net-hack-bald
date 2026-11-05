@@ -1,70 +1,67 @@
-# NetHack Bald
+# NetHack Bald — NetHack 5.0 en español + cooperativo C++17
 
-**NetHack Bald** es un roguelike de mazmorras desarrollado en **C++17**, inspirado por la tradición de **NetHack**. La interfaz, la ayuda, los mensajes y las descripciones están en **español**.
+El proyecto incorpora **el código completo de NetHack 5.0**, a través de su [adaptación española NetHack-es](https://github.com/Ricard1974/nethack-es/tree/NetHack-5.0-es), y un **servidor/cliente multijugador escrito en C++17**.
 
-> **Alcance:** es una reinterpretación independiente y jugable, **no** una conversión completa del código de NetHack original. El NetHack histórico tiene muchas más mecánicas y contenido.
+**Estado:** fuentes publicadas en GitHub. **Todavía no compiladas ni probadas**, respetando la pauta de subir todo antes de las pruebas.
 
-## Funcionalidades
+| Componente | Lenguaje | Funcionalidad |
+| --- | --- | --- |
+| \`upstream/nethack/\` | C99, Lua | **Motor original completo** (no una imitación simplificada) |
+| \`upstream/nethack/po/es.po\` y datos | gettext/Lua | Traducción al español **parcial** |
+| \`multiplayer/main.cpp\` | C++17 | Hasta ocho jugadores compartiendo una partida de NetHack por TCP |
 
-- Generación procedural de niveles con salas, pasillos, puertas y escaleras.
-- Cuatro clases: guerrero, maga, pícaro y valquiria.
-- Movimiento por turnos en ocho direcciones, exploración con campo de visión y memoria de mapa.
-- Monstruos, combate cuerpo a cuerpo, armas a distancia, magia, experiencia y subida de nivel.
-- Inventario, equipo, comida, pociones, pergaminos, botín y oro.
-- Trampas, hambre, veneno y recuperación de recursos.
-- Diez profundidades y objetivo de rescatar el **Amuleto de Bald** y volver a la superficie.
-- Partida guardada y recuperable en archivo local; muerte permanente dentro de la aventura.
+El modo multijugador permite **ver una misma partida, conversar y cederse el control del mismo personaje**. **No** dispone de varios héroes simultáneos. Ese modo requerirá refactorización profunda del motor y sigue pendiente. No es correcto llamar a esta versión "clon 1:1 en C++": el **motor genuino** se conserva en C99.
 
-## Compilación (cuando decidas probarlo)
+## Compilar el NetHack original en español
 
-Requiere CMake 3.16 o superior y compilador compatible con C++17.
+Desde la raíz del repositorio, en Linux/WSL:
 
-```bash
+\`\`\`bash
+sudo apt install build-essential cmake libncurses-dev flex bison gettext
+cd upstream/nethack
+cd sys/unix && sh setup.sh hints/linux.500 && cd ../..
+make fetch-lua && make
+msgfmt po/es.po -o playground/locale/es/LC_MESSAGES/nethack.mo
+make dlb
+cp dat/nhdat playground/
+cd playground
+LANG=es.UTF-8 ./nethack
+\`\`\`
+
+Consultar también el README propio dentro de \`upstream/nethack\`. En Windows se puede recurrir a WSL; el servidor multijugador **no** tiene todavía una adaptación nativa para Windows.
+
+## Compilar y conectar el multijugador C++17
+
+Desde la raíz del repositorio:
+
+\`\`\`bash
 cmake -S . -B build
 cmake --build build --config Release
-```
+./build/nethack-bald-multi servidor --juego=upstream/nethack/playground/nethack --puerto=7777
+\`\`\`
 
-Linux/macOS: `./build/nethack-bald` (según generador).
+En otras terminales:
 
-Windows: `build\Release\nethack-bald.exe` con Visual Studio, o `build\nethack-bald.exe` con otros generadores.
+\`\`\`bash
+./build/nethack-bald-multi cliente --ip=127.0.0.1 --nombre=Uno
+./build/nethack-bald-multi cliente --ip=127.0.0.1 --nombre=Dos
+\`\`\`
 
-Utiliza una terminal de al menos **80 columnas × 32 filas**, con compatibilidad ANSI y UTF-8. En Windows se recomienda Windows Terminal.
+- **Ctrl+T:** ceder control al siguiente participante.
+- **Ctrl+G:** chat.
+- **Ctrl+]:** desconectarse.
 
-## Controles
+Por defecto escucha solamente en 127.0.0.1. Para LAN: servidor con \`--bind=0.0.0.0 --clave=SECRETO\` y clientes con \`--clave=SECRETO\`. **No usa TLS: únicamente LAN de confianza, nunca exponer directamente a Internet.**
 
-| Tecla | Acción |
-| --- | --- |
-| `h j k l` | Moverse izquierda, abajo, arriba y derecha |
-| `y u b n` | Moverse en diagonal |
-| Flechas y teclado numérico `1-9` | Movimiento en ocho direcciones (5 = esperar) |
-| `.` | Esperar |
-| `,` o `g` | Recoger objeto |
-| `i` | Revisar inventario |
-| `e` | Comer |
-| `q` | Beber una poción |
-| `r` | Leer un pergamino |
-| `w` | Empuñar arma |
-| `W` | Ponerse armadura |
-| `T` | Quitarse armadura |
-| `f` | Disparar una flecha (si tienes) |
-| `z` | Lanzar un hechizo |
-| `d` | Soltar un objeto |
-| `o` | Abrir puerta |
-| `>` / `<` | Bajar / subir escaleras |
-| `S` | Guardar |
-| `?` | Ayuda |
-| `Q` | Abandonar la partida |
+Más información: [docs/MULTIJUGADOR.md](docs/MULTIJUGADOR.md).
 
-Al realizar una acción direccional se solicita la dirección con las mismas teclas de movimiento.
+## Estado real de los requisitos
 
-## Objetivo
+- **Mecánicas NetHack 5.0:** fuente genuina incorporada.
+- **Español:** gran parte traducida; quedan textos y secuencias de misiones sin traducir.
+- **C++:** infraestructura multijugador implementada; motor original aún C99.
+- **Multijugador:** sesión compartida de un personaje, no varios héroes independientes.
+- **Pruebas:** no realizadas.
+- **Licencia:** NetHack General Public License, véase [upstream/nethack/dat/license](upstream/nethack/dat/license) y [LICENCIA.md](LICENCIA.md).
 
-Encuentra el Amuleto de Bald en el nivel 10, vuelve por las escaleras hasta el nivel 1 y sube a la superficie para ganar.
-
-## Estado
-
-**Primera implementación:** fuente subida a GitHub antes de compilar o ejecutar, siguiendo la política de trabajo del proyecto. El funcionamiento no se presenta como verificado hasta que se realicen pruebas.
-
-## Licencia
-
-Código original de este proyecto: licencia MIT (véase `LICENSE`). No incorpora código fuente ni recursos de NetHack original.
+Código original NetHack DevTeam. Adaptación española Ricard1974. Módulo cooperativo NetHack Bald. El prototipo independiente anterior se retiró por no cumplir el requisito de fidelidad.
