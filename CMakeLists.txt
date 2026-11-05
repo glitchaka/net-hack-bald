@@ -6,6 +6,7 @@ add_executable(nethack-bald
     src/terminal.cpp
     src/dungeon.cpp
     src/game.cpp
+    src/actions.cpp
     src/save.cpp
 )
 
