@@ -1,0 +1,48 @@
+name: Incorporar código original NetHack 5.0-es
+
+# Esta acción SOLO descarga y versiona el motor; NO compila, ejecuta ni prueba.
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/importar-nethack.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: importar-nethack
+  cancel-in-progress: false
+
+jobs:
+  importar:
+    if: github.repository == 'glitchaka/net-hack-bald'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener la rama main
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Importar versión española del motor NetHack, sin compilar ni ejecutar
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth=1 --single-branch \
+            --branch NetHack-5.0-es \
+            https://github.com/Ricard1974/nethack-es.git /tmp/nethack-es
+          mkdir -p upstream/nethack
+          rsync -a --delete \
+            --exclude='.git/' \
+            --exclude='playground/' \
+            /tmp/nethack-es/ upstream/nethack/
+          git add -A upstream/nethack
+          if git diff --cached --quiet; then
+            echo "El motor ya se encuentra actualizado."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'vendor: incorporar NetHack 5.0-es completo (NGPL)'
+          git push origin HEAD:main
