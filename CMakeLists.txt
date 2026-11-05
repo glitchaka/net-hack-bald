@@ -1,33 +1,26 @@
-cmake_minimum_required(VERSION 3.16)
-project(NetHackBald VERSION 0.3.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.20)
 
-# Proyecto Windows nativo con MSVC o MinGW-w64.
+# El objetivo predeterminado es el NET-HACK ORIGINAL en modo grafico nativo.
+# No se compila el prototipo de consola en este proyecto.
 if(NOT WIN32)
-    message(FATAL_ERROR "Este proyecto se compila exclusivamente en Windows.")
+    message(FATAL_ERROR "NetHack Bald se compila exclusivamente en Windows.")
 endif()
 
-add_executable(nethack-bald
-    src/multiplayer/main.cpp
-    src/multiplayer/network.cpp
-    src/multiplayer/terminal.cpp
-    src/multiplayer/world_gen.cpp
-    src/multiplayer/world_turns.cpp
-    src/multiplayer/world_view.cpp
-    src/multiplayer/world_save.cpp
+project(NetHackBald VERSION 0.4.0 LANGUAGES NONE)
+
+find_program(NHB_POWERSHELL powershell.exe REQUIRED)
+add_custom_target(nethack-original ALL
+    COMMAND "${NHB_POWERSHELL}"
+        -NoProfile -ExecutionPolicy Bypass
+        -File "${CMAKE_SOURCE_DIR}/scripts/compilar-nethack-original.ps1"
+        -Root "${CMAKE_SOURCE_DIR}"
+        -Configuration "$<CONFIG>"
+        -Platform x64
+    WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
+    COMMENT "Construyendo el motor original NetHack 5.0 para Windows (NetHackW.exe)"
+    VERBATIM
+    USES_TERMINAL
 )
 
-target_include_directories(nethack-bald PRIVATE include)
-target_compile_features(nethack-bald PRIVATE cxx_std_17)
-set_target_properties(nethack-bald PROPERTIES
-    CXX_STANDARD_REQUIRED YES
-    CXX_EXTENSIONS NO
-)
-target_compile_definitions(nethack-bald PRIVATE
-    _WIN32_WINNT=0x0601
-    WIN32_LEAN_AND_MEAN
-    NOMINMAX
-)
-target_link_libraries(nethack-bald PRIVATE ws2_32)
-if(MSVC)
-    target_compile_options(nethack-bald PRIVATE /W4 /utf-8)
-endif()
+# El experimento src/multiplayer/ no es fiel 1:1 y no forma parte del
+# ejecutable original. La extension de 2-6 personajes sigue pendiente.
