@@ -12,6 +12,7 @@
 #include <cstring>
 #include <filesystem>
 #include <iostream>
+#include <iterator>
 #include <memory>
 #include <mutex>
 #include <stdexcept>
@@ -326,7 +327,10 @@ private:
         std::string name = hello.payload.substr(0, split);
         std::string key = split == std::string::npos
             ? "" : hello.payload.substr(split + 1);
-        if (name.empty() || name.size() > 28 || key != password_) {
+        if (name.empty() || name.size() > 28 || key != password_ ||
+            !std::all_of(name.begin(), name.end(), [](unsigned char c) {
+                return c >= 32 && c != 127;
+            })) {
             sendFrame(fd, 'E', "Identificación rechazada.");
             ::close(fd);
             return;
@@ -362,7 +366,9 @@ private:
             if (frame.type == 'P') {
                 rotateOwner(peer->id);
             } else if (frame.type == 'C') {
-                if (frame.payload.size() <= 200)
+                if (frame.payload.size() <= 200 &&
+                    std::all_of(frame.payload.begin(), frame.payload.end(),
+                        [](unsigned char c) { return c >= 32 && c != 127; }))
                     notice("[CHAT] " + peer->name + ": " + frame.payload);
             } else if (frame.type == 'K' && !frame.payload.empty() &&
                        frame.payload.size() <= 16) {
