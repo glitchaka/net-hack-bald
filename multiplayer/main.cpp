@@ -136,7 +136,7 @@ public:
     }
     ~RawTerminal() {
         if (enabled_) ::tcsetattr(STDIN_FILENO, TCSANOW, &saved_);
-        ::write(STDOUT_FILENO, "\x1b[0m\x1b[?25h\n", 12);
+        ::write(STDOUT_FILENO, "\x1b[0m\x1b[?25h\n", 11);
     }
 private:
     termios saved_{};
@@ -395,8 +395,8 @@ private:
 void showClientNotice(const std::string& note) {
     // Pantalla NetHack: 80x32. Fila 35 reservada para avisos cooperativos.
     std::string message = note.substr(0, 120);
-    std::string ansi = "\x1b7\x1b[35;1H\x1b[2K\x1b[1;36m" +
-                       message + "\x1b[0m\x1b8";
+    std::string ansi = "\x1b" "7\x1b[35;1H\x1b[2K\x1b[1;36m" +
+                       message + "\x1b[0m\x1b" "8";
     writeFully(STDOUT_FILENO, ansi.data(), ansi.size(), false);
 }
 
