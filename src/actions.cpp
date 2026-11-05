@@ -1,6 +1,7 @@
 #include "nhb/game.hpp"
 
 #include <algorithm>
+#include <cstddef>
 #include <cmath>
 #include <iostream>
 #include <string>
