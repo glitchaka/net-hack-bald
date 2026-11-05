@@ -79,8 +79,7 @@ struct Player {
     bool hasAmulet = false;
     bool escaped = false;
     std::vector<Item> bag;
-    std::array<std::array<bool, kWidth>, kHeight> discovered{};
-    int discoveredDepth = 1;
+    std::array<std::array<std::array<bool, kWidth>, kHeight>, kLevels> discovered{};
     std::deque<std::string> messages;
 };
 
@@ -105,7 +104,8 @@ public:
     std::string render(int id);
     std::string roster() const;
     void chat(int id, const std::string& line);
-    void save(const std::string& filename) const;
+    bool save(const std::string& filename) const;
+    bool load(const std::string& filename);
 
 private:
     std::array<Level, kLevels> levels_{};
