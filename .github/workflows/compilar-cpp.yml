@@ -1,13 +1,13 @@
-name: Verificar compilación y partida en Windows
+name: NetHack original Windows grafico
 
 on:
   push:
     branches: [main]
     paths:
       - CMakeLists.txt
-      - include/nhb/**
-      - src/multiplayer/**
-      - tests/**
+      - scripts/compilar-nethack-original.ps1
+      - scripts/instalar_y_compilar.ps1
+      - upstream/nethack/sys/windows/vs/NetHackProperties.props
       - .github/workflows/compilar-cpp.yml
   workflow_dispatch:
 
@@ -15,18 +15,23 @@ permissions:
   contents: read
 
 jobs:
-  windows:
+  compilar-net-hack-original:
     runs-on: windows-latest
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - name: Configurar CMake nativo
+      - name: Descargar el codigo original
+        uses: actions/checkout@v4
+      - name: Configurar proyecto Windows
         run: cmake -S . -B build
-      - name: Compilar Release
-        run: cmake --build build --config Release --parallel 2
-      - name: Verificar menú, servidor y seis personajes
+      - name: Compilar el motor original y su interfaz grafica
+        run: cmake --build build --config Release
+      - name: Verificar ejecutable grafico y datos
         shell: pwsh
         run: |
-          $exe = "build/Release/nethack-bald.exe"
-          if (-not (Test-Path $exe)) { $exe = "build/nethack-bald.exe" }
-          if (-not (Test-Path $exe)) { throw "No se generó nethack-bald.exe para Windows." }
-          python tests/smoke_multiplayer.py $exe
+          if (-not (Test-Path 'build/Release/NetHackW.exe')) {
+            throw 'No se genero el NetHackW.exe original.'
+          }
+          if (-not (Get-ChildItem 'build/Release' -Filter 'nhdat*')) {
+            throw 'No se empaquetaron los datos originales de NetHack.'
+          }
+          Write-Host 'OK: NetHackW.exe original y datos en Windows'
