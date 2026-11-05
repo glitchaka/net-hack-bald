@@ -1,37 +1,51 @@
-# Multijugador cooperativo: especificación
+# Multijugador de NetHack Bald (C++17)
 
-## Implementado
+**Estado actual:** módulo multijugador nativo de Windows/Linux para **entre dos y seis personajes distintos**. Es un motor propio parcial: **NO es todavía el motor completo de NetHack 1:1**.
 
-El servidor en **C++17** inicia un proceso **real del motor NetHack-es** a través de un pseudo-terminal POSIX (PTY), retransmite el estado visible a los participantes y controla cuál de ellos puede mandar teclas. **Hasta ocho clientes** ven **una única aventura con un único personaje**, comparten el inventario, el progreso y los turnos de la partida.
+## Cómo funciona
 
-El primer jugador toma el control. **Ctrl+T** lo cede al siguiente. **Ctrl+G** permite escribir en un chat de la sesión; **Ctrl+]** sale del cliente. Los demás participantes observan la misma pantalla durante los turnos ajenos. No hay tecnologías web ni navegador.
+- Un servidor mantiene la única mazmorra compartida.
+- Cada jugador tiene su propio personaje, nombre, clase, posición, salud, maná, equipo, inventario, descubrimiento de mapa y progresión.
+- Los participantes envían una acción por ronda. Cuando han enviado órdenes todos los jugadores conectados que siguen activos, el servidor resuelve la ronda y las acciones de los monstruos.
+- El servidor guarda el estado en \`partida-multi.nhb\`.
+- Máximo seis personajes registrados y conectados; no se comparte un único avatar.
 
-## Protocolo TCP
+## Windows nativo
 
-Tramas: byte de tipo, longitud uint32 en orden de red y carga binaria hasta 8192 bytes.
+**Sin Ubuntu ni WSL.** Se necesita compilador C++17, Git y CMake:
 
-| Tipo | Origen | Significado |
-| --- | --- | --- |
-| H | Cliente | Nombre y clave separados por salto de línea |
-| D | Servidor | Salida ANSI original del juego |
-| K | Cliente | Pulsación, solo válida para el controlador activo |
-| P | Cliente | Ceder control |
-| C | Cliente | Mensaje de chat |
-| N | Servidor | Notificación |
-| E | Servidor | Error |
+~~~powershell
+git clone https://github.com/glitchaka/net-hack-bald.git
+cd net-hack-bald
+cmake -S . -B build
+cmake --build build --config Release
+~~~
 
-Servidor autoritativo. Conserva 128 KiB de historial de terminal para nuevos clientes. El motor NetHack original no es reemplazado ni aproximado.
+Abre \`build/Release/nethack-bald.exe\` (Visual Studio), o \`build/nethack-bald.exe\` (MinGW), **con doble clic** y aparecerá un menú interactivo.
 
-## Conexión y seguridad
+En el primer equipo selecciona **Crear partida y jugar**. En el segundo ejecutable selecciona **Unirse a partida**. Si quieres jugar desde distintos equipos, inicia un servidor dedicado vinculado a la LAN y conecta los clientes mediante la dirección IPv4 del servidor.
 
-Puerto por defecto **7777**, limitado a `127.0.0.1`. Para conexión por red local usar `--bind=0.0.0.0 --clave=SECRETO` y pasar esa clave a los clientes. El protocolo **no cifra** el tráfico: no abrir el puerto a Internet. Usar terminal compatible ANSI y de al menos **80 x 36**.
+Los comandos por terminal son una alternativa:
 
-## Límites y pendientes
+~~~powershell
+.\build\Release\nethack-bald.exe servidor --bind=127.0.0.1 --puerto=7777
+.\build\Release\nethack-bald.exe cliente --ip=127.0.0.1 --nombre=Ada --clase=maga
+.\build\Release\nethack-bald.exe cliente --ip=127.0.0.1 --nombre=Bran --clase=guerrero
+~~~
 
-- No hay múltiples personajes separados en la misma mazmorra.
-- No hay combate conjunto de personajes independientes.
-- Falta implementar arquitectura multiavatar autoritativa para el motor completo de NetHack.
-- El servidor requiere Linux/WSL (no existe aún servidor Windows nativo); **el cliente sí funciona de forma nativa en Windows** con Winsock.
-- No se ha compilado, ejecutado ni validado el multijugador.
+Las clases disponibles son \`guerrero\`, \`maga\`, \`picaro\` y \`valquiria\`.
 
-Para jugadores independientes habrá que ampliar los datos de criaturas, inventario, visibilidad, contexto y reglas de interacción del motor original, preservando todas las demás reglas. El código actual **no** pretende que esa extensión esté realizada.
+**Importante:** el protocolo TCP todavía carece de cifrado, así que no abras el puerto directamente a Internet. Se admite \`--clave=SECRETO\` para LAN confiable, pero esa clave no se cifra.
+
+## Controles
+
+Movimiento con \`hjklyubn\`, diagonales o teclado numérico; \`.\` espera; \`g\` recoge; \`e\` come; \`q\` bebe curación; \`m\` bebe maná; \`w\` equipa arma; \`W\` equipa armadura; \`r\` lee; \`f\` dispara; \`z\` usa magia; \`o\` abre puertas; \`<\` y \`>\` cambian de profundidad. \`Ctrl+G\` abre el chat y \`Ctrl+]\` se desconecta.
+
+## Limitaciones pendientes
+
+- Reproducir las mecánicas completas del NetHack original.
+- Traducir todos los textos del juego original, incluidas misiones y descripciones especiales.
+- Integrar gráficamente el spritesheet original y las correspondencias exactas de los tiles.
+- Validar íntegramente jugabilidad, reconexión, guardado y seguridad en Windows.
+
+El código completo del NetHack original permanece en \`upstream/nethack/\`, pero está escrito en C99 y **no está acoplado** a esta variante multijugador C++.
