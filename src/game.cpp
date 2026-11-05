@@ -318,7 +318,8 @@ void Game::inventory() {
         if (item.amount > 1) std::cout << " x" << item.amount;
         if (static_cast<int>(i) == hero_.weapon) std::cout << " [EMPUÑADA]";
         if (static_cast<int>(i) == hero_.armor) std::cout << " [PUESTA]";
-        if (item.kind == ItemKind::Weapon || item.kind == ItemKind::Armor)
+        if ((item.kind == ItemKind::Weapon || item.kind == ItemKind::Armor) &&
+            item.identified)
             std::cout << " (+" << item.power << ")";
         std::cout << '\n';
     }
