@@ -31,7 +31,7 @@ Puerto por defecto **7777**, limitado a `127.0.0.1`. Para conexión por red loca
 - No hay múltiples personajes separados en la misma mazmorra.
 - No hay combate conjunto de personajes independientes.
 - Falta implementar arquitectura multiavatar autoritativa para el motor completo de NetHack.
-- No hay servidor nativo de Windows (requiere Linux/WSL).
+- El servidor requiere Linux/WSL (no existe aún servidor Windows nativo); **el cliente sí funciona de forma nativa en Windows** con Winsock.
 - No se ha compilado, ejecutado ni validado el multijugador.
 
 Para jugadores independientes habrá que ampliar los datos de criaturas, inventario, visibilidad, contexto y reglas de interacción del motor original, preservando todas las demás reglas. El código actual **no** pretende que esa extensión esté realizada.
