@@ -28,7 +28,7 @@ cd playground
 LANG=es.UTF-8 ./nethack
 ```
 
-Consultar también el README propio dentro de `upstream/nethack`. En Windows se puede recurrir a WSL; el servidor multijugador **no** tiene todavía una adaptación nativa para Windows.
+Consultar también el README propio dentro de `upstream/nethack`. En Windows se puede recurrir a WSL para el motor original y el **servidor**. Se incluye también un **cliente Windows nativo**, compilado con C++17/WinSock.
 
 ## Compilar y conectar el multijugador C++17
 
@@ -47,6 +47,8 @@ En otras terminales:
 ./build/nethack-bald-multi cliente --ip=127.0.0.1 --nombre=Dos
 ```
 
+En **Windows nativo**, la compilación CMake genera el **cliente** `nethack-bald-multi.exe` (no el servidor). Se ejecuta con `nethack-bald-multi.exe cliente --ip=127.0.0.1 --nombre=Uno`, conectado al servidor Linux/WSL.
+
 - **Ctrl+T:** ceder control al siguiente participante.
 - **Ctrl+G:** chat.
 - **Ctrl+]:** desconectarse.
@@ -60,7 +62,7 @@ Más información: [docs/MULTIJUGADOR.md](docs/MULTIJUGADOR.md).
 - **Mecánicas NetHack 5.0:** fuente genuina incorporada.
 - **Español:** gran parte traducida; quedan textos y secuencias de misiones sin traducir.
 - **C++:** infraestructura multijugador implementada; motor original aún C99.
-- **Multijugador:** sesión compartida de un personaje, no varios héroes independientes.
+- **Multijugador:** hasta ocho clientes Linux/Windows; sesión compartida de un personaje, no varios héroes independientes.
 - **Pruebas:** no realizadas.
 - **Licencia:** NetHack General Public License, véase [upstream/nethack/dat/license](upstream/nethack/dat/license) y [LICENCIA.md](LICENCIA.md).
 
