@@ -9,6 +9,7 @@
 #include <conio.h>
 #include <windows.h>
 #else
+#include <sys/select.h>
 #include <termios.h>
 #include <unistd.h>
 #endif
@@ -18,6 +19,7 @@ namespace {
 #ifdef _WIN32
 DWORD originalMode = 0;
 HANDLE outputHandle = INVALID_HANDLE_VALUE;
+bool consoleModeSaved = false;
 #else
 termios originalMode{};
 bool modeSaved = false;
@@ -34,7 +36,8 @@ void initialize() {
     outputHandle = GetStdHandle(STD_OUTPUT_HANDLE);
     if (outputHandle != INVALID_HANDLE_VALUE &&
         GetConsoleMode(outputHandle, &originalMode)) {
-        SetConsoleMode(outputHandle, originalMode | ENABLE_VIRTUAL_TERMINAL_PROCESSING);
+        consoleModeSaved = SetConsoleMode(
+            outputHandle, originalMode | ENABLE_VIRTUAL_TERMINAL_PROCESSING) != 0;
     }
 #else
     if (isatty(STDIN_FILENO) && tcgetattr(STDIN_FILENO, &originalMode) == 0) {
@@ -53,7 +56,7 @@ void initialize() {
 void shutdown() {
     if (!initialized) return;
 #ifdef _WIN32
-    if (outputHandle != INVALID_HANDLE_VALUE)
+    if (consoleModeSaved && outputHandle != INVALID_HANDLE_VALUE)
         SetConsoleMode(outputHandle, originalMode);
 #else
     if (modeSaved) tcsetattr(STDIN_FILENO, TCSANOW, &originalMode);
