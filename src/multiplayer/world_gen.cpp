@@ -230,7 +230,7 @@ std::optional<int> World::join(std::string name, std::string role,
             return {};
         }
         hero.connected = true;
-        hero.role = hero.role; // Su clase original se conserva.
+        // La clase original se conserva al recuperar el personaje.
         reason = "Personaje recuperado, bienvenido.";
         orders_.erase(id);
         return id;
