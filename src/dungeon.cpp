@@ -31,9 +31,9 @@ Item createTreasure(int depth, int roll) {
         case 6: return {ItemKind::IdentifyScroll, "pergamino de conocimiento", '?', 0, 1, true};
         case 7: return {ItemKind::Arrows, "flechas", ')', 0, 3 + depth / 2, true};
         case 8: return {ItemKind::Weapon, depth < 4 ? "espada corta" : "espada rúnica",
-                         ')', depth < 4 ? 3 : 4 + depth / 3, 1, true};
+                         ')', depth < 4 ? 3 : 4 + depth / 3, 1, false};
         case 9: return {ItemKind::Armor, depth < 5 ? "coraza de cuero" : "coraza de acero",
-                         '[', depth < 5 ? 2 : 3 + depth / 4, 1, true};
+                         '[', depth < 5 ? 2 : 3 + depth / 4, 1, false};
         default: return {ItemKind::Gold, "monedas de oro", '$', 0, 8 + depth * 4, true};
     }
 }
