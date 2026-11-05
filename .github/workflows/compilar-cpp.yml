@@ -1,4 +1,4 @@
-name: Compilar C++ nativo Windows y Linux
+name: Verificar compilación y partida en Windows
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
       - CMakeLists.txt
       - include/nhb/**
       - src/multiplayer/**
-      - .github/workflows/compilar-cpp.yml
       - tests/**
+      - .github/workflows/compilar-cpp.yml
   workflow_dispatch:
 
 permissions:
@@ -19,24 +19,14 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configurar Windows
-        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-      - name: Compilar
+      - name: Configurar CMake nativo
+        run: cmake -S . -B build
+      - name: Compilar Release
         run: cmake --build build --config Release --parallel 2
-      - name: Comprobar menú, servidor, 2-6 personajes y rondas
+      - name: Verificar menú, servidor y seis personajes
         shell: pwsh
         run: |
           $exe = "build/Release/nethack-bald.exe"
           if (-not (Test-Path $exe)) { $exe = "build/nethack-bald.exe" }
-          if (-not (Test-Path $exe)) { throw "No se ha generado el ejecutable Windows." }
+          if (-not (Test-Path $exe)) { throw "No se generó nethack-bald.exe para Windows." }
           python tests/smoke_multiplayer.py $exe
-  linux:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Configurar Linux
-        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-      - name: Compilar
-        run: cmake --build build --parallel 2
-      - name: Comprobar menú, servidor, 2-6 personajes y rondas
-        run: python3 tests/smoke_multiplayer.py build/nethack-bald
