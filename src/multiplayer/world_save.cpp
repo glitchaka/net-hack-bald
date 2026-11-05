@@ -104,7 +104,8 @@ bool World::load(const std::string& filename) {
     std::map<int, Player> players;
     std::size_t count = 0;
     if (!boundedCount(in, count, kMaxPlayers)) return false;
-    for (std::size_t i = 0; i < count; ++i) {
+    const std::size_t playerCount = count;
+    for (std::size_t i = 0; i < playerCount; ++i) {
         Player hero;
         if (!(in >> hero.id >> std::quoted(hero.name) >>
               std::quoted(hero.role) >> hero.depth >>
