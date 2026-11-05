@@ -1,6 +1,8 @@
 #include "nhb/world.hpp"
 
 #include <algorithm>
+#include <array>
+#include <cstddef>
 #include <cmath>
 #include <string>
 #include <vector>
@@ -338,7 +340,8 @@ void World::monsterPhase() {
 void World::advanceRound() {
     // Todas las órdenes corresponden al mismo estado de inicio de ronda.
     // Un orden determinista por ID resuelve contiendas por objetos/casillas.
-    for (auto [id, key] : orders_) {
+    const auto queued = orders_;
+    for (auto [id, key] : queued) {
         Player* hero = find(id);
         if (hero && hero->connected && hero->alive && !hero->escaped)
             perform(*hero, key);
