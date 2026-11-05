@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <atomic>
 #include <chrono>
+#include <csignal>
 #include <filesystem>
 #include <iostream>
 #include <memory>
@@ -328,6 +329,99 @@ void runClient(const std::vector<std::string>& args) {
     net::closeSocket(socket);
 }
 
+std::string prompt(const std::string& label, const std::string& fallback) {
+    std::cout << label << " [" << fallback << "]: " << std::flush;
+    std::string value;
+    if (!std::getline(std::cin, value))
+        throw std::runtime_error("No se pudo leer la entrada de teclado.");
+    return value.empty() ? fallback : value;
+}
+
+std::string chooseRole() {
+    for (;;) {
+        std::cout << "\nClase de personaje:\n"
+                  << "  1. Guerrero\n  2. Maga\n  3. Pícaro\n  4. Valquiria\n";
+        std::string chosen = prompt("Selecciona una clase", "1");
+        if (chosen == "1") return "guerrero";
+        if (chosen == "2") return "maga";
+        if (chosen == "3") return "picaro";
+        if (chosen == "4") return "valquiria";
+        std::cout << "Opción no válida.\n";
+    }
+}
+
+int interactiveMenu() {
+    std::shared_ptr<Server> localServer;
+    for (;;) {
+        std::cout << "\x1b[0m\x1b[2J\x1b[H"
+                  << "=====================================================\n"
+                  << "             NET-HACK BALD - MULTIJUGADOR\n"
+                  << "=====================================================\n"
+                  << "  1. CREAR PARTIDA Y JUGAR (en este equipo)\n"
+                  << "  2. UNIRSE A UNA PARTIDA\n"
+                  << "  3. INICIAR SERVIDOR DEDICADO\n"
+                  << "  4. AYUDA\n"
+                  << "  5. SALIR\n\n"
+                  << "  Cada jugador es un personaje distinto (de 2 a 6).\n"
+                  << "  Modo C++ propio, aún no equivale a NetHack 1:1.\n\n";
+        std::string selected = prompt("Opción", "1");
+        if (selected == "5") return 0;
+        if (selected == "4") {
+            guide();
+            std::string ignored;
+            std::getline(std::cin, ignored);
+            continue;
+        }
+        try {
+            if (selected == "1") {
+                if (!localServer) {
+                    localServer = std::make_shared<Server>(
+                        "127.0.0.1", 7777, "", "partida-multi.nhb");
+                    auto background = localServer;
+                    std::thread([background] {
+                        try { background->run(); }
+                        catch (const std::exception& error) {
+                            std::cerr << "\nError del servidor: " << error.what()
+                                      << "\n" << std::flush;
+                        }
+                    }).detach();
+                    // El servidor abre su socket en el hilo anterior.
+                    std::this_thread::sleep_for(std::chrono::milliseconds(350));
+                }
+                std::string name = prompt("Nombre de tu personaje", "Jugador1");
+                std::string role = chooseRole();
+                runClient({"cliente", "--ip=127.0.0.1",
+                           "--nombre=" + name, "--clase=" + role});
+            } else if (selected == "2") {
+                std::string address = prompt("IP del servidor", "127.0.0.1");
+                std::string port = prompt("Puerto TCP", "7777");
+                std::string name = prompt("Nombre de tu personaje", "Jugador2");
+                std::string role = chooseRole();
+                std::string key = prompt("Contraseña (vacía si es local)", "");
+                runClient({"cliente", "--ip=" + address, "--puerto=" + port,
+                           "--nombre=" + name, "--clase=" + role,
+                           "--clave=" + key});
+            } else if (selected == "3") {
+                std::string address = prompt("IP donde escuchar", "127.0.0.1");
+                std::string port = prompt("Puerto TCP", "7777");
+                std::string key = prompt("Contraseña (obligatoria en LAN)", "");
+                Server server(address, net::parsePort(port), key,
+                              "partida-multi.nhb");
+                server.run();
+            } else {
+                std::cout << "Opción desconocida.\n";
+            }
+        } catch (const std::exception& error) {
+            std::cerr << "\nNo se pudo iniciar la opción: " << error.what()
+                      << "\nEl programa permanecerá abierto.\n";
+        }
+        std::cout << "\nPulsa Intro para regresar al menú..."
+                  << std::flush;
+        std::string ignored;
+        if (!std::getline(std::cin, ignored)) return 1;
+    }
+}
+
 void usage() {
     std::cout
         << "NET-HACK BALD - C++17, Windows/Linux\n"
@@ -352,10 +446,7 @@ int main(int argc, char* argv[]) {
         net::Runtime runtime;
         std::vector<std::string> args;
         for (int i = 1; i < argc; ++i) args.emplace_back(argv[i]);
-        if (args.empty()) {
-            usage();
-            return 0;
-        }
+        if (args.empty()) return interactiveMenu();
         const int port = net::parsePort(net::option(args, "puerto", "7777"));
         if (args[0] == "servidor") {
             Server server(net::option(args, "bind", "127.0.0.1"),
@@ -371,6 +462,12 @@ int main(int argc, char* argv[]) {
         return 0;
     } catch (const std::exception& error) {
         std::cerr << "Error: " << error.what() << '\n';
+#ifdef _WIN32
+        // Conserva el mensaje de error al iniciar mediante doble clic.
+        std::cerr << "Pulsa Intro para cerrar..." << std::flush;
+        std::string ignored;
+        std::getline(std::cin, ignored);
+#endif
         return 1;
     }
 }
