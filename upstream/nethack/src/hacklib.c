@@ -347,21 +347,42 @@ strcasecpy(char *dst, const char *src)
  * override these weak stubs.
  */
 
-/* Weak stub for get_lang() - real one is in lang.o */
+/* Windows/MSVC does not support GNU __attribute__((weak)).
+ * Use /alternatename so the utilities link with English fallbacks, while
+ * the main game can provide the real Spanish translation functions.
+ */
+#if defined(_MSC_VER)
+const char *
+nhb_default_get_lang(void)
+{
+    return "en";
+}
+const char *
+nhb_default_gettext(const char *msgid)
+{
+    return msgid;
+}
+#if defined(_M_IX86)
+#pragma comment(linker, "/alternatename:_get_lang=_nhb_default_get_lang")
+#pragma comment(linker, "/alternatename:_nh_gettext=_nhb_default_gettext")
+#else
+#pragma comment(linker, "/alternatename:get_lang=nhb_default_get_lang")
+#pragma comment(linker, "/alternatename:nh_gettext=nhb_default_gettext")
+#endif
+#else
 const char *get_lang(void) __attribute__((weak));
 const char *
 get_lang(void)
 {
-    return "en"; /* utilities default to English */
+    return "en";
 }
-
-/* Weak stub for nh_gettext() - real one is in nh_gettext.o */
 const char *nh_gettext(const char *msgid) __attribute__((weak));
 const char *
 nh_gettext(const char *msgid)
 {
-    return msgid; /* utilities pass strings through untranslated */
+    return msgid;
 }
+#endif
 
 /* return a name converted to possessive */
 char *

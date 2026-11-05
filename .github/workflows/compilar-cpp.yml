@@ -7,7 +7,9 @@ on:
       - CMakeLists.txt
       - scripts/compilar-nethack-original.ps1
       - scripts/instalar_y_compilar.ps1
-      - upstream/nethack/sys/windows/vs/NetHackProperties.props
+      - upstream/nethack/sys/windows/vs/**
+      - upstream/nethack/src/**
+      - upstream/nethack/include/**
       - .github/workflows/compilar-cpp.yml
   workflow_dispatch:
 
