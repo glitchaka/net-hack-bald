@@ -8,6 +8,7 @@ on:
       - include/nhb/**
       - src/multiplayer/**
       - .github/workflows/compilar-cpp.yml
+      - tests/**
   workflow_dispatch:
 
 permissions:
@@ -22,13 +23,13 @@ jobs:
         run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
       - name: Compilar
         run: cmake --build build --config Release --parallel 2
-      - name: Comprobar ejecutable
+      - name: Comprobar menú, servidor, 2-6 personajes y rondas
         shell: pwsh
         run: |
-          if (-not (Test-Path build/Release/nethack-bald.exe) -and
-              -not (Test-Path build/nethack-bald.exe)) {
-            throw "No se ha generado el ejecutable Windows."
-          }
+          $exe = "build/Release/nethack-bald.exe"
+          if (-not (Test-Path $exe)) { $exe = "build/nethack-bald.exe" }
+          if (-not (Test-Path $exe)) { throw "No se ha generado el ejecutable Windows." }
+          python tests/smoke_multiplayer.py $exe
   linux:
     runs-on: ubuntu-latest
     steps:
@@ -37,3 +38,5 @@ jobs:
         run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
       - name: Compilar
         run: cmake --build build --parallel 2
+      - name: Comprobar menú, servidor, 2-6 personajes y rondas
+        run: python3 tests/smoke_multiplayer.py build/nethack-bald
