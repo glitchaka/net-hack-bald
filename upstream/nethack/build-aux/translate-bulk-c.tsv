@@ -1,0 +1,2236 @@
+# NetHack-es bulk C translations: msgid<TAB>msgstr
+# Format: one entry per line, tab-separated
+# Lines starting with # are comments
+%s smiles %s at your %sdisplaced image...	%s sonrie %s a tu %simagen desplazada...
+%s%s!	¡%s%s!
+%s.	%s.
+%s doesn't seem to notice that %s gaze was reflected.	%s no parece notar que su mirada fue reflejada.
+meet %s gaze.	encuentras la mirada de %s.
+%s gaze makes you very sleepy...	la mirada de %s te da mucho sueno...
+Gaze attack %d?	¡Ataque de mirada %d?
+%s decides she'd like %s, and takes it.	%s decide que le gustaria tener %s y lo coge.
+%s decides you'd look prettier wearing %s,	%s decide que estaria mejor que llevaras %s,
+%s puts %s on your right %s.	%s te pone %s en tu %s derecho.
+%s puts %s on your left %s.	%s te pone %s en tu %s izquierdo.
+%s replaces %s with %s.	%s sustituye %s por %s.
+%s %s%s.	%s %s%s.
+%s seems to have enjoyed it more than you...	%s parece haberlo disfrutado mas que tu...
+%s demands that you pay %s, but you refuse...	%s exige que pagues %s, pero te niegas...
+%s takes off your %s.	%s te quita tu %s.
+%s...	%s...
+%s	%s
+%s %s.	%s %s.
+burn your %s.	quema tu %s.
+This tastes %s.	Esto sabe %s.
+This burns%s!	¡Esto quema%s!
+%s with %s aura.	%s con aura %s.
+%s %s wet.	%s %s mojado.
+%s looks sound and hale again.	%s parece sano y robusto de nuevo.
+%s looks unharmed.	%s parece ileso.
+%s looks rather ill.	%s parece bastante enfermo.
+%s briefly seems to be transparent.	%s parece brevemente transparente.
+%s appears!	¡%s aparece!
+%s %s in pain!	¡%s %s de dolor!
+%s looks healthier.	%s parece mas sano.
+%s rusts.	%s se oxida.
+%s seems to be holding you.	%s parece estar sujetandote.
+dip_into: where is potion?	dip_into: ¿donde esta la pocion?
+%sThey explode!	¡%sExplotan!
+%s %s %s with %s%s...	%s %s %s con %s%s...
+%s %s %s around the edges.	%s %s %s por los bordes.
+%s forms a coating on %s.	%s forma una capa sobre %s.
+%s %s with an oily sheen.	%s %s con un brillo aceitoso.
+%s %s oily.	%s %s aceitoso.
+%s %s less %s.	%s %s menos %s.
+%s %s full.	%s %s lleno.
+fill %s with oil.	rellena %s con aceite.
+multiply%s!	¡se multiplica%s!
+%s multiplies%s!	¡%s se multiplica%s!
+%s looks puzzled for a moment.	%s parece desconcertado por un momento.
+%s appears in a %s of %s!	¡%s aparece en un %s de %s!
+unaligned player?	¿jugador sin alineamiento?
+%s appears before you.	%s aparece ante ti.
+%s looks very angry.	%s parece muy enfadado.
+%s says something.	%s dice algo.
+%s demands %ld %s for safe passage.	%s exige %ld %s por un paso seguro.
+%s seems to be demanding something.	%s parece estar exigiendo algo.
+%s vanishes, laughing about cowardly mortals.	%s desaparece, riendose de los mortales cobardes.
+%s scowls at you menacingly, then vanishes.	%s te mira amenazante, luego desaparece.
+%s gets angry...	%s se enfada...
+refuse.	rechazas.
+give %s %ld %s.	dar %s %ld %s.
+%s rebukes you, saying:	%s te reprende, diciendo:
+%s hissing!	¡%s sisea!
+unleash %s!	¡suelta a %s!
+attract %s!	¡atrae a %s!
+%s yells:	%s grita:
+%s earnestly %s %s %s!	¡%s %s con fervor %s %s!
+feel transparent.	te sientes transparente.
+feel very self-conscious.	te sientes muy cohibido.
+undergo a freakish metamorphosis!	¡sufre una metamorfosis extrania!
+clanking from the pipes...	chasquidos de las tuberias...
+bad direction in create_drawbridge	direccion erronea en create_drawbridge
+%s crushed underneath the drawbridge.	%s aplastado bajo el puente levadizo.
+%s crushed by the falling portcullis!	¡%s aplastado por la rejilla que cae!
+tumble towards the closed portcullis!	¡caes rodando hacia la rejilla cerrada!
+pass through it!	¡pasa a traves!
+%s behind the drawbridge.	%s detras del puente levadizo.
+%s from the bridge.	%s desde el puente.
+chains rattling and gears turning.	cadenas repicando y engranajes girando.
+smashing and crushing.	aplastando y triturando.
+gears turning and chains rattling.	engranajes girando y cadenas repicando.
+%s blown apart by flying debris.	%s destrozado por los escombros voladores.
+%s mutters %s.	%s murmura %s.
+sense a faint wave of psychic energy.	sientes una leve onda de energia psionica.
+%s gets angry!	¡%s se enfada!
+Finishing off %s...	Terminando con %s...
+Restobjchn: error reading objchn.	Restobjchn: error leyendo objchn.
+bad monster weapon restore	restauracion de arma de monstruo erronea
+Restmonchn: error reading monchn.	Restmonchn: error leyendo monchn.
+no old fruit?	¿no hay fruta antigua?
+were not healthy enough to survive restoration.	no estaban lo bastante sanos para sobrevivir a la restauracion.
+restgamestate: lost ball & chain	restgamestate: perdida la bola y cadena
+Not a boulder?	¿No es una roca?
+a%s splash.	un chapoteo %s.
+find yourself on dry land again!	¡te encuentras de nuevo en tierra firme!
+%s is %s!	¡%s esta %s!
+%s tumble downwards.	%s cae rodando hacia abajo.
+%s from the heat!	¡%s del calor!
+drop %s down the drain.	deja caer %s por el desague.
+Static electricity surrounds the sink.	La electricidad estatica rodea el fregadero.
+loud noises coming from the drain.	ruidos fuertes vienen del desague.
+You cannot %s %s you are wearing.	No puedes %s %s que llevas puesto.
+You cannot %s %s welded to your %s.	No puedes %s %s soldado a tu %s.
+drop %s into %s.	deja caer %s en %s.
+%s instantly digested!	¡%s digerido al instante!
+release %s.	suelta %s.
+fly out of hiding.	sale volando de su escondite.
+drop to the %s.	cae al %s.
+Unspeakable cruelty and harm lurk down there.	Crueldad y dano indecibles acechan alli abajo.
+were unable to fit %s.	no pudieron caber %s.
+level arrival collision: %s?	colision de llegada al nivel: %s?
+(怪物 in hero's way)	(monstruo en el camino del heroe)
+goto_level: returning to discarded level?	goto_level: ¿volviendo a un nivel descartado?
+goto_level: no corresponding portal!	goto_level: ¡no hay portal correspondiente!
+fly down %s.	vuela hacia abajo %s.
+fall down the %s.	cae por el %s.
+arrive at the Valley of the Dead...	llegas al Valle de los Muertos...
+groans and moans everywhere.	gemidos y quejidos por todas partes.
+enter what seems to be an older, more primitive world.	entras en lo que parece ser un mundo mas antiguo y primitivo.
+reviving corpse from non-existent container	reviviendo cadaver de contenedor inexistente
+scratching noises.	ruidos de rasgunos.
+%s appears.	%s aparece.
+notice you have no gold!	¡notas que no tienes oro!
+throne effect	efecto del trono
+%s can't lay eggs!	¡%s no puede poner huevos!
+yearn for the Sargasso Sea.	aniar el Mar de los Sargazos.
+tumble in place.	cae dando vueltas en el sitio.
+%s has no lap.	%s no tiene regazo.
+sit on %s.	se sienta sobre %s.
+sit down in the pit.	se sienta en el foso.
+sit down on the muddy bottom.	se sienta en el fondo fangoso.
+%s!	¡%s!
+Fortunately, you are wearing a hard helmet.	Afortunadamente, llevas un casco duro.
+%s does not protect you.	%s no te protege.
+bc already placed?	¿bc ya colocado?
+unplacebc denied, restriction in place	unplacebc denegado, restriccion en vigor
+unplacebc_and_covet_placebc denied, already restricted	unplacebc_and_covet_placebc denegado, ya restringido
+bc_order:  ball&chain not in same location!	bc_order:  ¡bola y cadena no estan en el mismo lugar!
+bad chain movement	movimiento de cadena erroneo
+lose your grip on the iron ball.	sueltas la bola de hierro.
+%s doesn't need another one.	%s no necesita otro.
+touch %s.	toca %s.
+put the saddle on %s.	pone la silla sobre %s.
+%s resists!	¡%s resiste!
+Maybe you should find a designated driver.	Quiza deberias buscar un conductor designado.
+%s slips away from you.	%s se te escapa.
+slip while trying to get on %s.	resbalas al intentar subir a %s.
+mount %s.	monta %s.
+%s stirs.	%s se remueve.
+%s does not respond.	%s no responde.
+dismount %s.	desmonta %s.
+seem less noisy now.	parece menos ruidoso ahora.
+adjust yourself in the saddle on %s.	te ajustas en la silla sobre %s.
+losestr: %d - %d	losestr: %d - %d
+seems to be an old save file.	parece ser un archivo de guardado antiguo.
+%s %s you.	%s %s te.
+catch the %s.	atrapa el %s.
+accept %s gift in the spirit in which it was intended.	acepta el regalo de %s con el animo con que fue dado.
+%s misfires!	¡%s falla!
+%s breathes %s!	¡%s exhala %s!
+Breath weapon %d used	Arma de aliento %d usada
+angry snakes!	¡serpientes furiosas!
+break the bars apart!	¡rompe los barrotes!
+rooms[] not closed by -1?	¿rooms[] no cerrado por -1?
+dealloc_obj with hands_obj	dealloc_obj con hands_obj
+bad horn o' plenty	cuerno de la abundancia erroneo
+gm.mydogs sanity [not empty]	gm.mydogs cordura [no vacio]
+parts of the floor melting!	¡partes del suelo se derriten!
+Mon zapping wand with %d charges?	¿Mon golpeando vara con %d cargas?
+No need for unicorn horn?	¿No se necesita el cuerno de unicornio?
+%s rummages through %s.	%s rebusca en %s.
+%s removes %s.	%s quita %s.
+%s welded to your %s%c	%s soldado a tu %s%c
+need hands to be able to write!	¡necesitas manos para poder escribir!
+%s can't create braille text.	%s no puede crear texto braille.
+give up on the idea.	abandona la idea.
+tear it up.	lo rompe.
+No mere dungeon adventurer could write that.	Nigun mero aventurero de mazmorras podria escribir eso.
+finish arming %s.	termina de armar %s.
+whip %s!	¡azota a %s!
+snatch %s!	¡arrebata %s!
+snap your whip through thin air.	chasqueas el latigo en el aire.
+miss; there is no one there to hit.	fallas; no hay nadie a quien golpear ahi.
+give yourself a facial.	te das un facial.
+pull in %s!	¡tira de %s!
+hook yourself!	¡te enganchas!
+It comes up %s.	Sal %s.
+mkcavepos called with dist %d	mkcavepos llamado con dist %d
+fall through...	cae a traves...
+KADOOM!  The boulder falls in!	¡KADOOM!  ¡La roca cae dentro!
+disturb the honorable dead!	¡molestas a los muertos honrados!
+unearth a corpse.	desentierra un cadaver.
+hit yourself with %s.	golpearte con %s.
+need an axe to cut down a tree.	necesitas un hacha para talar un arbol.
+need a pick to dig rock.	necesitas un pico para cavar roca.
+crashing rock.	roca aplastandose.
+attempt a teleport spell.	intenta un hechizo de teleporte.
+No objects here or adjacent to bury.	No hay objetos aqui ni adyacentes para enterrar.
+(For instructions type a '%s')	(Para instrucciones escribe '%s')
+Move cursor to %s:	Mueve el cursor a %s:
+Can't find dungeon feature '%c'.	No se encuentra la caracteristica de mazmorra '%c'.
+bad killer format? (%d)	¿formato de asesino erroneo? (%d)
+unknown lycanthrope %s.	licantropo desconocido %s.
+%s changes into a %s.	%s se transforma en un %s.
+sense the presence of monsters.	sientes la presencia de monstruos.
+Monsters sense the presence of you.	Los monstruos sienten tu presencia.
+seems to be nothing of interest on this level.	parece no haber nada interesante en este nivel.
+%S too much to comprehend!	¡%s demasiado para comprender!
+find a hidden door.	encuentras una puerta oculta.
+find a hidden passage.	encuentras un pasadizo oculto.
+Showing %s only...	Mostrando solo %s...
+remember this level as %s.	recuerda este nivel como %s.
+quest_info(%d)	quest_info(%d)
+arrive in heaven.	llegas al cielo.
+Unfortunately, you don't know how to fly.	Desafortunadamente, no sabes volar.
+activated a magic portal!	¡has activado un portal magico!
+briefly feel %s.	sientes brevemente %s.
+%s destination.	%s destino.
+%s seems disoriented.	%s parece desorientado.
+throw %s with your bare %s.	lanza %s con tu %s desnudo.
+hit the door frame!	¡golpeas el marco de la puerta!
+smack into something!	¡chocas contra algo!
+come to an abrupt halt!	¡se detiene en seco!
+pass right over %s.	pasa justo por encima de %s.
+turn to stone.	se convierte en piedra.
+%s to your hand!	¡%s a tu mano!
+Unknown type of gloves (%d)	Tipo de guantes desconocido (%d)
+%s catches %s.	%s atrapa %s.
+breaking odd object (%d)?	¿rompiendo objeto extrano (%d)?
+%s shatter!	¡%s se hace pedazos!
+were wearing %s.	llevabas %s.
+move very quietly.	se mueve muy silenciosamente.
+float imperceptibly.	flota imperceptiblemente.
+walk very quietly.	camina muy silenciosamente.
+suddenly inhale an unhealthy amount of %s!	¡de repente inhalas una cantidad danina de %s!
+Strange... I didn't know you had that ring.	Extrano... no sabia que tenias ese anillo.
+still cannot see.	aun no puedes ver.
+cursed without otmp	maldito sin otmp
+narrowly avoid losing all chance at your goal.	evitas por poco perder toda oportunidad de tu objetivo.
+no longer have ammunition readied.	ya no tienes muncion preparada.
+continue %s.	continua %s.
+bad mplayer monster	monstruo mplayer erroneo
+Talk? -- %s	¿Hablar? -- %s
+Punished without uball?	¿Castigado sin uball?
+dead without dying?	¿muerto sin morir?
+No creatures have been genocided%s.	Ninguna criatura ha sido genocidada%s.
+There's a tiger in your tank.	Hay un tigre en tu tanque.
+%s seems unaffected.	%s parece no afectado.
+Thou must relearn thy lessons!	¡Debes reaprender tus lecciones!
+Hark, %s!	¡Oye, %s!
+%s accepts your allegiance.	%s acepta tu lealtad.
+%s rejects your sacrifice!	¡%s rechaza tu sacrificio!
+find the idea very satisfying.	encuentras la idea muy satisfactoria.
+begin praying to %s.	empiezas a rezar a %s.
+unknown alignment.	alineamiento desconocido.
+Thou shalt pay, infidel!	¡Pagaras, infiel!
+stop %s.	para %s.
+explosion type %d?	¿tipo de explosion %d?
+explosion base type %d?	¿tipo de explosion base %d?
+%s apart.	%s aparte.
+stone breaking.	piedra rompiendose.
+stone crumbling.	piedra desmoronandose.
+exploding unlit oil	aceite sin encender explotando
+%s hot!	¡%s caliente!
+%s very warm.	%s muy calido.
+%s warm.	%s calido.
+notice a %s glow surrounding you.	notas un resplandor %s a tu alrededor.
+%s laughs fiendishly.	%s rie demoniacamente.
+Relinquish the amulet, %s!	¡Entrega el amuleto, %s!
+seem no deader than before.	no parece mas muerto que antes.
+bad wizard cloning?	¿clonacion de mago erroneo?
+%s from nowhere!	¡%s de la nada!
+suddenly feel weaker!	¡de repente te sientes mas debil!
+struggle to keep your balance.	luchas por mantener el equilibrio.
+stiffen briefly.	se queda rigido brevemente.
+invalid artifact origin: %4o	origen de artefacto invalido: %4o
+Weird weapon special attack.	Ataque especial de arma extrano.
+lose magical energy!	¡pierde energia magica!
+absorb magical energy!	¡absorbe energia magica!
+release %s!	¡suelta %s!
+attacking yourself with weapon?	¿atacandote a ti mismo con un arma?
+Somehow, you miss %s wildly.	De algun modo, fallas a %s salvajemente.
+Somehow, %s misses wildly.	De algun modo, %s falla salvajemente.
+Somehow, %s misses you wildly.	De algun modo, %s te falla salvajemente.
+arti_invoke without obj	arti_invoke sin obj
+Unknown invoke power %d.	Poder de invocacion desconocido %d.
+This doorway has no door.	Esta entrada no tiene puerta.
+This door is broken.	Esta puerta esta rota.
+In fact, you've totally destroyed %s.	De hecho, has destruido totalmente %s.
+succeed in forcing the lock.	logras forzar la cerradura.
+I don't think %s would appreciate that.	No creo que %s lo agradeciera.
+start bashing it with %s.	empieza a golpearlo con %s.
+decide not to force the issue.	decides no forzar la situacion.
+This door is already closed.	Esta puerta ya esta cerrada.
+magic (%d) attempted on door.	magia (%d) intentada en la puerta.
+escaped the shop without paying!	¡escapo de la tienda sin pagar!
+This shop %s %s.	Esta tienda %s %s.
+%s senses your presence.	%s siente tu presencia.
+Invisible customers are not welcome!	¡Los clientes invisibles no son bienvenidos!
+Back again, %s?  I've got my %s on you.	¡Otra vez, %s?  Te tengo puesto el ojo.
+%s mutters imprecations against shoplifters.	%s murmura imprecaciones contra los ladrones.
+cad: unknown gender	cad: genero desconocido
+Unrecognized gradient type! Defaulting to radial...	¡Tipo de gradiente no reconocido!  Usando radial por defecto...
+wormgone: wormno is 0	wormgone: wormno es 0
+cutworm: no segment at (%d,%d)	cutworm: no hay segmento en (%d,%d)
+cut %s in half.	corta %s por la mitad.
+worm_sanity: null monster!	worm_sanity: ¡monstruo nulo!
+worm_sanity: not a worm!	worm_sanity: ¡no es un gusano!
+murderer!	¡asesino!
+... and returns to normal.	... y vuelve a la normalidad.
+hide under %s.	se esconde bajo %s.
+notice a bovine smell.	notas un olor a bovino.
+%s stinks.	%s apesta.
+notice a dog smell.	notas olor a perro.
+%s smells moldy.	%s huele a moho.
+notice an attractive smell.	notas un olor atractivo.
+eat the boulder.	come la roca.
+crash to the floor!	¡se estampa contra el suelo!
+fell on %s.	cayo sobre %s.
+ooze under the door.	se cuela por debajo de la puerta.
+disentangle yourself.	te desenredas.
+stop in front of %s.	se detiene frente a %s.
+collapse under your load.	colapsas bajo tu carga.
+pass out from exertion!	¡desmayas del esfuerzo!
+start flying.	empieza a volar.
+enter a leprechaun hall!	¡entras en una sala de duendes!
+enter an anthole!	¡entras en un hormiguero!
+enter an abandoned barracks.	entras en un cuartel abandonado.
+stop in front of the door.	se detiene frente a la puerta.
+%s is about to die.	%s esta a punto de morir.
+simple_look(null)	simple_look(null)
+Touching %s is a fatal mistake.	Tocar %s es un error fatal.
+query_category: too many categories	query_category: demasiadas categorias
+Ok, now there is loot here.	Ok, ahora hay botin aqui.
+open %s...	abre %s...
+That %s will cost you %ld %s.	Ese %s te costara %ld %s.
+%s steals %s!	¡%s roba %s!
+Tried to steal a strange worn thing. [%d]	Intento robar algo extrano llevado. [%d]
+%s stole %s.	%s robo %s.
+dream of %s.	suena con %s.
+but nothing happens.	pero no pasa nada.
+disrupt %s!	¡interrumpe %s!
+release_hold when not held?	¿release_hold cuando no se esta sujeto?
+bash yourself!	¡golpeate a ti mismo!
+shock yourself!	¡electrocutate a ti mismo!
+fall asleep!	¡duermete!
+Ow, that light hurts%c	Ay, esa luz duele%c
+There's a trapdoor beneath you; it shatters.	Hay una trampilla bajo ti; se hace pedazos.
+weffects: unexpected spell or wand	weffects: hechizo o vara inesperado
+%s skip.	%s salta.
+wrest one last charge from the worn-out wand.	arranca una ultima carga de la vara gastada.
+%s to dust.	%s a polvo.
+melt_ice: no pool?	melt_ice: ¿sin piscina?
+Steam billows from the fountain.	El vapor sale a chorros de la fuente.
+pass through the now-solid rock.	pasa a traves de la roca ahora solida.
+finddpos: illegal dir	finddpos: direccion ilegal
+fracture %s %s.	fractura %s %s.
+trycnt overflow4	trycnt overflow4
+makelevel() called when dungeon not yet initialized.	makelevel() llamado cuando la mazmorra aun no se ha inicializado.
+mkinvpos called with dist %d	mkinvpos llamado con dist %d
+accidentally tear the spellbook to pieces.	desgarras accidentalmente el libro de hechizos en pedazos.
+find yourself reading the %s line over and over again.	te encuentras leyendo la linea %s una y otra vez.
+turn the pages of the Book of the Dead...	pasas las paginas del Libro de los Muertos...
+raised the dead!	¡has resucitado a los muertos!
+%s shut!	¡%s cerrado!
+Too many spells memorized!	¡Demasiados hechizos memorizados!
+This spellbook is too faint to be read any more.	Este libro de hechizos es demasiado tenue para leerse mas.
+This spellbook is too faint to read even once.	Este libro de hechizos es demasiado tenue para leerse ni siquiera una vez.
+learn %s.	aprende %s.
+This book is so dull that you can't keep your %s open.	Este libro es tan aburrido que no puedes mantener tus %s abiertos.
+continue your efforts to %s.	continua tus esfuerzos por %s.
+know "%s" quite well already.	ya conoces "%s" bastante bien.
+begin to %s the runes.	empiezas a %s las runas.
+Unknown spell skill, %d;	Habilidad de hechizo desconocida, %d;
+%s resists.	%s resiste.
+strain to recall the spell.	te esfuerzas por recordar el hechizo.
+lack the strength to cast spells.	te falta fuerza para lanzar hechizos.
+fail to cast the spell correctly.	fallas al lanzar el hechizo correctamente.
+sense a pointy hat on top of your %s.	sientes un sombrero puntiagudo encima de tu %s.
+Unknown spell %d attempted.	Hechizo desconocido %d intentado.
+tport_spell: spellbook full	tport_spell: libro de hechizos lleno
+Too many spells memorized	Demasiados hechizos memorizados
+rn2(%d) attempted	rn2(%d) intentado
+rnl(%d) attempted	rnl(%d) intentado
+rnd(%d) attempted	rnd(%d) intentado
+d(%d,%d) attempted	d(%d,%d) intentado
+Unknown item action %d	Accion de objeto desconocida %d
+merging strangely worn items (%lx)	fusionando objetos llevados extranamente (%lx)
+already have amulet?	¿ya tienes amuleto?
+already have candelabrum?	¿ya tienes candelabro?
+already have silver bell?	¿ya tienes campana de plata?
+already have the book?	¿ya tienes el libro?
+already have quest artifact?	¿ya tienes el artefacto de mision?
+getobj: inventory overflow	getobj: desbordamiento de inventario
+bad return from getobj callback	callback de getobj devolvio mal
+Persistent inventory display is empty.	La visualizacion de inventario persistente esta vacia.
+No used-up objects%s.	Ningun objeto agotado%s.
+%s no objects here.	%s no hay objetos aqui.
+try to feel what is here.	intenta sentir que hay aqui.
+try to feel what is on it.	intenta sentir que hay encima.
+try to feel what is %s%s.	intenta sentir que hay %s%s.
+Select an inventory slot letter.	Selecciona una letra de ranura de inventario.
+%s could not be enabled.	%s no se pudo habilitar.
+Couldn't place lregion type %d!	¡No se pudo colocar el tipo de lregion %d!
+portal on top of portal?	¿portal sobre portal?
+No %s to restore?	¿Sin %s para restaurar?
+set_wportal(): no portal!	set_wportal(): ¡sin portal!
+n too large (mk_bubble)	n demasiado grande (mk_bubble)
+Resists_Elem(%d), unexpected property type	Resists_Elem(%d), tipo de propiedad inesperado
+'Blnd_resist' but not resists_blnd()?	¿'Blnd_resist' pero no resists_blnd()?
+cnt=%d using %d, cnttmp=%d, cntdiv=%d	cnt=%d usando %d, cnttmp=%d, cntdiv=%d
+odd mercenary %d?	¿mercenario extrano %d?
+bad weight in rndmonst for mndx %d	peso incorrecto en rndmonst para mndx %d
+mkclass called with bad class!	mkclass llamado con clase incorrecta!
+mkclass found no class %d monsters	mkclass no encontro monstruos de clase %d
+As %s grows up into %s, %s %s!	¡Cuando %s crece hasta %s, %s %s!
+bad bag o' tricks	bolsa de trucos erronea
+fail to transform!	¡falla al transformarse!
+I've never heard of such monsters.	Nunca he oido de tales monstruos.
+merge with your scaly armor.	se fusiona con tu armadura escamosa.
+no longer feel sick.	ya no te sientes enfermo.
+%s can no longer contain you.	%s ya no puede contenerte.
+slip out of the iron chain.	se te escapa la cadena de hierro.
+slip free of the buried ball and chain.	se te escapa la bola y cadena enterradas.
+orient yourself on the web.	te orientas en la telarana.
+break out of your armor!	¡rompe tu armadura!
+seep right through your shirt!	¡se filtra a traves de tu camisa!
+become much too small for your shirt!	¡te vuelves demasiado pequeno para tu camisa!
+bad breath attack?	¿ataque de aliento erroneo?
+bad spit attack?	¿ataque de escupir erroneo?
+bad attack type in dospit	tipo de ataque erroneo en dospit
+release web fluid inside %s.	suelta fluido de telarana dentro de %s.
+spin a web, covering up the pit.	teje una telarana, cubriendo el foso.
+make the web thicker.	hace la telarana mas gruesa.
+spin a web, jamming the trigger.	teje una telarana, atascando el disparador.
+spin a web.	teje una telarana.
+lack the energy to send forth a call for help!	¡te falta energia para enviar una llamada de auxilio!
+call upon your brethren for help!	¡invoca a tus hermanos en busca de ayuda!
+lack the energy to use your special gaze!	¡te falta energia para usar tu mirada especial!
+avoid gazing at %s.	evita mirar a %s.
+gaze at no place in particular.	mira a ningun lugar en particular.
+Hiding under %s%s is a fatal mistake...	Esconderse bajo %s%s es un error fatal...
+transform into %s.	se transforma en %s.
+concentrate.	se concentra.
+uunstick: no ustuck?	uunstick: ¿sin ustuck?
+mbodypart: bad part %d	mbodypart: parte incorrecta %d
+PREFIX too short (for %d).	PREFIX demasiado corto (para %d).
+reorder_fruit: fruit index (%d) out of range	reorder_fruit: indice de fruta (%d) fuera de rango
+reorder_fruit: duplicate fruit index (%d)	reorder_fruit: indice de fruta duplicado (%d)
+Bad fruit #%d?	¿Fruta incorrecta #%d?
+leashed %s #%u is dead	%s atado #%u esta muerto
+leashed monster #%u not found	monstruo atado #%u no encontrado
+plural of null?	¿plural de nulo?
+singular of null?	¿singular de nulo?
+%s altar.	%s altar.
+%s requires door or wall location.	%s requiere ubicacion de puerta o muro.
+Secret corridor requires corridor location.	El pasadizo secreto requiere ubicacion de pasillo.
+Room|floor|ground not allowed here.	Sala|suelo|tierra no permitido aqui.
+unknown armor category (%s => %u)	categoria de armadura desconocida (%s => %u)
+This door%s.	Esta puerta%s.
+'%s' prefix has no effect for the %s command.	El prefijo '%s' no tiene efecto para el comando %s.
+shriek.	chilla.
+Note: normally you wouldn't be allowed into explore mode.	Nota: normalmente no se te permitira entrar en modo explorar.
+Beware!  From explore mode there will be no return to %s,	¡Cuidado!  Desde el modo explorar no habra vuelta a %s,
+Double %s prefix, canceled.	Doble prefijo %s, cancelado.
+Double rush prefix, canceled.	Doble prefijo de carrera, cancelado.
+Double run prefix, canceled.	Doble prefijo de correr, cancelado.
+Double fight prefix, canceled.	Doble prefijo de lucha, cancelado.
+Bind which key? 	¿Que tecla vincular? 
+Changed key '%s' from "%s" to "%s".	Tecla '%s' cambiada de "%s" a "%s".
+Bound key '%s' to "%s".	Tecla '%s' vinculada a "%s".
+Key binding failed?!	¡Vinculacion de tecla fallida?!
+getdir: command queue had no dir?	getdir: ¿la cola de comandos no tenia direccion?
+getpos successful but not one of [.,;:] (%d)	getpos exitoso pero no es uno de [.,;:] (%d)
+yn_function() returned '%s'; using '%s' instead	yn_function() devolvio '%s'; usando '%s' en su lugar
+%s would rather keep %s existing %s.	%s prefiere mantener su %s existente.
+%s doesn't like being called %s.	a %s no le gusta que le llamen %s.
+I'm %s, not %s.	Soy %s, no %s.
+%s will not accept the name %s.	%s no aceptara el nombre %s.
+%s already has a published name.	%s ya tiene un nombre publicado.
+%s resists the attempt.	%s resiste el intento.
+know those as well as you ever will.	conoces eso tan bien como lo conoceras jamas.
+%s %s to call you "%s."	%s %s llamarte "%s."
+bees in your %sbonnet!	¡abejas en tu %ssombrero!
+suddenly realize it is unnaturally quiet.	de repente te das cuenta de que hay un silencio extrano.
+someone counting gold coins.	alguien contando monedas de oro.
+%s seems famished.	%s parece famelico.
+freeze for a moment.	se congela por un momento.
+They won't hear you out there.	No te oiran ahi fuera.
+%s seems not to notice you.	%s parece no notarte.
+Talking to yourself is a bad habit for a dungeoneer.	Hablar solo es un mal habito para un aventurero.
+Any response%s%s %s.	Cualquier respuesta %s%s %s.
+briefly doff your %s.	te quitas brevemente tu %s.
+There's no one %s there.	No hay nadie %s ahi.
+break up the cookie and throw away the pieces.	rompes la galleta y tiras los trozos.
+feel the embossed numbers:	sientes los numeros en relieve:
+feel the embossed words:	sientes las palabras en relieve:
+feel the engraved signature:	sientes la firma grabada:
+read:	lees:
+This %s has no label.	Este %s no tiene etiqueta.
+Being confused, you %s the magic words...	Estando confuso, %s las palabras magicas...
+Nothing interesting %s.	Nada interesante %s.
+Tiny lights sparkle in the air momentarily.	Pequeñas luces brillan en el aire por un momento.
+rumbling.	ruido sordo.
+identify this as an identify scroll.	identifica esto como un pergamino de identificacion.
+You're not carrying anything%s to be identified.	No llevas nada%s que identificar.
+Unfortunately, you can't grasp the details.	Desafortunadamente, no puedes captar los detalles.
+This seems to be %s.	Esto parece ser %s.
+Fortunately, %s is wearing a hard helmet.	Afortunadamente, %s lleva un casco duro.
+%s shines briefly.	%s brilla brevemente.
+%s glistens.	%s brilla.
+Such creatures %s exist in this world.	Tales criaturas %s existen en este mundo.
+Invalid fqn_filename_buffer specified: %d	Buffer fqn_filename invalido especificado: %d
+fqname too long: %s + %s	fqname demasiado largo: %s + %s
+bones file NHFILE * has odd fd (%d)	archivo bones NHFILE * tiene fd extrano (%d)
+set_savefile_name() couldn't complete without overflow %d	set_savefile_name() no pudo completarse sin desbordamiento %d
+Fork to %scompress %s failed.	La bifurcacion a %scomprimir %s fallo.
+Error in zlib docompress_file %s	Error en zlib docompress_file %s
+zlib failed to allocate memory	zlib no pudo asignar memoria
+Failure reading uncompressed file	Fallo al leer archivo sin comprimir
+Failure writing compressed file	Fallo al escribir archivo comprimido
+Error in zlib docompress file uncompress %s	Error en zlib docompress file uncompress %s
+Failure reading compressed file	Fallo al leer archivo comprimido
+Failure writing uncompressed file	Fallo al escribir archivo sin comprimir
+TRIED TO NEST LOCKS	SE INTENTO ANIDAR CERRADURAS
+turn to stone...	se convierte en piedra...
+vomit ...	vomita ...
+Do not pass Go.  Do not collect 200 %s.	No pases por la salida.  No cobres 200 %s.
+no words in list	sin palabras en la lista
+choke, but recover your composure.	te ahogas, pero recuperas la compostura.
+choke over your %s.	te ahogas con tu %s.
+choke over it.	te ahogas con ello.
+die...	mueres...
+recalc_wt without piece	recalc_wt sin pieza
+die from starvation.	mueres de inanicion.
+now have a lesser case of the munchies.	ahora tienes un caso menor de antojo.
+die from hunger and exhaustion.	mueres de hambre y agotamiento.
+floorfood: unknown request (%s)	floorfood: peticion desconocida (%s)
+breathe acid on yourself...	respiras acido sobre ti mismo...
+oeaten: attempting to set 0 nutrition food (%s) partially eaten	oeaten: intentando poner comida de 0 nutrientes (%s) parcialmente comida
+start playing %s.	empieza a tocar %s.
+radiate an obnoxious droning sound.	emite un sonido zumbante irritante.
+generate a raucous noise.	genera un ruido estridente.
+blow into the horn.	sopla el cuerno.
+blow into the bugle.	sopla el clarin.
+pound on the drum.	golpeas el tambor.
+strange truth value for rumor	valor de verdad extrano para rumor
+Can't find non-cookie rumor?	¿No se encuentra rumor sin galleta?
+rumors not accessible.	rumores no accesibles.
+Can't open '%s' file.	No se puede abrir el archivo '%s'.
+fd not in list (%d)?	¿fd no en lista (%d)?
+Invalid erosion type in erode_obj	Tipo de erosion invalido en erode_obj
+There's a gaping hole under you!	¡Hay un agujero abierto bajo ti!
+KAABLAMM!!!  You triggered %s land mine!	¡KAABLAMM!!!  ¡Has activado una mina terrestre %s!
+immune_to_trap: null monster	immune_to_trap: monstruo nulo
+float up, out of the %s!	¡flotas hacia arriba, fuera del %s!
+float away from the %s.	flotas lejos del %s.
+gain control over your movements.	recuperas el control de tus movimientos.
+begin to tumble in place.	empiezas a dar vueltas en el sitio.
+Bummer!  You've crashed.	¡Maldicion!  Has chocado.
+fall over.	caes.
+Bummer!  You've %s.	¡Maldicion!  Has %s.
+float gently to the %s.	flotas suavemente hasta el %s.
+free your %s.	libera tu %s.
+suddenly yearn for %s.	de repente anias %s.
+hit lava and burn up!	¡golpeas la lava y ardes!	# placeholder
+sink like %s.	te hundes como %s.
+touch bottom.	tocas fondo.
+try to crawl out of the %s.	intenta gatear fuera del %s.
+dump some of your gear to lose weight...	tira parte de tu equipo para perder peso...
+Fortunately, you don't move %s it.	Afortunadamente, no te mueves %s el.
+disarm it!	¡desactivala!
+find a trap on %s!	¡encuentras una trampa en %s!
+There's a trap on %s.	Hay una trampa en %s.
+find no traps on %s.	no encuentras trampas en %s.
+know of no traps there.	no conoces ninguna trampa ahi.
+This door is safely open.	Esta puerta esta abierta con seguridad.
+find a trap on the door!	¡encuentras una trampa en la puerta!
+This door was not trapped.	Esta puerta no tenia trampa.
+find no traps on the door.	no encuentras trampas en la puerta.
+set it off!	¡activala!
+caused %ld %s worth of damage!	¡causo %ld %s de dano!
+bad chest trap	trampa de cofre erronea
+fall into the %s!	¡cae al %s!
+l_nhcore_init failed	l_nhcore_init fallo
+nh_lua_variables is not a lua table	nh_lua_variables no es una tabla lua
+TEST:{ x=%i, y=%i, name="%s" }	TEST:{ x=%i, y=%i, name="%s" }
+Resetting time to move #%ld.	Reiniciando tiempo para mover #%ld.
+package not a table in nhl_set_package_path	paquete no es una tabla en nhl_set_package_path
+nhl_loadlua: Error opening %s	nhl_loadlua: Error abriendo %s
+luaL_loadbuffer: Error loading %s: %s	luaL_loadbuffer: Error cargando %s: %s
+Room at (%d,%d),(%d,%d).	Sala en (%d,%d),(%d,%d).
+doormax=%d doorct=%d fdoor=%d	doormax=%d doorct=%d fdoor=%d
+shkname: "%s" is not a shopkeeper.	shkname: "%s" no es un tendero.
+bad disclosure index %d %c	indice de divulgacion incorrecto %d %c
+Fruit is now "%s".	La fruta es ahora "%s".
+Can't note branch for unseen level (%d, %d)	No se puede anotar rama para nivel no visto (%d, %d)
+Feature change alerts disabled for NetHack %s features and prior.	Alertas de cambio de caracteristicas desactivadas para NetHack %s y anteriores.
+oc_to_str:  illegal object class %d	oc_to_str: clase de objeto ilegal %d
+out of menu map space.	sin espacio de mapa de menu.
+Autopickup: %s.	Autorecogida: %s.
+escaping vault without guard?	¿escapando de la camara acorazada sin guardia?
+Not a single corridor on this level?	¿Ni un solo corredor en este nivel?
+Puzzled, %s turns around and leaves.	Confundido, %s se da la vuelta y se va.
+%s huffs and turns to leave.	%s resopla y se va a salir.
+I'll be back when you're ready to speak to me!	¡Volvere cuando estes listo para hablar conmigo!
+Oh, yes, of course.  Sorry to have disturbed you.	Oh, si, por supuesto.  Perdon por haberte molestado.
+Please report these messages to %s.	Por favor, informa de estos mensajes a %s.
+catching up for leashed monster?	¿poniendose al dia con monstruo atado?
+steed left behind?	¿corcel dejado atras?
+new_light_source:  illegal range %d	new_light_source: rango ilegal %d
+del_light_source:type=none	del_light_source:tipo=ninguno
+write_ls: bad type (%d)	write_ls: tipo incorrecto (%d)
+wield %s in your bare %s.	empunias %s con tu %s desnuda.
+now have no ammunition readied.	ahora no tienes muncion preparada.
+already have no ammunition readied!	¡ya no tienes muncion preparada!
+That ammunition is already readied!	¡Esa muncion ya esta preparada!
+now wield %s.	ahora empunias %s.
+%s aren't able to use two weapons at once.	%s no es capaz de usar dos armas a la vez.
+%s isn't one-handed.	%s no es de una mano.
+%s being held second to another weapon!	¡%s siendo sujetada segunda a otra arma!
+switch to your primary weapon.	cambias a tu arma principal.
+rolefilterstring: bad role aspect (%d)	rolefilterstring: aspecto de rol incorrecto (%d)
+role_menu_extra: bad arg (%d)	role_menu_extra: arg incorrecto (%d)
+%s can't reach the %s.	%s no puede alcanzar el %s.
+What would you write?  "Jonah was here"?	¿Que escribiras?  "¿Jonah estuvo aqui"?
+This %s is a wand of digging!	¡Este %s es una vara de excavar!
+This %s is a wand of fire!	¡Este %s es una vara de fuego!
+This %s is a wand of lightning!	¡Este %s es una vara de rayo!
+%s would get %s.	%s obtendria %s.
+%s can only scratch the %s.	%s solo puede rasguñar el %s.
+%s too dull for engraving.	%s demasiado desafilado para grabar.
+wipe out the message here.	borrar el mensaje de aqui.
+%s can't wipe out this engraving.	%s no puede borrar este grabado.
+tickle %s with %s.	hace cosquillas a %s con %s.
+gesture, with your wand, towards the %s below you.	gesticulas, con tu vara, hacia el %s bajo ti.
+make a motion towards the altar with %s.	hace un movimiento hacia el altar con %s.
+%s %sturns to dust.	%s %sse convierte en polvo.
+wipe out the message that was %s here.	borrar el mensaje que %s estaba aqui.
+One of %s gets dull.	Uno de %s se desafila.
+%s gets dull.	%s se desafila.
+run out of room to write.	se queda sin espacio para escribir.
+engraving sanity: on plane of air/water	cordura de grabado: en plano de aire/agua
+Error in del_engr?	¿Error en del_engr?
+add_mon_to_reg: %s [#%u] already in region.	add_mon_to_reg: %s [#%u] ya esta en la region.
+bump into %s.  Ouch!	¡chocas contra %s.  Ay!
+cough and spit blood!	¡toses y escupes sangre!
+cough!	¡tose!
+create_gas_cloud: cloud too large (%d)!	create_gas_cloud: ¡nube demasiado grande (%d)!
+kick %s.	empate %s.
+Thanks for the tip, %s.	Gracias por el consejo, %s.
+%s, you are a thief!	¡%s, eres un ladron!
+Dumb move!  You strain a muscle.	¡Movimiento tonto!  Te rotas un musculo.
+kick the door.	empate la puerta.
+%s!!	¡%s!!
+Crash!  %s a secret door!	¡Crash!  ¡%s una puerta secreta!
+%s falls from the tree!	¡%s cae del arbol!
+%ld %s got caught in the branches.	%ld %s quedaron atrapados en las ramas.
+Klunk!  The pipes vibrate noisily.	¡Klunk!  Las tuberias vibran ruidosamente.
+There's not enough room to kick down here.	No hay suficiente espacio para patear aqui abajo.
+There's not enough room to kick in here.	No hay suficiente espacio para patear aqui.
+splash some %s around.	rocia algo de %s alrededor.
+From the impact, %s other %s.	Por el impacto, %s otro %s.
+n_rects may be too small.	n_rects puede ser demasiado pequeno.
+lookat: unknown method of seeing monster	lookat: metodo desconocido de ver monstruo
+I've never heard of such things.	Nunca he oido de tales cosas.
+No traps seen or remembered%s.	No se ven ni recuerdan trampas%s.
+No engravings seen or remembered%s.	No se ven ni recuerdan grabados%s.
+Cannot open "%s" data file!	¡No se puede abrir el archivo de datos "%s"!
+%s,	%s,
+No such command '%s', char code %d (0%03o or 0x%02x).	No existe el comando '%s', codigo de caracter %d (0%03o o 0x%02x).
+%s says, "Good hunting, %s."	%s dice: "Buena caza, %s."
+%s%s.	%s%s.
+%s the %s and disappears.	%s el %s y desaparece.
+%s into the %s.	%s en el %s.
+%s into some heavy metal!	¡%s en metal pesado!
+%s %s %s the iron bars.	%s %s %s los barrotes de hierro.
+unknown shk/gd/pri_move return value (%d)	valor de retorno shk/gd/pri_move desconocido (%d)
+return to level %d in %s%s.	vuelve al nivel %d en %s%s.
+%s %s %s into the %s.	%s %s %s en el %s.
+%s boulder %s into the pit%s.	%s roca %s en el foso%s.
+%s into %s pit.	%s en %s foso.
+%s up as %s the hot ground.	%s arriba cuando %s el suelo caliente.
+%s %s on the altar.	%s %s en el altar.
+thought %s got lost in the sink, but there it is!	¡pensaste que %s se perdio en el fregadero, pero ahi esta!
+Several %s buzz angrily around the sink.	Varios %s zumban furiosos alrededor del fregadero.
+Suddenly, %s %s from the sink!	¡De repente, %s %s del fregadero!
+some %s in the sink.	algo de %s en el fregadero.
+For some reason, you cannot %s%s the stone%s!	¡Por algun motivo, no puedes %s%s la piedra%s!
+%s %s the %s.	%s %s el %s.
+(monster in hero's way)	(monstruo en el camino del heroe)
+%s %s up%s the %s.	%s %s arriba%s el %s.
+%s smoke...	%s humo...
+%s rises from the dead%s!	¡%s resucita%s de entre los muertos!
+%s disappears%s!	¡%s desaparece%s!
+Startled, %s drops %s as it %s!	¡Asustado, %s deja caer %s mientras %s!
+%s writhes out of %s!	¡%s se retuerce fuera de %s!
+%s %s out of %s in your pack!	¡%s %s fuera de %s en tu mochila!
+%s escapes from %s!	¡%s escapa de %s!
+revive_corpse: lost corpse @ %d	revive_corpse: cadaver perdido @ %d
+%s%s	%s%s
+%s doesn't feel like a good idea right now.	a %s no le parece buena idea ahora mismo.
+Thine audience hath been summoned, %s!	¡Tu audiencia ha sido convocada, %s!
+By thine Imperious order, %s...	Por tu orden imperiosa, %s...
+%s won't offer %s lap.	%s no ofrece su regazo.
+coil up around your %shoard.	se enrosca alrededor de tu %stesoro.
+coil up around %s.	se enrosca alrededor de %s.
+sit down on a spike.  Ouch!	se sienta sobre un pincho.  ¡Ay!
+sit in the spider web and get entangled further!	¡se sienta en la telarana y se enreda mas!
+sit in the %s!	¡se sienta en %s!
+sit in the %s.	se sienta en el %s.
+Placebc collision at %s:%d, already placed by %s:%d	Colision Placebc en %s:%d, ya colocado por %s:%d
+Unplacebc_and_covet_placebc denied to %s:%d, restricted by %s:%d	Unplacebc_and_covet_placebc denegado a %s:%d, restringido por %s:%d
+drop %s and %s %s down the stairs with you.	deja caer %s y %s %s por las escaleras contigo.
+Punished without %s%s%s?	¿Castigado sin %s%s%s?
+Attached %s%s%s without being Punished?	¿%s%s%s adjunto sin estar Castigado?
+uball: type %d (%s), where %d, wornmask=0x%08lx	uball: tipo %d (%s), donde %d, wornmask=0x%08lx
+uchain: type %d (%s), where %d, wornmask=0x%08lx	uchain: tipo %d (%s), donde %d, wornmask=0x%08lx
+b&c distance: you@<%d,%d>, chain@<%d,%d>, ball@<%d,%d>	distancia b&c: tu@<%d,%d>, cadena@<%d,%d>, bola@<%d,%d>
+put_saddle_on_mon: saddle obj could get orphaned	put_saddle_on_mon: la silla podria quedar huerfana
+%s resists%s!	¡%s resiste%s!
+%s magically floats up!	¡%s flota magicamente!
+and %s take flight together.	y %s despegan juntos.
+%s off of %s!	¡%s fuera de %s!
+%s falls into the %s!	¡%s cae en el %s!
+%s won't move!	¡%s no se mueve!
+trying to place %s at <%d,%d> mstate:%lx on %s	intentando colocar %s en <%d,%d> mstate:%lx sobre %s
+placing %s onto map, mstate:%lx, on %s?	colocando %s en el mapa, mstate:%lx, sobre %s?
+placing %s over %s at <%d,%d>, mstates:%lx %lx on %s?	colocando %s sobre %s en <%d,%d>, mstates:%lx %lx sobre %s?
+%s%s %s poisoned!	¡%s%s %s envenenado!
+check_version() called with 'complain'=True but 'filename'=Null	check_version() llamado con 'complain'=True pero 'filename'=Null
+Version mismatch for file "%s".	Version incompatible para el archivo "%s".
+Configuration incompatibility for file "%s".	Incompatibilidad de configuracion para "%s".
+%s %s %s%s%s!	¡%s %s %s%s%s!
+%s as %s throws it!	¡%s cuando %s lo lanza!
+monster throwing egg type %d	tipo de huevo lanzado por monstruo %d
+There's %s sticky all over your %s.	Tienes %s pegajoso por todo tu %s.
+%s %s onto the sink.	%s %s en el fregadero.
+%s to %s %s!	¡%s a %s %s!
+%s back to %s, landing %s %s %s.	%s de vuelta a %s, aterrizando %s %s %s.
+%s land near %s.	%s aterrizan cerca de %s.
+bad attack type in spitmm	tipo de ataque erroneo en spitmm
+Tried to make a room of type %d.	Se intento crear una sala de tipo %d.
+invalid_shop_shape: no squares inside door?	invalid_shop_shape: ¿sin casillas dentro de la puerta?
+probtype error, oclass=%d i=%d	error de probtype, oclass=%d i=%d
+invalid alteration type (%d)	tipo de alteracion invalido (%d)
+start_glob_timeout for non-glob [%d: %s]?	start_glob_timeout para no glob [%d: %s]?
+shrink_glob for non-glob [%d: %s]?	shrink_glob para no glob [%d: %s]?
+%s %s%s lighter.	%s %s%s mas ligero.
+%s %s %s%s.	%s %s %s%s.
+making corpstat type %d	creando corpstat tipo %d
+unpaid object migrating to another level? [%s]	¿objeto no pagado migrando a otro nivel? [%s]
+dealloc_obj: obj already deleted (type=%d)	dealloc_obj: obj ya borrado (tipo=%d)
+%s %s out.	%s %s fuera.
+%s %s to the %s.	%s %s al %s.
+monst (%s: %u) wielding %s (%u) not in %s inventory	monst (%s: %u) empunando %s (%u) no esta en el inventario de %s
+%s obj %s in container %s, not %s	obj %s %s en contenedor %s, no %s
+obj_nexto: wasn't given an object to check	obj_nexto: no se dio un objeto para comprobar
+obj_absorb: not called with two actual objects	obj_absorb: no llamado con dos objetos reales
+obj_meld: not called with two actual objects	obj_meld: no llamado con dos objetos reales
+As %s opens the bottle, an enormous %s emerges!	¡Cuando %s abre la botella, emerge un enorme %s!
+%s with %s!	¡%s con %s!
+%s %s %s directed at you!	¡%s %s %s dirigido a ti!
+Being confused, %s mispronounces the magic words...	Estando confuso, %s pronuncia mal las palabras magicas...
+%s crash through the %s.	%s atraviesa %s.
+As %s climbs the stairs, a mysterious force momentarily surrounds %s...	Cuando %s sube las escaleras, una fuerza mistica le rodea momentaneamente...
+%s wanted to perform action %d?	¿%s queria realizar la accion %d?
+%s takes a picture of you with %s!	¡%s te saca una foto con %s!
+%s body takes on a %s transparency.	el cuerpo de %s adquiere una %s transparencia.
+%s fails to wrap around %s.	%s no logra envolver %s.
+%s wraps around %s you're wielding!	¡%s se enrosca alrededor de %s que empunias!
+For some reason, %s presence is known to you.	Por algun motivo, conoces la presencia de %s.
+%s triggers %s fire trap!	¡%s activa la trampa de fuego %s!
+%s %s %s %s fire trap!	¡%s %s %s %s trampa de fuego!
+%s quaffs a burning %s	%s bebe un %s ardiente
+%s from your %s.	%s de tu %s.
+%s to write the Great Yendorian Novel, but %s inspiration.	%s escribir la Gran Novela Yendoriana, pero %s inspiracion.
+%sproduce really %s fan-fiction.	%sproduce %s fan-ficcion de verdad.
+%s to write that.	%s escribir eso.
+write in your best handwriting:  "My Diary", but it quickly fades.	escribes con tu mejor letra:  "Mi Diario", pero se desvanece rapido.
+write "%s" and the scroll disappears.	escribes "%s" y el pergamino desaparece.
+fail to write the scroll correctly and it disappears.	no logras escribir el pergamino correctamente y desaparece.
+display_monster:  bad m_ap_type value [ = %d ]	display_monster:  valor m_ap_type erroneo [ = %d ]
+display_warning did not match warning type?	¿display_warning no coincide con el tipo de aviso?
+show_glyph:  bad pos <%d,%d> with glyph %d [%s %d].	show_glyph:  pos erronea <%d,%d> con glifo %d [%s %d].
+show_glyph:  bad glyph %d [max %d] at <%d,%d>.	show_glyph:  glifo erroneo %d [max %d] en <%d,%d>.
+Strange db-under: %d	Extraño db-under: %d
+back_to_glyph:  unknown level type [ = %d ]	back_to_glyph:  tipo de nivel desconocido [ = %d ]
+swallow_to_glyph: bad swallow location	swallow_to_glyph: ubicacion de tragar erronea
+zapdir_to_glyph:  illegal beam type	zapdir_to_glyph:  tipo de rayo ilegal
+null framecolor passed to get_bkglyph_and_framecolor	framecolor nulo pasado a get_bkglyph_and_framecolor
+set_wall_state: %s @ (%d,%d) %s%s%s%s	set_wall_state: %s @ (%d,%d) %s%s%s%s
+set_wall_type: wall mode problems with: 	set_wall_type: problemas de modo muro con: 
+%s %d;	%s %d;
+wall_angle: unknown T wall mode %d	wall_angle: modo de muro T desconocido %d
+wall_angle: unknown vwall mode %d	wall_angle: modo vwall desconocido %d
+wall_angle: unknown hwall mode %d	wall_angle: modo hwall desconocido %d
+wall_angle: unknown %s mode %d	wall_angle: modo %s desconocido %d
+wall_angle: bottom of crwall check	wall_angle: final de comprobacion crwall
+wall_angle: unknown crosswall mode	wall_angle: modo crosswall desconocido
+wall_angle: unexpected wall type %d	wall_angle: tipo de muro inesperado %d
+Cannot get status of MAIL="%s".	No se puede obtener el estado de MAIL="%s".
+This place's too crowded.  I'm outta here.	Este lugar esta muy lleno.  Me largo.
+%s, %s!  %s.	¡%s, %s!  %s.
+Hark!  "%s."	¡Oye!  "%s."
+fake mail #%d has undefined substitution	el correo falso #%d tiene una sustitucion no definida
+%s%s"	%s%s"
+Cannot get status of MAIL="%s" anymore.	Ya no se puede obtener el estado de MAIL="%s".
+This message is from '%s'.	Este mensaje es de '%s'.
+"%s"%s	"%s"%s
+avoid harm.	evita el dano.
+Wait!  There's %s there you can't see!	¡Espera!  ¡Hay %s ahi que no puedes ver!
+Wait!  There's %s hiding under %s!	¡Espera!  ¡Hay %s escondido bajo %s!
+caitiff!	¡bellaco!
+dishonorably attack the innocent!	¡ataca deshonrosamente al inocente!
+stop.  %s is in the way!	para.  ¡%s esta en medio!
+%s doesn't seem to move!	¡%s no parece moverse!
+begin bashing monsters with %s.	empieza a golpear monstruos con %s.
+begin %s monsters with your %s %s.	empieza a %s monstruos con tu %s %s.
+hitum_cleave: unknown target direction [%d,%d,%d]?	hitum_cleave: ¿direccion de objetivo desconocida [%d,%d,%d]?
+break %s.  That's bad luck!	romper %s.  ¡Eso es mala suerte!
+succeed in destroying %s.  Congratulations!	¡logras destruir %s.  Enhorabuena!
+%s %s over %s!	¡%s %s sobre %s!
+dishonorably use a poisoned weapon!	¡usa deshonrosamente un arma envenenada!
+joust %s%s	justa %s%s
+%s shatters on impact!	¡%s se hace pedazos al impactar!
+%s %s%s	%s %s%s
+%s appears confused.	%s parece confuso.
+%s %s %s%s%s.	%s %s %s%s%s.
+%s %s%s%s.	%s %s%s%s.
+%s %s %s %s!	¡%s %s %s %s!
+charm %s.  %s gladly hands over %s%s possessions.	hechiza a %s.  %s entrega gustosamente sus %s posesiones.
+seduce %s and %s starts to take off %s clothes.	seduces a %s y %s empieza a quitarse su ropa.
+%s finishes taking off %s suit.	%s termina de quitarse su traje.
+%s %s to pieces!	¡%s %s en pedazos!
+rust!	¡oxido!
+rot!	¡putrefaccion!
+go up in flames!	¡ardes en llamas!
+grab %s's gold, but find no room in your knapsack.	agarras el oro de %s, pero no queda sitio en tu mochila.
+%s steals some gold from %s.	%s roba algo de oro a %s.
+%s blinds you!	¡%s te ciega!
+Some writing vanishes from %s head!	¡Unas palabras desaparecen de la cabeza de %s!
+chuckle.	se rie.
+%s %s was poisoned!	¡%s %s fue envenenado!
+%s doesn't seem harmed.	%s no parece danado.
+suck in some slime and don't feel very well.	tragas algo de limo y no te encuentras muy bien.
+%s yourself around %s!	¡%s alrededor de %s!
+drown %s...	ahoga %s...
+brush against %s.	roza contra %s.
+brush against %s %s.	roza contra %s %s.
+%s %s itself around you!	¡%s %s a tu alrededor!
+%s drowns you...	%s te ahoga...
+%s brushes against %s.	%s roza contra %s.
+momentarily stiffen.	te quedas rigido un momento.
+turn %s into slime.	convierte %s en limo.
+escape harm.	escapa del dano.
+%s less effective.	%s menos efectivo.
+%s slows down.	%s se ralentiza.
+%s looks confused.	%s parece confuso.
+Was that the touch of death?	¿Fue eso el toque de la muerte?
+bad shade attack function flow?	¿flujo de funcion de ataque shade erroneo?
+hissing.	siseando.
+%s appears to be blowing you a kiss...	%s parece estar lanzandote un beso...
+%s seems to grimace.	%s parece hacer una mueca.
+Doc, I can't help you unless you cooperate.	Doc, no puedo ayudarte a menos que colabores.
+%s %s for a moment.	%s %s por un momento.
+%s tries to reach your %s %s!	¡%s intenta alcanzar tu %s %s!
+%s pricks the exposed part of your %s %s!	¡%s pincha la parte expuesta de tu %s %s!
+%s pricks through your %s boot!	¡%s pincha a traves de tu bota %s!
+%s scratches your %s boot!	¡%s rasguña tu bota %s!
+%s pricks your %s %s!	¡%s pincha tu %s %s!
+%s tries to %s you, but you seem %s.	%s intenta %ste, pero pareces %s.
+%s steals %s from %s!	¡%s roba %s a %s!
+destroy it!	¡destruyelo!
+%s is affected by your flash of light!	¡%s es afectado por tu destello de luz!
+%s %s%s!	¡%s %s%s!
+%s it, then %s it.	%s lo, luego %s lo.
+Unfortunately, digesting any of it is fatal.	Desafortunadamente, digerir cualquiera de ellos es fatal.
+hurriedly regurgitate the sizzling in your %s.	vomitas apresuradamente el chisporroteo de tu %s.
+digest %s.	digiere %s.
+%s seems unharmed.	%s parece ileso.
+%s can't see in there!	¡%s no puede ver ahi!
+%s seems unhurt.	%s parece indemne.
+%s seems mildly chilly.	%s parece algo friolento.
+%s seems mildly hot.	%s parece algo acalorado.
+Obviously, you didn't like %s taste.	Obviamente, no te gusto el sabor de %s.
+pretend to be friendly to %s.	finge ser amigable con %s.
+%sdon't budge.	%sno se mueve.
+%s doesn't budge.	%s no se mueve.
+%s %s %s %s with a %s %s!	¡%s %s %s %s con un %s %s!
+%s %s %s.	%s %s %s.
+grab %s!	¡agarra a %s!
+strange attack of yours (%d)	ataque extrano tuyo (%d)
+%s looks %s%s.	%s parece %s%s.
+momentarily stiffen under %s gaze!	¡te quedas rigido bajo la mirada de %s!
+%s cannot defend itself.	%s no puede defenderse.
+That %s is really %s%c	Ese %s es realmente %s%c
+%s picks up %s.	%s recoge %s.
+%s intones:	%s intona:
+sense a presence close by!	¡sientes una presencia cerca!
+attempting to manipulate shrine data for non-priest?	intentando manipular datos de santuario para no sacerdote?
+%s doesn't want anything to do with you!	¡%s no quiere tener nada que ver contigo!
+%s breaks out of %s reverie!	¡%s sale de su ensenamento!
+Begone!  Thou desecratest this holy place with thy presence.	¡Fuera!  Profanas este lugar sagrado con tu presencia.
+%s gives you %s%s for an ale.	%s te da %s%s por una cerveza.
+%s preaches the virtues of poverty.	%s predica las virtudes de la pobreza.
+%s asks you for a contribution for the temple (base %ld).	%s te pide una contribucion para el templo (base %ld).
+%s asks you for a contribution for the temple.	%s te pide una contribucion para el templo.
+Thou shalt regret thine action!	¡Lamentaras tu accion!
+I thank thee for thy contribution.	Te agradezco tu contribucion.
+Thou art indeed a pious individual.	Eres sin duda un individuo piadoso.
+Thou hast been rewarded for thy devotion.	Has sido recompensado por tu devocion.
+Thy selfless generosity is deeply appreciated.	Tu generosidad desinteresada es profundamente agradecida.
+%s roars in anger:  "Thou shalt suffer!"	%s ruge de rabia:  "¡Sufriras!"
+%s voice booms:  "How darest thou harm my servant!"	La voz de %s retumba:  "¡Como te atreves a danar a mi siervo!"
+%s roars:  "Thou dost profane my shrine!"	%s ruge:  "¡Profanas mi santuario!"
+weapon_check %d for %s?	weapon_check %d para %s?
+Since %s weapon%s %s,	Como el arma%s %s de %s,
+%s cannot wield that %s.	%s no puede empunar ese %s.
+%s %s to %s %s!	¡%s %s a %s %s!
+%s %s in %s %s!	¡%s %s en %s %s!
+Light begins shining %s.	La luz comienza a brillar %s.
+%s gets %s.	%s recibe %s.
+%s %s gets %s.	%s %s recibe %s.
+%s dries%s.	%s se seca%s.
+%s %s dries%s.	%s %s se seca%s.
+forget %syour training in %s.	olvida %stu entrenamiento en %s.
+weapon_dam_bonus: bad skill %d	weapon_dam_bonus: habilidad erronea %d
+skill_init: curr > max: %s	skill_init: act > max: %s
+%s in %s %s %s shining.	%s en %s %s %s brillando.
+makemap_remove_mons: 'fmon' did not get emptied?	makemap_remove_mons: ¿'fmon' no se vacio?
+%s:	%s:
+%s is %s.	%s esta %s.
+surreptitiously sniff under your %s.	olfateas subrepticiamente bajo tu %s.
+%s to not give off any smell.	%s a no desprender ningun olor.
+Timeout for %s %s %d.	Tiempo agotado para %s %s %d.
+sanity_check: swallowed by nothing?	sanity_check: ¿tragado por la nada?
+sanity_check: you over monster	sanity_check: tu sobre monstruo
+current hero health (%d) better than maximum? (%d)	salud actual del heroe (%d) ¿mejor que la maxima? (%d)
+current hero health as monster (%d) better than maximum? (%d)	salud actual del heroe como monstruo (%d) ¿mejor que la maxima? (%d)
+current hero energy (%d) better than maximum? (%d)	energia actual del heroe (%d) ¿mejor que la maxima? (%d)
+levl[%i][%i] vision blocking	levl[%i][%i] bloqueo de vision
+%d mon%s pending for current level, %d for next level, %d for others.	%d mon%s pendiente para el nivel actual, %d para el siguiente, %d para otros.
+down: no wall at %d,%d?	abajo: ¿sin muro en %d,%d?
+down door from %d,%d going nowhere?	puerta abajo desde %d,%d ¿a ninguna parte?
+up: no wall at %d,%d?	arriba: ¿sin muro en %d,%d?
+right door from %d,%d going nowhere?	puerta derecha desde %d,%d ¿a ninguna parte?
+left: no wall at %d,%d?	izquierda: ¿sin muro en %d,%d?
+corridor in direction %d?	corredor en direccion %d?
+left end of %d, %d never connected?	extremo izquierdo de %d, %d ¿nunca conectado?
+up end of %d, %d never connected?	extremo superior de %d, %d ¿nunca conectado?
+quest portal already gone?	¿portal de mision ya desaparecido?
+Sorry to say, this is a mere imitation of the true Amulet of Yendor.	Lamento decirlo, esto es una mera imitacion del verdadero Amuleto de Yendor.
+%s speaks:	%s habla:
+quest_chat: Unknown quest character %s.	quest_chat: Personaje de mision desconocido %s.
+Unfortunately, %s	Desafortunadamente, %s
+fall asleep.	se duerme.
+land.	aterriza.
+no longer feel safe from acid.	ya no te sientes a salvo del acido.
+no longer feel secure from petrification.	ya no te sientes a salvo de la petrificacion.
+cough%s	tose%s
+make a lot of noise!	¡hace mucho ruido!
+%s %s out of your pack!	¡%s %s fuera de tu mochila!
+%s %s %s like "%s%s"	%s %s %s como "%s%s"
+%s hatch.	%s eclosiona.
+%s %s out of %s!	¡%s %s fuera de %s!
+egg hatched where? (%d)	¿donde eclosiono el huevo? (%d)
+Egads!  %s bite%s your %s!	¡Cielos!  ¡%s muerde%s tu %s!
+trip over %s.	tropezar con %s.
+%s %s %s the ice.	%s %s %s el hielo.
+lose your balance.	pierdes el equilibrio.
+trip over your own %s.	tropezar con tu propio %s.
+slip %s.	resbalar %s.
+flounder.	se debate.
+stumble.	tropieza.
+let go of the reins.	suelta las riendas.
+bang into the saddle-horn.	se golpea contra el cuerno de la silla.
+slide to one side of the saddle.	se desliza a un lado de la silla.
+%s flickers%s.	%s parpadea%s.
+%s flicker%s.	%s parpadea%s.
+%s lantern is getting dim.	la linterna de %s se esta apagando.
+%spotion of oil has burnt away.	la pocion de aceite de %s se ha consumido.
+%s seems about to go out.	%s parece estar a punto de apagarse.
+%s about to go out.	%s a punto de apagarse.
+%slantern has run out of power.	la linterna de %s se ha quedado sin energia.
+%s has gone out.	%s se ha apagado.
+%s go out.	%s se apaga.
+%s%scandle%s getting short.	la vela%s de %s se esta acortando.
+%scandle%s getting short.	vela%s de %s se esta acortando.
+%s%scandle%s flame%s flicker%s low!	¡la llama%s de la vela%s de %s parpadea%s baja!
+%scandle%s flame%s flicker low!	¡llama%s de vela%s de %s parpadea baja!
+%scandelabrum's flame%s.	llama%s del candelabro de %s.
+%s %s consumed!	¡%s %s consumido!
+%s%s consumed!	¡%s%s consumido!
+burn_object: unexpected obj %s	burn_object: obj inesperado %s
+begin burn: unexpected %s	inicio de quemado: %s inesperado
+begin_burn: can't get obj position	begin_burn: no se puede obtener la posicion del obj
+end_burn: obj %s not lit	end_burn: obj %s no encendido
+end_burn: obj %s not timed!	end_burn: obj %s no temporizado!
+cleanup_burn: obj %s not lit	cleanup_burn: obj %s no encendido
+Kaboom!!!  Boom!!  Boom!!	¡Kaboom!!!  ¡Boom!!  ¡Boom!!
+no timer type	sin tipo de temporizador
+timer sanity: untimed obj %s, timer %lu	cordura temporizador: obj sin tiempo %s, timer %lu
+timer sanity: can't locate obj %s [where=%d], timer %lu	cordura temporizador: no se puede localizar obj %s [donde=%d], timer %lu
+timer sanity: obj %s [where=%d] located at <%d,%d>, timer %lu	cordura temporizador: obj %s [donde=%d] en <%d,%d>, timer %lu
+timer sanity: unexpected monster timer %lu	cordura temporizador: timer de monstruo inesperado %lu
+timer sanity: melt timer %lu on non-ice %d <%d,%d>	cordura temporizador: timer de fusion %lu en no hielo %d <%d,%d>
+timer sanity: spot timer %lu at <%d,%d>	cordura temporizador: timer de punto %lu en <%d,%d>
+timer sanity: unexpected global timer %lu	cordura temporizador: timer global inesperado %lu
+timer sanity: unknown timer %lu, type: %d	cordura temporizador: timer desconocido %lu, tipo: %d
+Attempted to start duplicate %s, aborted.	Se intento iniciar duplicado %s, abortado.
+Setworn: mask=0x%08lx.	Setworn: mascara=0x%08lx.
+Two-weapon insanity: %s.	Locura de dos armas: %s.
+%s %s %s %s for a moment.	%s %s %s %s por un momento.
+%s %s to shine %s.	%s %s para brillar %s.
+%s %s shining %s.	%s %s brillando %s.
+%s begins to shine %s.	%s comienza a brillar %s.
+bad flag in which_armor	marca erronea en which_armor
+extract_from_minvent called on object not in minvent	extract_from_minvent llamado en objeto que no esta en minvent
+obj #%d (%s) name is %s despite%s alternate description	obj #%d (%s) nombre es %s a pesar de%s descripcion alternativa
+%s (%d) probability total for oclass %d	%s (%d) total de probabilidad para oclass %d
+objdescr_is: null obj	objdescr_is: obj nulo
+named object not in disco	objeto nombrado no en disco
+doclassdisco: invalid object class '%s'	doclassdisco: clase de objeto invalida '%s'
+None of your discoveries can be assigned names...	Ninguno de tus descubrimientos puede recibir nombre...
+get_location:  can't find a place!	get_location:  ¡no se encuentra un lugar!
+create_door: Can't find a proper place!	create_door: ¡No se encuentra un lugar apropiado!
+create_monster: mon has an appearance, "%s", but no type	create_monster: mon tiene apariencia, "%s", pero no tipo
+create_monster: can't find feature "%s"	create_monster: no se encuentra caracteristica "%s"
+create_monster: can't find object "%s"	create_monster: no se encuentra objeto "%s"
+create_monster: invalid %s ("%s")	create_monster: %s invalido ("%s")
+create_monster: unimplemented mon appear type [%d,"%s"]	create_monster: tipo de aparicion de mon no implementado [%d,"%s"]
+create_object: too deeply nested containers.	create_object: contenedores anidados demasiado profundo.
+create_object: unknown achievement (%s"%s")	create_object: logro desconocido (%s"%s")
+create_corridor to/from a random wall	create_corridor hacia/desde un muro aleatorio
+Unrecognized level init style.	Estilo de inicializacion de nivel no reconocido.
+get_mkroom_name unknown rtype %d	get_mkroom_name rtype desconocido %d
+Unknown room type '%s'	Tipo de sala desconocido '%s'
+sel_set_feature(%i,%i,%i) !isok	sel_set_feature(%i,%i,%i) !isok
+feature has unknown type param.	caracteristica tiene parametro de tipo desconocido.
+Too many rooms on new level!	¡Demasiadas salas en el nuevo nivel!
+region as subroom	region como subsala
+mazewalk: Bad direction	mazewalk: Direccion erronea
+Strange, could not figure out config file name.	Extrano, no se pudo averiguar el nombre del archivo de configuracion.
+An error occurred, wrote only partial data (%zu/%zu).	Ocurrio un error, solo se escribieron datos parciales (%zu/%zu).
+%s%s%s	%s%s%s
+\n%s	\n%s
+%s %s%s%s	%s %s%s%s
+\n%d error%s %s %s.\n	\n%d error%s %s %s.\n
+2nd status_initialize with full init.	2º status_initialize con init completo.
+init_blstats called more than once.	init_blstats llamado mas de una vez.
+percentage: bad istat pointer %s, %s	porcentaje: puntero istat erroneo %s, %s
+hl->behavior=percentage, rel error	hl->behavior=porcentaje, error rel
+hl->behavior=updown, rel error	hl->behavior=arribaabajo, error rel
+hl->behavior=absolute, rel error	hl->behavior=absoluto, error rel
+hl->behavior=textmatch, rel or textmatch error	hl->behavior=coincidenciatexto, error rel o de texto
+hl->behavior=condition, rel error	hl->behavior=condicion, error rel
+"%s" is not a recognized number.	"%s" no es un numero reconocido.
+Is that an invisible number?	¿Es eso un numero invisible?
+Field '%s' does not support percentage values.	El campo '%s' no admite valores de porcentaje.
+'%s%d%%' is not a valid percent value.	'%s%d%%' no es un valor de porcentaje valido.
+%s'%s%d'%s	%s'%s%d'%s
+%s'%s%ld'%s	%s'%s%ld'%s
+Added hilite condition/%s/%s	Anadida condicion de resaltado/%s/%s
+Added hilite %s	Anadido resaltado %s
+take a picture of %s %s.	saca una foto de %s %s.
+take a picture of the %s.	saca una foto del %s.
+push your %s %s.	empuja tu %s %s.
+push your %s off.	empuja fuera tu %s.
+wipe off your %s.	limpia tu %s.
+determine that %s unfortunate being%s %s%s dead.	determinas que el infeliz ser %s %s%s muerto.
+%s is in %s health for a statue.	%s esta de %s salud para una estatua.
+%s interferes.	%s interfiere.
+faint splashing.	suave chapoteo.
+your heart beat.	el latido de tu corazon.
+%s %s %s really %s.	%s %s %s realmente %s.
+hear nothing special.	no oyes nada especial.
+blow bubbles through %s.	sopla burbujas a traves de %s.
+produce a %shigh-%s.	produce un alto-%s %s.
+fail to %sleash something.	no logras %s atar algo.
+%s %s leashed!	¡%s %s atado!
+This %s is already leashed.	Este %s ya esta atado.
+%s has no extremities the leash would fit.	%s no tiene extremidades donde encaje la correa.
+slip the leash around %s%s.	desliza la correa alrededor de %s%s.
+This leash is not attached to that creature.	Esta correa no esta sujeta a esa criatura.
+remove the leash from %s%s.	quita la correa de %s%s.
+leashed-unleashed mon?	¿mon atado-desatado?
+leash in use isn't attached to anything?	¿correa en uso no sujeta a nada?
+%s leash snaps loose!	¡la correa de %s se suelta!
+pull on the leash.	tira de la correa.
+stiffen momentarily under your gaze.	se queda rigido un momento bajo tu mirada.
+Huh?  That doesn't look like you!	¿Eh?  ¡Eso no te pareces!
+look like %s.	pareces %s.
+look as %s as ever.	pareces tan %s como siempre.
+reflect %s %s.	refleja %s %s.
+reflect the %s.	refleja el %s.
+%s can't see anything right now.	%s no puede ver nada en este momento.
+%s fails to notice your %s.	%s no nota tu %s.
+%s in the dark.	%s en la oscuridad.
+%s doesn't have a reflection.	%s no tiene reflejo.
+%s stop moving.	%s deja de moverse.
+%s confuses itself!	¡%s se confunde a si mismo!
+%s in your %s.	%s en tu %s.
+%s takes it!	¡%s lo toma!
+discern no obvious reaction from %s.	no distingues ninguna reaccion obvia de %s.
+%s doesn't seem to notice %s reflection.	%s no parece notar el reflejo de %s.
+%s ignores %s reflection.	%s ignora el reflejo de %s.
+summon %s!	¡invoca a %s!
+%s shattered!	¡%s hecho pedazos!
+%s an unsettling shrill sound...	%s un sonido agudo e inquietante...
+snuff the %s.	apaga el %s.
+This %s has no %s.	Este %s no tiene %s.
+To attach candles, apply them instead of the %s.	Para sujetar velas, aplicalas en vez del %s.
+%s only %d %s in %s.	%s solo %d %s en %s.
+%s lit.  %s dimly.	%s encendido.  %s tenuemente.
+%s a strange warmth!	¡%s un calor extrano!
+%s with a strange light!	¡%s con una luz extrana!
+attach %ld%s %s to %s.	sujetar %ld%s %s a %s.
+%s out.	%s fuera.
+%s now has seven%s candles attached.	%s ahora tiene siete%s velas sujetas.
+%s%scandle%s flame%s extinguished.	llama%s de vela%s %s%s extinguida.
+%s %s out!	¡%s %s fuera!
+%s %s %s	%s %s %s
+That's in addition to the cost of %s %s, of course.	Eso ademas del coste de %s %s, por supuesto.
+%s%s is now off.	%s%s esta apagado.
+snuff out %s.	apaga %s.
+This %s has no oil.	Este %s no tiene aceite.
+%s for a moment, then %s.	%s por un momento, luego %s.
+%s%s is now on.	%s%s esta encendido.
+%s flame%s %s%s	llama%s de %s %s%s
+snuff the lit potion.	apaga la pocion encendida.
+light %spotion.%s	enciende pocion.%s %s
+That's in addition to the cost of the potion, of course.	Eso ademas del coste de la pocion, por supuesto.
+%s smoke.	%s humo.
+Rubbing the electric lamp is not particularly rewarding.	Frotar la lampara electrica no es especialmente gratificante.
+bounce around a little.	rebota un poco.
+swish around a little.	se agita un poco.
+This calls for swimming, not jumping!	¡Esto requiere nadar, no saltar!
+pull free from %s.	se suelta de %s.
+writhe a little in the grasp of %s!	¡se retuerce un poco en la presa de %s!
+flail around a little.	se debate un poco.
+lack the strength to jump!	¡te falta fuerza para saltar!
+%s isn't capable of jumping in place.	%s no es capaz de saltar en el sitio.
+rip yourself free of the bear trap!  Ouch!	¡te arrancas de la trampa para osos!  ¡Ay!
+leap from the pit!	¡salta del foso!
+tear the web apart as you pull yourself free!	¡rompes la telarana al liberarte!
+pull yourself above the %s!	¡te izas por encima del %s!
+strain your %s, but you're still %s.	tensas tu %s, pero sigues %s.
+jump up and %s back down.	saltas arriba y %s de vuelta abajo.
+seem to be out of tins.	parece que no quedan latas.
+tin %s without wearing gloves.	enlatar %s sin llevar guantes.
+Tinning %s without wearing gloves is a fatal mistake...	Enlatar %s sin llevar guantes es un error fatal...
+Tinning failed.	Enlatado fallido.
+suddenly feel %s.	de repente te sientes %s.
+use_unicorn_horn: bad trouble? (%d)	use_unicorn_horn: ¿problema extrano? (%d)
+null figurine in fig_transform()	figura nula en fig_transform()
+%s %s out of your pack%s!	¡%s %s fuera de tu mochila%s!
+%s %s out of %s%s!	¡%s %s fuera de %s%s!
+figurine came to life where? (%d)	¿donde cobro vida la figurilla? (%d)
+%s and it %stransforms.	%s y %stransforma.
+cover %s with a thick layer of grease.	cubre %s con una gruesa capa de grasa.
+Some of the grease gets all over your %s.	Parte de la grasa acaba por todo tu %s.
+coat your %s with grease.	unta tu %s con grasa.
+%s empty.	%s vacio.
+%s to be empty.	%s estar vacio.
+Oh, wow, look at the pretty shards.	Oh, mira que bonitos fragmentos.
+%s a little more polished now.	%s algo mas pulido ahora.
+%s a little wetter now.	%s algo mas humedo ahora.
+make %s%sscratch marks on the %s.	hace marcas%s%s de aranazo en el %s.
+%s streaks on the %s.	%s rayas en el %s.
+resume setting %s%s.	reanuda el ajuste de %s%s.
+flick a bug off of the %s.	espanta un bicho del %s.
+cause a small splash.	provoca un pequeno chapoteo.
+wrap your bullwhip around %s on the %s.	envuelves tu latigo alrededor de %s en el %s.
+wrap your bullwhip around %s.	envuelves tu latigo alrededor de %s.
+yank yourself out of the pit!	¡sales de un tiron del foso!
+%s welded to %s %s%c	%s soldado a %s %s%c
+yank %s to the %s!	¡tira de %s hacia el %s!
+Snatching %s is a fatal mistake.	Arrebatar %s es un error fatal.
+yank %s from %s %s!	¡tira de %s desde %s %s!
+flick your bullwhip towards %s.	lanza un latigazo hacia %s.
+immerse your %s in %s%s.	sumerge tu %s en %s%s.
+There's %ssticky goop all over your %s.	Tienes %sgoop pegajoso por todo tu %s.
+smear royal jelly all over %s.	embadurnas jalea real por todo %s.
+snag an object from the %s!	¡enganchas un objeto del %s!
+Raising %s high above your %s, you %s it in two!	¡Levantando %s bien alto sobre tu %s, lo %s en dos!
+flip through the pages of %s.	hojeas las paginas de %s.
+This spellbook %s.	Este libro de hechizos %s.
+enjoy the animated initials.	disfrutas de las iniciales animadas.
+The%s ink in this spellbook is %s.	La tinta %s de este libro de hechizos es %s.
+flip %s.	lanza %s.
+%s %s	%s %s
+This %s is too hard to %s.	Este %s es demasiado duro para %s.
+fumble and drop %s.	tropiezas y sueltas %s.
+%s and %s %s!	¡%s y %s %s!
+Ouch!  %s and %s you!	¡Ay!  ¡%s y %s te!
+Bang!  You hit with the broad side of %s!	¡Pum!  ¡Golpeas con el lado plano de %s!
+hit yourself in the %s.	golpearte en el %s.
+destroy the bear trap with %s.	destruye la trampa para osos con %s.
+destroy %s with %s.	destruye %s con %s.
+This %s seems too hard to %s.	Este %s parece demasiado duro para %s.
+hit the %s with all your might.	golpea el %s con todas tus fuerzas.
+digactualhole: can't dig %s on this level.	digactualhole: no se puede cavar %s en este nivel.
+dig an adjacent %s.	cava un %s adyacente.
+dig %s %s the %s.	cava %s %s el %s.
+%s digs %s %s the %s.	%s cava %s %s el %s.
+%s appears in the %s.	%s aparece en el %s.
+%s %s over the pit.	%s %s sobre el foso.
+Insane liquid_flow(%d,%d,%s,%s).	liquid_flow(%d,%d,%s,%s) insensato.
+%s entangled in the web.	%s enredado en la telarana.
+clear some debris from between the pits.	limpia escombros entre los fosos.
+swing %s, but the rubble has no place to go.	balanceas %s, pero los escombros no tienen adonde ir.
+swing %s through thin air.	balanceas %s en el aire.
+start %s.	empieza a %s.
+%s merely scratches the %s.	%s solo rasguña el %s.
+start %s downward.	empieza a %s hacia abajo.
+continue %s downward.	continua %s hacia abajo.
+Hey, stop damaging that %s!	¡Eh, deja de danar ese %s!
+mdig_tunnel:  %s at (%d,%d) is undiggable	mdig_tunnel:  %s en (%d,%d) no se puede cavar
+pierce %s %s wall!	¡perfora la pared %s %s!
+loosen a rock from the %s.	afloja una roca del %s.
+owe %s %ld %s for burying merchandise.	debes %s %ld %s por enterrar mercancia.
+%s up through the %s.	%s arriba a traves de %s.
+%d object%s buried.	%d objeto%s enterrado.
+Automatic description %sis %s.	La descripcion automatica %ses %s.
+%s a menu to show possible targets%s.	%s un menu para mostrar objetivos posibles%s.
+%skipping over similar terrain when fastmoving the cursor.	%ssaltando terreno similar al mover rapido el cursor.
+notice some gold between your %s.	notas algo de oro entre tu %s.
+sense a lack of %s nearby.	sientes falta de %s cerca.
+%s %s nearby.	%s %s cerca.
+object_detect:  illegal class %d	object_detect:  clase ilegal %d
+detect the %s of %s.	detecta el %s de %s.
+%s too much to comprehend!	¡%s demasiado para comprender!
+%s you!	¡%s te!
+%s your vision!	¡%s tu vision!
+%s your vision.	%s tu vision.
+%s your mind!	¡%s tu mente!
+grok some groovy globs of incandescent lava.	capta unas ondas de lava incandescente.
+goldfish swimming above fluorescent rocks.	peces de colores nadando sobre rocas fluorescentes.
+tiny snowflakes spinning around a miniature farmhouse.	diminutos copos de nieve girando alrededor de una pequena granja.
+peer into %s...	miras dentro de %s...
+%s, %s.	%s, %s.
+reveal %s!	¡revela %s!
+detect %s!	¡detecta %s!
+%s unfolds!	¡%s se despliega!
+correct_branch_type: unknown branch type	correct_branch_type: tipo de rama desconocido
+flags[%i] is not a string	flags[%i] no es una cadena
+flags is not an array or string	flags no es un array ni cadena
+builds_up: can't find branch for dungeon %d	builds_up: no se encuentra rama para dungeon %d
+sense something below your %s.	sientes algo bajo tu %s.
+No boundary for Wizard's Tower?	¿Sin limite para la Torre del Mago?
+Can't note branch for unseen level (%d, %d)	No se puede anotar rama para nivel no visto (%d, %d)
+com_pager: nhl_init() failed	com_pager: nhl_init() fallo
+com_pager: %s not found.	com_pager: %s no encontrado.
+com_pager: questtext in %s is not a lua table	com_pager: questtext en %s no es una tabla lua
+com_pager: questtext[%s] in %s is not a lua table	com_pager: questtext[%s] en %s no es una tabla lua
+com_pager: questtext[%s][%s] in %s is not a lua table	com_pager: questtext[%s][%s] en %s no es una tabla lua
+com_pager: questtext[%s][%s] and [][%s] in %s are not lua tables	com_pager: questtext[%s][%s] y [][%s] en %s no son tablas lua
+com_pager: questtext[%s][%s] in %s is not an array of strings	com_pager: questtext[%s][%s] en %s no es un array de cadenas
+materialize in %s location!	¡materializa en %s ubicacion!
+%s onto the teleportation trap.	%s sobre la trampa de teletransporte.
+%s in agony as your body begins to warp...	%s en agonia cuando tu cuerpo empieza a deformarse...
+Thou art early, but we'll admit thee.	Llegas temprano, pero te admitiremos.
+(In fact, you're on Cloud 9!)	¡(De hecho, estas en la nube 9!)
+plummet a few thousand feet to your death.	caes varios miles de pies hasta tu muerte.
+%s a level teleport trap!	¡%s una trampa de teletransporte de nivel!
+and %s teleport together.	y %s teletransporta juntos.
+%s %s%s%s!	¡%s %s%s%s!
+rloc(): couldn't relocate monster	rloc(): no se pudo reubicar al monstruo
+Teleport %s @ <%d,%d> where?	Teletransportar %s @ <%d,%d> ¿adonde?
+mlevel_tele_trap: unexpected trap type (%d)	mlevel_tele_trap: tipo de trampa inesperado (%d)
+%s resists your magic!	¡%s resiste tu magia!
+%s must be wielded before it can be thrown.	%s debe ser empunado antes de poder lanzarse.
+%s %d %s.	%s %d %s.
+stop %s after the %d%s %s.	para %s despues del %dº %s.
+crash into some iron bars.  Ouch!	¡chocas contra unos barrotes de hierro.  Ay!
+bump into a %s.  Ouch!	¡chocas con un %s.  Ay!
+%sget forcefully wedged into a crevice.	%squeda encajado a la fuerza en una grieta.
+find %s by bumping into %s.	encuentras %s al chocar contra %s.
+bump into %s.	choca contra %s.
+%s bumps into %s.	%s choca contra %s.
+%s bumps into you.	%s choca contra ti.
+%s in the opposite direction.	%s en direccion opuesta.
+%s doesn't budge!	¡%s no se mueve!
+%s hits the %s.	%s golpea el %s.
+%s %s the %s, then falls back on top of your %s.	%s %s el %s, luego cae encima de tu %s.
+Unfortunately, you are wearing %s.	Desafortunadamente, llevas %s.
+%s as you throw it!	¡%s al lanzarlo!
+%s the %s and returns to your hand!	¡%s el %s y vuelve a tu mano!
+%s lands %s your %s.	%s aterriza %s tu %s.
+%s your %s!	¡%s tu %s!
+%s to return!	¡%s de volver!
+%s snatches up %s.	%s arrebata %s.
+%s catches and drops %s.	%s atrapa y suelta %s.
+%s part in this is finished.	%s parte en esto ha terminado.
+%s %s %s back to you.	%s %s %s de vuelta a ti.
+%s into %s%s.	%s en %s%s.
+smell a peculiar odor...	hueles un olor peculiar...
+%s shatter%s%s!	¡%s se hace pedazos%s%s!
+Fortunately, you are wearing %s!	¡Afortunadamente, llevas %s!
+%s%s are noisy.	%s%s son ruidosos.
+Suddenly you can%s yourself.	De repente puedes%s a ti mismo.
+%s very tightly.	%s muy fuerte.
+Suddenly you can %s.	De repente puedes %s.
+%s for a moment.	%s por un momento.
+%s %s in your bare %s.	%s %s en tu %s desnudo.
+speed up%s.	acelera%s.
+%s %s to shine %s!	¡%s %s para brillar %s!
+%s shining.	%s brillando.
+Blindf_off without eyewear?	¿Blindf_off sin proteccion ocular?
+removing strange accessory: %s	quitando accesorio extrano: %s
+Despite your slippery %s, you can't.	A pesar de tu %s resbaladizo, no puedes.
+Taking off unknown armor (%d: %d), delay %d	Quitando armadura desconocida (%d: %d), retraso %d
+Taking off unknown armor (%d: %d), no delay	Quitando armadura desconocida (%d: %d), sin retraso
+putting on unexpected type of accessory: %s	poniendo tipo inesperado de accesorio: %s
+%s %s%s %s%s from your %s%s.	%s %s%s %s%s de tu %s%s.
+stuck_ring: neither left nor right?	stuck_ring: ¿ni izquierda ni derecha?
+%s %s are too slippery to take off.	%s %s son demasiado resbaladizos para quitar.
+select_off: %s???	select_off: %s???
+%sno longer %s.	%sya no %s.
+do_takeoff: taking off %lx	do_takeoff: quitando %lx
+finish %s.	termina %s.
+take_off: taking off %lx	take_off: quitando %lx
+finish %s %s.	termina %s %s.
+unique creature '%d: %s' genocided?	¿criatura unica '%d: %s' genocidada?
+Status of %s (%s, %s):  Level %d  HP %d(%d)  AC %d%s.	Estado de %s (%s, %s):  Nivel %d  HP %d(%d)  AC %d%s.
+Status of %s (%s):  Level %d  HP %d(%d)  AC %d%s.	Estado de %s (%s):  Nivel %d  HP %d(%d)  AC %d%s.
+fix_curse_trouble: nothing to uncurse.	fix_curse_trouble: nada que quitar maldicion.
+fix_worst_trouble: couldn't cure hands.	fix_worst_trouble: no se pudieron curar las manos.
+%s fries to a crisp!	¡%s se frie hasta quedar crujiente!
+%s disintegrates into a pile of dust!	¡%s se desintegra en un monton de polvo!
+bask in its %s glow for a minute...	se regodea en su resplandor %s por un minuto...
+Thou %s, %s.	Tu %s, %s.
+%s glow surrounds you.	un resplandor %s te rodea.
+Thou durst %s me?	¿Te atreves a %sme?
+Then die, %s!	¡Entonces muere, %s!
+%s %s into %s %s.	%s %s en %s %s.
+%s %s %s your %s!	¡%s %s %s tu %s!
+I crown thee...  The Hand of Elbereth!	Te corono...  ¡La Mano de Elbereth!
+Thou shalt be my Envoy of Balance!	¡Seras mi Enviado del Equilibrio!
+Thou art chosen to %s for My Glory!	¡Has sido elegido para %s por Mi Gloria!
+Divine knowledge of %s fills your mind!  Spell '%c'.	¡El conocimiento divino de %s llena tu mente!  Hechizo '%c'.
+%s with %s aura%s.	%s con aura %s%s.
+%s as good as new!	¡%s como nuevo!
+It sounds like:  "%s".	Suena como:  "%s".
+%s potion%s on the altar glow%s %s for a moment.	la pocion de %s en el altar brilla %s por un momento.
+Suddenly, you realize that %s has noticed you...	De repente, te das cuenta de que %s te ha notado...
+offer the Amulet of Yendor to %s...	ofreces el Amuleto de Yendor a %s...
+%s shrugs and retains dominion over %s,	%s se encoge de hombros y retiene el dominio sobre %s,
+then mercilessly snuffs out your life.	luego acaba mercilessmente con tu vida.
+%s snarls and tries again...	%s grune y vuelve a intentarlo...
+%s accepts your gift, and gains dominion over %s...	%s acepta tu regalo y gana dominio sobre %s...
+Fortunately, %s permits you to live...	Afortunadamente, %s te permite vivir...
+ascend to the status of Demigod%s...	asciende al estatus de Semidios%s...
+realize you have made a %s.	te das cuenta de que has cometido un %s.
+sense a conflict between %s and %s.	sientes un conflicto entre %s y %s.
+Unluckily, you feel the power of %s decrease.	Desafortunadamente, sientes que el poder de %s disminuye.
+Such an action is an insult to %s!	¡Tal accion es un insulto a %s!
+%s seems %s.	%s parece %s.
+realize that the gods are not like you and I.	te das cuenta de que los dioses no son como tu y yo.
+Overall, there is a smell of fried onions.	En general, hay olor a cebollas fritas.
+think %s brushed your %s.	piensas que %s rozo tu %s.
+see crabgrass at your %s.  A funny thing in a dungeon.	ves grama en tu %s.  Cosa extrana en una mazmorra.
+%s diabolical laughter all around you...	¡%s risas diabolicas a tu alrededor!...
+Unfortunately, your voice falters.	Desafortunadamente, tu voz falla.
+For some reason, %s seems to ignore you.	Por algun motivo, %s parece ignorarte.
+Since you are in Gehennom, %s %s help you.	Como estas en Gehennom, %s %s ayudarte.
+Calling upon %s, you chant an arcane formula.	Invocando a %s, cantas una formula arcana.
+rn2 broken in halu_gname?!?	rn2 roto en halu_gname?!?
+No random god name?	¿Sin nombre aleatorio de dios?
+%s %s%s:	%s %s%s:
+%s %s, welcome to NetHack!  You are a%s.	%s %s, ¡bienvenido a NetHack!  Eres un%s.
+%s gets %s!	¡%s recibe %s!
+%s gets slightly %s!	¡%s queda ligeramente %s!
+explode: wand has bad zap type (%d).	explode: vara tiene tipo de zap erroneo (%d).
+%s resists the %s!	¡%s resiste el %s!
+scattered object <%d,%d> not at scatter site <%d,%d>	objeto disperso <%d,%d> no en el sitio de dispersion <%d,%d>
+adtyp_to_expltype: bad explosion type %d	adtyp_to_expltype: tipo de explosion erroneo %d
+unknown type for mon_explode %d	tipo desconocido para mon_explode %d
+were no symbol sets found in "%s".	no se encontraron conjuntos de simbolos en "%s".
+So thou thought thou couldst %s me, fool.	Asi que pensaste que podias %sme, tonto.
+%s casts aspersions on your ancestry.	%s lanza calumnias sobre tu ascendencia.
+spellcasting monster found you and doesn't know it?	¿monstruo lanzando hechizos te encontro y no lo sabe?
+%s casting non-hand-to-hand version of hand-to-hand spell %d?	¿%s lanzando version no cuerpo a cuerpo del hechizo cuerpo a cuerpo %d?
+%s %s a spot near you!	¡%s %s un punto cerca de ti!
+%s %s your displaced image!	¡%s %s tu imagen desplazada!
+no reason for monster to cast disappear spell?	¿sin razon para que el monstruo lance hechizo de desaparecer?
+someone summoning something, and %s %s.	alguien invocando algo, y %s %s.
+Scales cover your %s!	¡Escamas cubren tu %s!
+no reason for monster to cast blindness spell?	¿sin razon para que el monstruo lance hechizo de ceguera?
+monster cast spell (%d) with negative dmg (%d)?	¿monstruo lanzo hechizo (%d) con dmg negativo (%d)?
+cast directed wizard spell (%d) with dmg=0?	¿lanzar hechizo dirigido de mago (%d) con dmg=0?
+mcastu: invalid magic spell (%d)	mcastu: hechizo magico invalido (%d)
+found_artifact: invalid artifact index! (%d)	found_artifact: indice de artefacto invalido! (%d)
+found_artifact: artifact doesn't exist yet? (%d)	found_artifact: ¿el artefacto no existe aun? (%d)
+%s your grasp!	¡%s tu agarre!
+%s beyond your control!	¡%s fuera de tu control!
+release %s!	¡suelta %s!
+%s %s %s%c	%s %s %s%c
+slice %s wide open!	¡abre a %s en canal!
+slice deeply into %s!	¡corta profundamente en %s!
+%s cuts deeply into %s!	¡%s corta profundamente en %s!
+%s cuts %s in half!	¡%s corta %s por la mitad!
+%s cuts deeply into you!	¡%s te corta profundamente!
+%s cuts you in half!	¡%s te corta por la mitad!
+%s slices through %s %s.	%s corta a traves de %s %s.
+%s slices through your %s.	%s corta a traves de tu %s.
+%s draws the %s from %s!	¡%s extrae el %s de %s!
+%s drains your %s!	¡%s drena tu %s!
+%s %s %s in a cloud of brimstone!	¡%s %s %s en una nube de azufre!
+%s %s slightly.	%s %s ligeramente.
+%s stops %s.	%s para %s.
+%s to the %s.	%s al %s.
+give up your attempt at %s.	abandonas tu intento de %s.
+succeed in disarming the trap.  The %s is still %slocked.	logras desactivar la trampa.  El %s sigue %scerrado.
+succeed in %s.	logras %s.
+owe %ld %s for objects destroyed.	debes %ld %s por objetos destruidos.
+give up your attempt to force the lock.	abandonas tu intento de forzar la cerradura.
+%sour %s broke!	¡nuestro %s se rompio!
+resume your attempt at %s.	reanudas tu intento de %s.
+picking lock with object %d?	¿forzar cerradura con objeto %d?
+%s no lock on the drawbridge.	%s sin cerradura en el puente levadizo.
+%s no door there.	%s no hay puerta ahi.
+resume your attempt to force the lock.	reanudas tu intento de forzar la cerradura.
+force %s into a crack and pry.	mete %s en una grieta y hace palanca.
+%s like something lootable over there.	%s que hay algo saqueable por alli.
+%s blocks the way!	¡%s bloquea el camino!
+%s's in the way.	%s esta en medio.
+%s springs up in the older, more primitive doorway.	%s aparece en la entrada mas antigua y primitiva.
+%s springs up in the doorway, but %s.	%s aparece en la entrada, pero %s.
+%s %s shatter!	¡%s %s se hace pedazos!
+%s payment in money2mon!	¡%s pago en money2mon!
+Paying without %s gold?	¿Pagar sin %s oro?
+%s payment in money2u!	¡%s pago en money2u!
+%s paying without %s gold?	¿%s pagar sin %s oro?
+%s!  Please pay before leaving%s	¡%s!  Por favor paga antes de irte%s
+stole %ld %s worth of merchandise.	robo mercancia por valor de %ld %s.
+%s stands firm as if %s knows you are there.	%s se mantiene firme como si %s supiera que estas ahi.
+So, %s, you dare return to %s %s?!	Asi que, %s, ¡te atreves a volver a %s %s?!
+%s seems %s over your return to %s %s!	¡%s parece %s por tu regreso a %s %s!
+%s, %s!  Welcome%s to %s %s!	¡%s, %s!  Bienvenido%s a %s %s!
+enter %s %s%s!	¡entra en %s %s%s!
+%s %s to let you in with your %s%s.	%s %s dejarte entrar con tu %s%s.
+%s %s to let you in while you're riding %s.	%s %s dejarte entrar mientras montas a %s.
+You sneaky %s!  Get out of here with that pick!	¡Sneaky %s!  ¡Sal de aqui con ese pico!
+%s %s your pick!	¡%s %s tu pico!
+same_price: object wasn't on any bill!	same_price: ¡el objeto no estaba en ninguna cuenta!
+owe %s %ld %s.	debes %s %ld %s.
+%s? (rmno=%d, rtype=%d, mnum=%d, "%s")	%s? (rmno=%d, rtype=%d, mnum=%d, "%s")
+untrustworthy null shkp; level_status.shkready is FALSE (%d, %d, %d, &d)	shkp nulo no fiable; level_status.shkready es FALSE (%d, %d, %d, &d)
+onbill: paid obj on bill?	onbill: ¿obj pagado en cuenta?
+onbill: unpaid obj %s?	onbill: ¿obj no pagado %s?
+obfree: not on bill, %s = (%d,%d,%ld,%d) (%d,%d,%ld,%d)?	obfree: no en cuenta, %s = (%d,%d,%ld,%d) (%d,%d,%ld,%d)?
+obfree: deleting worn obj (%d: %ld)	obfree: borrando obj llevado (%d: %ld)
+%s returns to %s shop.	%s vuelve a la tienda de %s.
+Can't find shop bill entry for #%d	No se encuentra la entrada de cuenta de tienda para #%d
+appears to be no shopkeeper here to receive your payment.	parece no haber tendero aqui para recibir tu pago.
+%shave no gold.	%stienes no oro.
+give %s the %ld gold piece%s %s asked for.	dar a %s la%s %ld pieza%s de oro %s pedio.
+give %s all your%s gold.	dar a %s todo tu%s oro.
+Unfortunately, %s doesn't look satisfied.	Desafortunadamente, %s no parece satisfecho.
+%s is after blood, not gold!	¡%s quiere sangre, no oro!
+But since %s shop has been robbed recently,	Pero como la tienda de %s ha sido robada recientemente,
+you %scompensate %s for %s losses.	debes %scompensar a %s por sus perdidas.
+%s is after your hide, not your gold!	¡%s quiere tu pellejo, no tu oro!
+try to appease %s by giving %s 1000 gold pieces.	intenta apaciguar a %s dandome 1000 piezas de oro.
+dopay: not to shopkeeper?	dopay: ¿no a tendero?
+But you don't%s have enough gold%s.	Pero no tienes%s suficiente oro%s.
+pay that debt.	paga esa deuda.
+That debt is partially offset by your credit.	Esa deuda se compensa parcialmente con tu credito.
+pay the remainder.	paga el resto.
+Thank you for shopping in %s %s%s	Gracias por comprar en %s %s%s
+%s nods%s at you for shopping in %s %s%s	%s asiente%s por comprar en %s %s%s
+%shave no gold or credit%s.	%stienes no oro ni credito%s.
+Maybe you have some gold stashed away?	Quiza tengas algo de oro escondido?
+You need to remove any unpaid items from that %s and buy them separately.	Debes quitar los objetos no pagados de ese %s y comprarlos por separado.
+Paid object on bill??	¿Objeto pagado en cuenta??
+Can't find contained item on shop bill (#%d).	No se encuentra el objeto contenido en la cuenta de tienda (#%d).
+Buying %s contents: item #%u disappeared from bill.	Comprando contenido de %s: item #%u desaparecio de la cuenta.
+Buying %s contents failed unexpectedly (#%u %d).	Comprar contenido de %s fallo inesperadamente (#%u %d).
+%s for the other %s before buying %s.	%s para el otro %s antes de comprar %s.
+%s %s%s your bill for the other %s first.	%s %s%s tu cuenta para el otro %s primero.
+%shave no gold or credit left.	%stienes no oro ni credito.
+don't%s have gold%s enough to pay for %s.	no tienes%s suficiente oro%s para pagar %s.
+%s %slooks at your corpse%s and %s.	%s %smira tu cadaver%s y %s.
+%s gratefully inherits all your possessions.	%s hereda con agradecimiento todas tus posesiones.
+%s %s all your possessions.	%s %s todas tus posesiones.
+%s %s the %ld %s %sowed %s.	%s %s los %ld %s que %sdebias a %s.
+finish_paybill: bad location <%d,%d>.	finish_paybill: ubicacion erronea <%d,%d>.
+bad glass gem %d?	¿gema de cristal erronea %d?
+%s seems %s that you want to sell that.	%s parece %s que quieras vender eso.
+I won't stock that.  Take it out of here!	No voy a almacenar eso.  ¡Sacalo de aqui!
+%s shakes %s %s in refusal.	%s sacude su %s %s en rechazo.
+unpaid_cost: object wasn't on any bill.	unpaid_cost: el objeto no estaba en ninguna cuenta.
+got that for free!	¡lo has conseguido gratis!
+%s has no interest in %s.	%s no tiene interes en %s.
+%s will cost you %ld %s%s.	%s te costara %ld %s%s.
+%s %ld %s %s %s%s."	%s %ld %s %s %s%s."
+%s does not notice.	%s no se da cuenta.
+splitbill: no resident shopkeeper??	splitbill: ¿¿sin tendero residente??
+splitbill: not on bill?	splitbill: ¿no en cuenta?
+Negative quantity on bill??	¿¿Cantidad negativa en cuenta??
+sub_one_frombill: unpaid object not on bill	sub_one_frombill: objeto no pagado no en cuenta
+%s booms: "%s, you are a thief!"	%s retumba: "¡%s, eres un ladron!"
+%ld %s added%s to your credit; total is now %ld %s.	%ld %s anadido%s a tu credito; el total es ahora %ld %s.
+%s seems uninterested.	%s parece desinteresado.
+Thank you for your contribution to restock this recently plundered shop.	Gracias por tu contribucion para reabastecer esta tienda recientemente saqueada.
+%s seems uninterested%s.	%s parece desinteresado%s.
+%s cannot pay you at present.	%s no puede pagarte por ahora.
+invalid sell response	respuesta de venta invalida
+doinvbill: no shopkeeper?	doinvbill: ¿sin tendero?
+%s nimbly%s catches %s.	%s agilmente%s atrapa %s.
+%s whispers %s.	%s susurra %s.
+someone muttering an incantation.	alguien murmurando un encantamiento.
+%s untraps %s.	%s desactiva la trampa de %s.
+%s, %s!  I was looking for %s.	¡%s, %s!  Estaba buscando %s.
+%s, %s!  Didn't you forget to pay?	¡%s, %s!  ¿No se te olvido pagar?
+%s holds out %s upturned %s.	%s extiende su %s %s vuelto hacia arriba.
+%s doesn't like customers who don't pay.	a %s no le gustan los clientes que no pagan.
+Be careful, %s, or you might fall through the floor.	Cuidado, %s, o podrias caer por el suelo.
+%s, do not damage the floor here!	¡%s, no danes el suelo aqui!
+%s curses %s inability to grab your backpack!	¡%s maldice su %s incapacidad de agarrar tu mochila!
+%s curses you in anger and frustration!	¡%s te maldice con ira y frustacion!
+%s %s, and %s your backpack!	¡%s %s y %s tu mochila!
+%s %s your backpack!	¡%s %s tu mochila!
+How dare you %s my %s?	¿Como te atreves a %s mi %s?
+%s is %s that you decided to %s %s %s!	¡%s esta %s de que decidieras %s %s %s!
+%s shouts:	%s grita:
+%s is %s that someone decided to %s %s %s!	¡%s esta %s de que alguien decidiera %s %s %s!
+Mollified, %s accepts your restitution.	Apaciguado, %s acepta tu restitucion.
+%s lunges %s %s toward your %s!	¡%s se lanza %s %s hacia tu %s!
+%s, price %ld %s%s%s	%s, precio %ld %s%s%s
+%s asks whether you've seen any untended shops recently.	%s pregunta si has visto alguna tienda sin atender recientemente.
+%s %s how much %s dislikes %s customers.	%s %s cuanto odia %s a los clientes %s.
+%s %s!  I was looking for %s.	¡%s %s!  Estaba buscando %s.
+%s %s!  Didn't you forget to pay?	¡%s %s!  ¿No se te olvido pagar?
+%s taps you on the %s.	%s te da un golpecito en el %s.
+%s %s that your bill comes to %ld %s.	%s %s que tu cuenta asciende a %ld %s.
+%s %s that you owe %s %ld %s.	%s %s que le debes %ld %s.
+%s encourages you to use your %ld %s of credit.	%s te anima a usar tu credito de %ld %s.
+%s %s about a recent robbery.	%s %s sobre un robo reciente.
+%s %s that %s is watching you carefully.	%s %s que %s te vigila cuidadosamente.
+%s %s that business is bad.	%s %s que el negocio va mal.
+%s %s that business is good.	%s %s que el negocio va bien.
+%s talks about the problem of shoplifters.	%s habla del problema de los ladronzuelos.
+%s%s blocks your way!	¡%s%s bloquea tu camino!
+globby_bill_fixup called for non-globby object	globby_bill_fixup llamado para objeto no globby
+You owe me %ld %s for my %s that you %s with your%s	Me debes %ld %s por mi %s que %s con tu%s
+Part of %s tail has been cut off.	Parte de la cola de %s ha sido cortada.
+cut part of the tail off of %s.	corta parte de la cola de %s.
+placing worm seg <%d,%d> over another mon	colocando segmento de gusano <%d,%d> sobre otro mon
+replacing worm seg <%d,%d> on empty spot	sustituyendo segmento de gusano <%d,%d> en lugar vacio
+wormno %d is set without proper tail	wormno %d esta puesto sin cola apropiada
+mon (%s) at seg location is not worm (%s)	mon (%s) en la ubicacion de seg no es gusano (%s)
+phantom worm tail #0 [head=%s, %d segment%s; tail=%s, %d segment%s]	cola de gusano fantasma #0 [cabeza=%s, %d segmento%s; cola=%s, %d segmento%s]
+place_worm_tail_randomly: wormno is set without a tail!	place_worm_tail_randomly: ¡wormno puesto sin cola!
+place_worm_tail_randomly: tail segment at <%d,%d>, worm at <%d,%d>	place_worm_tail_randomly: segmento de cola en <%d,%d>, gusano en <%d,%d>
+worm_cross checking for non-adjacent location?	¿worm_cross comprobando ubicacion no adyacente?
+insane pet #%u has droptime (%ld) in the future (%ld) (%s)	mascota insana #%u tiene droptime (%ld) en el futuro (%ld) (%s)
+monster mnum=%d, monsndx=%d (%s)	monstruo mnum=%d, monsndx=%d (%s)
+%s: level %d %s #%u [%s] has %d cur HP, %d max HP	%s: nivel %d %s #%u [%s] tiene %d HP act, %d HP max
+dead monster on %s; %s at <%d,%d>	monstruo muerto en %s; %s en <%d,%d>
+genocided %s in play (%s)	genocidado %s en juego (%s)
+tame %s is not peaceful (%s)	%s amansado no es pacifico (%s)
+shk without eshk (%s)	shk sin eshk (%s)
+priest without epri (%s)	sacerdote sin epri (%s)
+guard without egd (%s)	guardia sin egd (%s)
+minion without emin (%s)	esbirro sin emin (%s)
+pet without edog (%s)	mascota sin edog (%s)
+steed: %s%s%s (%s)	corcel: %s%s%s (%s)
+trapped without a trap (%s)	atrapado sin trampa (%s)
+frozen monster [%s%s] is able to move (%s)	monstruo congelado [%s%s] puede moverse (%s)
+hiding monster stuck to you (%s)	monstruo escondido pegado a ti (%s)
+mon hiding under nonexistent obj (%s)	mon escondido bajo obj inexistente (%s)
+eel hiding %s (%s)	anguila escondida %s (%s)
+ceiling hider hiding %s (%s)	escondedero de techo escondido %s (%s)
+hiding while trapped in a non-pit (%s)	escondido mientras atrapado en no-foso (%s)
+migrating %s mimicking %s %s	%s migrante imitando %s %s
+mimic%s concealed as %s despite Prot-from-shape-changers %s	mimic%s disfrazado de %s a pesar de Prot-contra-cambiaformas %s
+non-mimic (%s) posing as %s (%s)	no-mimic (%s) haciendose pasar por %s (%s)
+mimic%s concealed in inaccessible location: %s (%s)	mimic%s escondido en ubicacion inaccesible: %s (%s)
+monst %u: leashed but no leash for %s	monst %u: atado pero sin correa para %s
+monst %u: leashed but not tame %s	monst %u: atado pero no amansado %s
+monst %u: leashed but not next to you (%d)	monst %u: atado pero no a tu lado (%d)
+mon (%s) claims to be at <%d,%d>?	mon (%s) ¿afirma estar en <%d,%d>?
+steed (%s) claims to be at <%d,%d>?	corcel (%s) ¿afirma estar en <%d,%d>?
+mon (%s) at <%d,%d> is not there!	mon (%s) en <%d,%d> ¡no esta ahi!
+floor mon (%s) with mstate set to 0x%08lx	mon de suelo (%s) con mstate puesto a 0x%08lx
+map mon (%s) at <%d,%d> not in fmon list!	mon de mapa (%s) en <%d,%d> ¡no en lista fmon!
+steed (%s) is on the map at <%d,%d>!	corcel (%s) ¡esta en el mapa en <%d,%d>!
+map mon (%s) at <%d,%d> is found at <%d,%d>?	mon de mapa (%s) en <%d,%d> ¿encontrado en <%d,%d>?
+migrating mon (%s) with mstate set to 0x%08lx	mon migrante (%s) con mstate puesto a 0x%08lx
+drown %s.	ahoga %s.
+%s sinks as %s rushes in and flushes you out.	%s se hunde cuando %s entra y te arrastra fuera.
+%s contents spill out onto the %s.	el contenido de %s se derrama sobre el %s.
+%s slurping sound%s.	%s sonido%s de sorber.
+dmonsfree: %d removed doesn't match %d pending on %s	dmonsfree: %d eliminado no coincide con %d pendiente en %s
+replmon: minvent inconsistency	replmon: inconsistencia de minvent
+m_detach: %s is already detached?	m_detach: ¿%s ya esta separado?
+%s medallion begins to glow!	¡el medallion de %s empieza a brillar!
+%s looks much better!	¡%s se ve mucho mejor!
+Unfortunately, %s is still genocided...	Desafortunadamente, %s sigue genocidado...
+%s through an opening in the new %s.	%s a traves de una abertura en el nuevo %s.
+May %s %s in peace.	Que %s %s en paz.
+Sticking to %s at distu %d?	¿Pegado a %s en distu %d?
+%s corpse ends up buried.	el cadaver de %s acaba enterrado.
+That was %sa bad idea...	Eso fue %sa mala idea...
+Can't polystone %s!	¡No se puede convertir en piedra a %s!
+%s %s under %s.	%s %s bajo %s.
+%s %s %s approaching!	¡%s %s %s acercandose!
+detect an odor reminiscent of an animal's den.	detectas un olor que recuerda a una madriguera de animal.
+detect a%s odor reminiscent of a stable.	detectas un olor %s que recuerda a un establo.
+%s moves %s.	%s se mueve %s.
+%s tries to move %s, but cannot.	%s intenta mover %s, pero no puede.
+try to move %s, but in vain.	intenta mover %s, pero en vano.
+However, you %s%s.	Sin embargo, tu %s%s.
+%s pushes %s and suddenly it disappears!	¡%s empuja %s y de repente desaparece!
+push %s and suddenly it disappears!	¡empuja %s y de repente desaparece!
+%s over a boulder here.	%s sobre una roca aqui.
+squeeze yourself %s the boulder.	se aprieta %s la roca.
+%s won't roll diagonally on this %s.	%s no rodara en diagonal en este %s.
+There's %s on the other side.	Hay %s al otro lado.
+%s%s cannot move %s.	%s%s no puede mover %s.
+%s!  %s %s land mine.	¡%s!  %s %s mina terrestre.
+Kerplunk!  You no longer feel %s.	¡Kerplunk!  Ya no te sientes %s.
+%s%s and %s a %s in the %s!	¡%s%s y %s un %s en el %s!
+%s away from you!	¡%s lejos de ti!
+hurt your teeth on the %s.	te danas los dientes con el %s.
+start chewing %s %s.	empieza a masticar %s %s.
+%s chewing on the %s.	%s masticando el %s.
+wobble unsteadily for a moment.	se tambalea inestablemente por un momento.
+try to ooze under the door, but can't squeeze your possessions through.	intenta colarse por debajo de la puerta, pero no puede pasar tus pertenencias.
+stop, unsure which way to go.	para, sin saber que camino tomar.
+Sting cuts through the web!	¡Sting corta la telarana!
+%s breaks out of the web.	%s sale de la telarana.
+lead %s to the edge of the %s.	lleva %s al borde del %s.
+pull yourself to the edge of the %s.	tira de ti mismo al borde del %s.
+%s is %s %s.	%s esta %s %s.
+%s finally %s free.	%s finalmente %s libre.
+finally %s free.	finalmente %s libre.
+trapmove: trapped in nothing?	trapmove: ¿atrapado en nada?
+trapmove: stuck in unknown trap? (%d)	trapmove: ¿atrapado en trampa desconocida? (%d)
+(Tip: use the #enhance command to advance them.)	(Consejo: usa el comando #enhance para mejorarlas.)
+(Tip: use '%s' prefix to step in if you really want to.)	(Consejo: usa el prefijo '%s' para entrar si realmente quieres.)
+(Tip: perhaps #untrap would help?)	(Consejo: ¿quiza #untrap ayude?)
+Unknown tip in handle_tip(%i)	Consejo desconocido en handle_tip(%i)
+avoid %s into the %s.	evita %s en el %s.
+Pardon me, %s.	Perdon, %s.
+move right into %s.	se mueve directamente a %s.
+%s %s through the web!	¡%s %s a traves de la telarana!
+%s ineffectually at some of the strands.	%s sin eficacia contra algunos hilos.
+%s through the web.	%s a traves de la telarana.
+stop.  %s can't move diagonally.	para.  %s no puede moverse en diagonal.
+stop.  %s won't fit into the same spot that you're at.	para.  %s no cabe en el mismo lugar que tu.
+stop.  %s won't fit through.	para.  %s no cabe a traves.
+stop.  %s can't move out of %s%s.	para.  %s no puede salir de %s%s.
+stop.  %s doesn't want to swap places.	para.  %s no quiere intercambiar lugares.
+that's strange, unknown mintrap result!	que extrano, ¡resultado de mintrap desconocido!
+%s%s %s.	%s%s %s.
+stop at the edge of the %s.	se detiene al borde del %s.
+pop into an air bubble.	aparece en una burbuja de aire.
+leave the %s...	abandona el %s...
+pop out of the %s like a cork!	¡sale del %s como un corcho!
+fly out of the %s.	sale volando del %s.
+slowly rise above the surface.	asciende lentamente sobre la superficie.
+%s jumps near you from the %s.	%s salta cerca de ti desde el %s.
+surprise %s!	¡sorprende a %s!
+%s attacks you by surprise!	¡%s te ataca por sorpresa!
+enter an opulent%s room!	¡entras en una opulenta sala %s!
+%s away!  %s away!	¡%s fuera!  ¡%s fuera!
+enter a giant beehive!	¡entras en una gigantesca colmena!
+enter a disgusting nest!	¡entras en un nido asqueroso!
+enter a military barracks!	¡entras en un cuartel militar!
+%s, %s, welcome to Delphi!	¡%s, %s, bienvenido a Delfos!
+pick up %s tongue.	recoge la lengua de %s.
+But it's kind of slimy, so you drop it.	Pero es algo babosa, asi que la sueltas.
+It must weigh%s a ton!	¡Debe de pesar%s una tonelada!
+%s, all your powers will be lost...	%s, todos tus poderes se perderan...
+hero losing %d hit points due to "%s"?	¿heroe perdiendo %d puntos de golpe por "%s"?
+%s level %d.	%s nivel %d.
+At your %s, the corpse suddenly moves...	A tu %s, el cadaver se mueve de repente...
+%s %s %s, but %s%s%s%s.	%s %s %s, pero %s%s%s%s.
+pickup_object: count %ld > quan %ld?	pickup_object: ¿recuento %ld > cant %ld?
+rebalance your load.  Movement is difficult.	reajustas tu carga.  El movimiento es dificil.
+%s under your heavy load.  Movement is very hard.	%s bajo tu pesada carga.  El movimiento es muy dificil.
+%s move a handspan with this load!	¡%s mover un palmo con esta carga!
+rebalance your load.  Movement is still difficult.	reajustas tu carga.  El movimiento sigue siendo dificil.
+%s under your load.  Movement is still very hard.	%s bajo tu carga.  El movimiento sigue siendo muy dificil.
+%s locked.	%s cerrado.
+Hmmm, %s turns out to be locked.	Hmmm, %s resulta estar cerrado.
+carefully open %s...	abre cuidadosamente %s...
+need to dig up the grave to effectively loot it...	necesitas desenterrar la tumba para saquearla efectivamente...
+%s to loot on the %s.	%s para saquear en el %s.
+%s %s%shere to loot.	%s %s%saqui para saquear.
+%s %s to loot.	%s %s para saquear.
+Thank you for your contribution to reduce the debt.	Gracias por tu contribucion para reducir la deuda.
+take %s off of %s.	quita %s de %s.
+<in> no gc.current_container?	<in> ¿sin gc.current_container?
+%s cannot be confined in such trappings.	%s no puede ser confinado en tales ataduras.
+%s attached to your pet.	%s sujeto a tu mascota.
+As you put %s inside, you are blasted by a magical explosion!	¡Cuando metes %s dentro, una explosion magica te golpea!
+put %s into %s.	mete %s en %s.
+<out> no gc.current_container?	<out> ¿sin gc.current_container?
+%s %s vanished!	¡%s %s desaparecido!
+%s %s disappear!	¡%s %s desaparece!
+%s inside the box is still alive!	¡%s dentro de la caja sigue vivo!
+owe %ld %s for lost merchandise.	debes %ld %s por mercancia perdida.
+Some %s %s onto the %s%s.	Algo de %s %s en el %s%s.
+%s into %s.	%s en %s.
+%s out%c	%s fuera%c
+As %s %s inside, you are blasted by a magical explosion!	¡Cuando %s %s dentro, una explosion magica te golpea!
+%s%c	%s%c
+%sbox is now empty.	la %scaja esta ahora vacia.
+%s spits %s out in disgust!	¡%s escupe %s con asco!
+dog_eat: pet apport <= 0 (%d, %d, %ld, %ld, %d, %u, %u)	dog_eat: apport mascota <= 0 (%d, %d, %ld, %ld, %d, %u, %u)
+dog_move for non-pet?	¿dog_move para no-mascota?
+%s %s %s where %s was!	¡%s %s %s donde estaba %s!
+sense that %s feels rather %s-ish.	sientes que %s se siente mas bien %s-ish.
+%s quickly snatches some gold from %s %s %s!	¡%s arrebata rapidamente algo de oro de %s %s %s!
+finish taking off your %s.	termina de quitarte tu %s.
+stealarm(): dead monster stealing	stealarm(): monstruo muerto robando
+Removing embedded scales?	¿Quitando escamas incrustadas?
+%s takes off your unseen chain.	%s te quita tu cadena invisible.
+%s tries to rob you, but isn't interested in gold.	%s intenta robarte, pero no le interesa el oro.
+%s tries to rob you, but there is nothing to steal!	¡%s intenta robarte, pero no hay nada que robar!
+%s tries to %s %s%s but gives up.	%s intenta %s %s%s pero se rinde.
+%s charms you.  You gladly %s your %s.	%s te hechiza.  Gustosamente %s tu %s.
+%s seduces you and %s off your %s.	%s te seduce y se %s tu %s.
+monster (%s) taking or picking up nothing?	monstruo (%s) ¿tomando o recogiendo nada?
+monster (%s) taking or picking up attached %s (%s)?	monstruo (%s) ¿tomando o recogiendo %s adjunto (%s)?
+%s pulls %s away from you and absorbs %s!	¡%s separa %s de ti y absorbe %s!
+%s %s pulled from your %s!	¡%s %s arrancado de tu %s!
+%s absorbs %s!	¡%s absorbe %s!
+%s gold %s.	%s oro %s.
+%s releases you!	¡%s te suelta!
+%s tries to move %s out of %s way.	%s intenta mover %s fuera de %s camino.
+%s moves %s out of %s way!	¡%s mueve %s fuera de %s camino!
+%s divides as %s hits it!	¡%s se divide cuando %s le golpea!
+%s attempt to engulf %s is futile.	el intento de %s de engullir a %s es inutil.
+%.99s %s attempt %s %.99s!	%.99s %s intento %s %.99s!
+%s %s sears %s!	¡%s %s chamusca %s!
+%s %s...	%s %s...
+%s expels %s.	%s expulsa %s.
+%s%s%s turns into %s.	%s%s%s se convierte en %s.
+%s%s%s.	%s%s%s.
+%s %s %s%s %s at %s.	%s %s %s%s %s en %s.
+%s turns transparent!	¡%s se vuelve transparente!
+%s falls to the %s.	%s cae al %s.
+%s looks%s better.	%s se ve%s mejor.
+Attempting to revive %s?	¿Intentando revivir a %s?
+%s%s suddenly %s%s%s!	¡%s%s de repente %s%s%s!
+shudder in dread.	se estremece de pavor.
+Some %sobjects meld, and %s arises from the pile!	¡Algunos objetos %s se funden, y %s surge del monton!
+bhito: obj is not floor or Stone To Flesh spell	bhito: obj no es suelo ni hechizo Piedra a Carne
+%s trapped!	¡%s atrapado!
+%s reviving.	%s reviviendo.
+zap yourself, but seem unharmed.	te golpeas, pero pareces ileso.
+explode a fireball on top of yourself!	¡explota una bola de fuego sobre ti mismo!
+imitate a popsicle!	¡imita un polo!
+zapyourself: object %d used?	zapyourself: ¿objeto %d usado?
+probe towards the %s.	sondea hacia el %s.
+probe beneath %s.	sondea bajo %s.
+%s beneath you shatters.	%s bajo ti se hace pedazos.
+%s gets stuck in a web!	¡%s se queda pegado en una telarana!
+%s %s over %s.	%s %s sobre %s.
+%s hits %s.	%s golpea a %s.
+%s jerks to an abrupt halt.	%s se detiene en seco.
+skillfully catch the boomerang.	atrapa habilmente el bumeran.
+%ld %s burn.	%ld %s quemado.
+%s burns.	%s arde.
+%s rips into %s%s	%s se abalanza sobre %s%s
+%s disintegrates.	%s se desintegra.
+%s body reintegrates before your %s!	¡el cuerpo de %s se reintegra ante tu %s!
+%s resurrects!	¡%s resucita!
+%s absorbs the deadly %s!	¡%s absorbe el mortal %s!
+%s %s is disintegrated!	¡%s %s se desintegra!
+%s settles...	%s se asienta...
+%s of smoke.	%s de humo.
+Unsupported damage type (%d) for mon_spell_hits_spot.	Tipo de dano no soportado (%d) para mon_spell_hits_spot.
+fracture %s %s.	fractura %s %s.
+maybe_destroy_item with unexpected dmgtyp %d	maybe_destroy_item con dmgtyp inesperado %d
+%s%s %s!	¡%s%s %s!
+destroy_item: items in multiple chains	destroy_item: objetos en multiples cadenas
+fill_ordinary_room: Null subroom	fill_ordinary_room: subsala nula
+levl[%i][%i] door not ok	levl[%i][%i] puerta no ok
+room %i not connected?	¿sala %i no conectada?
+mkstairs:  bogus stair attempt at <%d,%d>	mkstairs:  intento de escaleras falso en <%d,%d>
+mkstairs:  placing stairs %s on %s at <%d,%d>	mkstairs:  colocando escaleras %s en %s en <%d,%d>
+As you read the book, it %s in your %s!	¡Cuando lees el libro, %s en tu %s!
+find yourself reading the %s line over and over again.	te encuentras leyendo la linea %s una y otra vez.
+turn the pages of the Book of the Dead...	pasas las paginas del Libro de los Muertos...
+This spellbook is too faint to read even once.	Este libro de hechizos es demasiado tenue para leerse ni siquiera una vez.
+Unknown spellbook level %d, book %d;	Nivel de libro de hechizos desconocido %d, libro %d;
+mime %s%s%s something%s%s.	mimetiza %s%s%s algo%s%s.
+Use the '%s' command to %s %s%s.	Usa el comando '%s' para %s %s%s.
+Persistent inventory ('perm_invent' option) is not presently enabled.	El inventario persistente (opcion 'perm_invent') no esta habilitado actualmente.
+%s %s under the %s here.	%s %s bajo el %s aqui.
+%s needs a terminal that is at least %dx%d, yours is %dx%d.	%s necesita un terminal de al menos %dx%d, el tuyo es %dx%d.
+set_levltyp(%d,%d,%d)%s%s	set_levltyp(%d,%d,%d)%s%s
+set_levltyp_lit(%d,%d,%d,%d)	set_levltyp_lit(%d,%d,%d,%d)
+movebubbles: bad pos (%d,%d)	movebubbles: pos incorrecta (%d,%d)
+bubble xmin: x = %d, xmin = %d	bubble xmin: x = %d, xmin = %d
+bubble ymin: y = %d, ymin = %d	bubble ymin: y = %d, ymin = %d
+bubble xmax: x = %d, xmax = %d	bubble xmax: x = %d, xmax = %d
+bubble ymax: y = %d, ymax = %d	bubble ymax: y = %d, ymax = %d
+mv_bubble: unknown bubble contents	mv_bubble: contenido de burbuja desconocido
+make adjustments to %s to suit your %s hand.	haz ajustes a %s para adaptarlo a tu %s mano.
+clone_mon trying to create a monster at <%d,%d>?	¿clone_mon intentando crear un monstruo en <%d,%d>?
+makemon trying to create a monster at <%d,%d>?	¿makemon intentando crear un monstruo en <%d,%d>?
+'%s' prefix has no effect for the %s command.	El prefijo '%s' no tiene efecto para el comando %s.
+Exceeded %d extended commands in doextcmd() menu; 'extmenu' disabled.	Excedido %d comandos extendidos en menu doextcmd(); 'extmenu' desactivado.
+Too many chars (%d) entered in extcmd_via_menu()	Demasiados caracteres (%d) introducidos en extcmd_via_menu()
+Hey!  Who left that %s in here?	¡Eh!  ¿Quien dejo ese %s aqui?
+%s doesn't %srecognize you.	%s no te %sreconoce.
+%s stomps%s.	%s pisa%s.
+%s holds out %s palm and beckons with %s other hand.	%s extiende su %s palma y hace gestos con su otra mano.
+%s%s picks up the gold%s.	%s%s recoge el oro%s.
+How dare you %s that gold, scoundrel!	¡Como te atreves a %s ese oro, sinverguenza!
+%s, confused, disappears.	%s, confundido, desaparece.
+%s holds out %s palm demandingly!	¡%s extiende su %s palma exigiendo!
+%s rubs %s hands with enraged delight!	¡%s se frota las manos con placer furioso!
+%s picks up some gold.	%s recoge algo de oro.
+%s remits your gold to the vault.	%s remite tu oro a la camara acorazada.
+snprintf %s: func %s, file line %d	snprintf %s: func %s, archivo linea %d
+... into a pile of dust.	... en un monton de polvo.
+seems to be nothing available for a familiar.	parece no haber nada disponible para un familiar.
+makedog() when startingpet_mid is already non-zero?	¿makedog() cuando startingpet_mid ya es no cero?
+mon_arrive: no corresponding portal?	¿mon_arrive: sin portal correspondiente?
+catchup from now?	¿poniendote al dia desde ahora?
+%s seems very disoriented for a moment.	%s parece muy desorientado por un momento.
+%s leash suddenly comes loose.	la correa de %s se suelta de repente.
+%s leash goes slack.	la correa de %s se afloja.
+del_light_source:type=none	del_light_source:tipo=ninguno
+del_light_source: not found type=%d, id=%s	del_light_source: no encontrado tipo=%d, id=%s
+delete_ls not found, ls=%s	delete_ls no encontrado, ls=%s
+transient light %s %s %s not %s?	¿luz transitoria %s %s %s no %s?
+save_light_sources: no id! [range=%d]	save_light_sources: ¡sin id! [rango=%d]
+save_light_sources: bad type (%d) [range=%d]	save_light_sources: tipo incorrecto (%d) [rango=%d]
+maybe_write_ls: no id! [range=%d]	maybe_write_ls: ¡sin id! [rango=%d]
+maybe_write_ls: bad type (%d) [range=%d]	maybe_write_ls: tipo incorrecto (%d) [rango=%d]
+write_ls: can't find obj #%u!	write_ls: ¡no se puede encontrar obj #%u!
+write_ls: can't find mon%s #%u!	write_ls: ¡no se puede encontrar mon%s #%u!
+write_ls: stashed monst ptr not in any chain	write_ls: puntero monst escondido no en ninguna cadena
+obj_adjust_light_radius: can't find %s	obj_adjust_light_radius: no se puede encontrar %s
+secure the tether.	asegura la atadura.
+%s%s %s readied.	%s%s %s preparado.
+%s%s %s wielded.	%s%s %s empunado.
+%s%s %s %s.	%s%s %s %s.
+Since your weapon is welded to your %s, you cannot %s %s %s.	Como tu arma esta soldada a tu %s, no puedes %s %s %s.
+%s %s suitable %s weapon%s.	%s %s arma %s adecuada%s.
+%s from your %s!	¡%s de tu %s!
+%s your grasp and %s from your %s!	¡%s tu agarre y %s de tu %s!
+%s %s for a while and then %s.	%s %s por un rato y luego %s.
+%s %s for a %s.	%s %s por un %s.
+%s unexpectedly.	%s inesperadamente.
+%s welded to your %s!	¡%s soldado a tu %s!
+Some text has been %s into the %s here.	Algo de texto ha sido %s en el %s aqui.
+There's some graffiti on the %s here.	Hay un graffiti en el %s aqui.
+'%s: "%s"%s'	'%s: "%s"%s'
+wipe out the message here.	borrar el mensaje de aqui.
+%s %sturns to dust.	%s %sse convierte en polvo.
+wipe out the message that was %s here.	borrar el mensaje que %s estaba aqui.
+%s the %s with %s%s.	%s el %s con %s%s.
+%s the %s with your %s.	%s el %s con tu %s.
+%s, then %s.	%s, luego %s.
+carving with non-bladed weapon	grabando con arma sin hoja
+making graffiti with non-marker stylus	haciendo graffiti con instrumento no marcador
+<= -3 weapon valid for engraving	<= -3 arma valida para grabar
+overly dry marker valid for graffiti?	¿marcador excesivamente seco valido para graffiti?
+engraving sanity: !isok <%i,%i>	cordura de grabado: !isok <%i,%i>
+engraving sanity: illegal surface (%d: "%s")	cordura de grabado: superficie ilegal (%d: "%s")
+Disturbing grave that isn't a grave? (%d)	¿Profanando tumba que no es una tumba? (%d)
+disturb the undead!	¡molestas a los no muertos!
+%s gas cloud%s dissipate.	%s nube de gas%s se disipa.
+%s bumps into %s!	%s choca contra %s!
+create_gas_cloud: cloud too large (%d)!	create_gas_cloud: ¡nube demasiado grande (%d)!
+%s blocks your %skick.	%s bloquea tu %sempate.
+%s %s, %s evading your %skick.	%s %s, %s evadiendo tu %sempate.
+%s %scatches the gold.	%s %satrapa el oro.
+%s %sn't come loose.	%s %sno se suelta.
+%s %s loose.	%s %s suelto.
+break open the lock!	¡rompe la cerradura!
+kick at empty space.	empate al vacio.
+Crash!  %s a secret door!	¡Crash!  ¡%s una puerta secreta!
+kick %s loose!	¡suelta %s a patadas!
+kick loose some ornamental coins and gems!	¡sacas a patadas algunas monedas ornamentales y gemas!
+Crack!  %s broke!	¡Crack!  ¡%s se rompio!
+kick at the side of the pit.	empate al lado del foso.
+%s adjacent %s %s.	%s %s %s adyacente.
+removed %ld %s worth of goods!	¡retirado %ld %s de productos!
+%s, you are a thief!	¡%s, eres un ladron!
+%s, you are a thief!	¡%s, eres un ladron!
+%s, you are a thief!	¡%s, eres un ladron!
+'%s, %s!  Welcome%s to %s %s!'	'¡%s, %s!  Bienvenido%s a %s %s!'
+%s, %s!  Welcome%s to %s %s!	¡%s, %s!  Bienvenido%s a %s %s!
+'%s, %s!  Welcome%s to %s %s!'	'¡%s, %s!  Bienvenido%s a %s %s!'
+%s, %s!  Welcome%s to %s %s!	¡%s, %s!  Bienvenido%s a %s %s!
+%s an egg.	%s un huevo.
+\n%s	
+\n%d error%s %s %s.\n	
+%s's %s burn%s	%s %s %s arde%s
+%s you can't %s while entangled in a web.	%s no puedes %s mientras estas enredado en una telarana.
+Turbulence torpedoes your %s attempts.	La turbulencia torpedea tus intentos de %s.
+%s!  Please pay before leaving.	¡%s!  Por favor paga antes de irte.
+%s %s that you need to pay before leaving%s	%s %s que necesitas pagar antes de irte%s
+%s %s %s%s	%s %s %s%s
+%s %s reveals a secret door.	%s %s revela una puerta secreta.
+add %s to your repertoire, as '%c'.	añade %s a tu repertorio, como '%c'.
+only have %ld%s%s.	solo tienes %ld%s%s.
+Persistent inventory display is not supported by '%s'.	La visualizacion de inventario persistente no esta soportada por '%s'.
+%s%s%s%s	%s%s%s%s
+%s to %s what is lying in %s.	%s a %s que hay tirado en %s.
+%s here %s.	%s aqui %s.
+touched %s with your bare %s.	tocaste %s con tu %s desnudo.
+%s: %s%s%s	%s: %s%s%s
+%s at least 1.	%s al menos 1.
+%s less than %ld.	%s menos de %ld.
+Only gold coins may be moved into the '%c' slot.	Solo monedas de oro pueden moverse a la ranura '%c'.
+Couldn't load "%s" - making a maze.	No se pudo cargar "%s" - haciendo un laberinto.
+%s%s %s%s%c	%s%s %s%s%c
+%s loses its grip on you.	%s pierde su agarre sobre ti.
+%s touch %s.	%s toca a %s.
+shrink out of your %s!	¡te encoges de tu %s!
+drop your gloves%s!	¡se te caen los guantes%s!
+find you must %s %s %s!	¡descubres que debes %s %s %s!
+and %s return gently to the %s.	y %s vuelve suavemente al %s.
+web over the %s.	telarana sobre el %s.
+Webbing over trap type %d?	¿Telarana sobre tipo de trampa %d?
+gaze attack %d?	¿ataque de mirada %d?
+%s seems not to notice your gaze.	%s parece no notar tu mirada.
+attack %s with a fiery gaze!	¡ataca a %s con una mirada ardiente!
+stiffen momentarily under %s gaze.	se queda rigido un momento bajo la mirada de %s.
+Gazing at the awake %s is not a very good idea.	Mirar al despierto %s no es una muy buena idea.
+concentrate but lack the energy to maintain doing so.	se concentra pero le falta energia para mantenerlo.
+lock in on %s %s.	se fija en %s %s.
+safe_typename: %s	safe_typename: %s
+xname_flags: %s	xname_flags: %s
+Room floor.	Suelo de sala.
+%s %s the drawbridge.	%s %s el puente levadizo.
+safe_qbuf: prefix too long (%u characters).	safe_qbuf: prefijo demasiado largo (%u caracteres).
+safe_qbuf: suffix too long (%u + %u characters).	safe_qbuf: sufijo demasiado largo (%u + %u caracteres).
+safe_qbuf: filler too long (%u + %u + %u characters).	safe_qbuf: relleno demasiado largo (%u + %u + %u caracteres).
+guess %s to be %s %s.	adivina que %s es %s %s.
+get_count: cmdcount_nht	get_count: cmdcount_nht
+This %s creature is called %s and cannot be renamed.	Este %s criatura se llama %s y no puede renombrarse.
+%s doesn't like being called names!	¡a %s no le gusta que le llamen cosas!
+engrave: "%s".	graba: "%s".
+%s %s can't be assigned a type name.	%s %s no puede asignarsele un nombre de tipo.
+obj_pmname otyp:%i,corpsenm:%i	obj_pmname otyp:%i,corpsenm:%i
+%s throws back %s head and lets out a blood curdling %s!	¡%s echa atras su cabeza %s y deja escapar un %s que hiela la sangre!
+%s boasts about %s gem collection.	%s presume de su coleccion de gemas %s.
+They won't hear you %s there.	No te oiran %s ahi.
+%s doesn't notice.	%s no se da cuenta.
+That %screature is ignoring you!	¡Esa %scriatura te esta ignorando!
+%s grasps %s %s but can't remove it.	%s agarra %s %s pero no puede quitarselo.
+%s tips %s %s in response.	%s inclina su %s %s en respuesta.
+%s %s%s%s at you...	%s %s%s%s hacia ti...
+%s doesn't respond.	%s no responde.
+%s shirt is obscured by %s%s.	la camisa de %s esta oscurecida por %s%s.
+%s features %s.	%s muestra %s.
+%s on the %s.  It reads:  %s.	%s en el %s.  Dice:  %s.
+"%s"	"%s"
+"%d0%d %ld%d1 0%d%d0"%s	"%d0%d %ld%d1 0%d%d0"%s
+"Magic Marker(TM) %s Red Ink Marker Pen.  Water Soluble."	"Magic Marker(TM) %s Rotulador de Tinta Roja.  Soluble en agua."
+"1 Zorkmid.  857 GUE.  In Frobs We Trust."	"1 Zorkmid.  857 GUE.  En los Frobs Confiamos."
+"Odin."	"Odin."
+%s briefly.	%s brevemente.
+%s%s%s for a moment.	%s%s%s por un momento.
+%s feebly%s%s for a moment.	%s debilmente%s%s por un momento.
+%s momentarily, then %s!	¡%s momentaneamente, luego %s!
+%s spins %sclockwise for a moment.	%s gira %sen sentido horario por un momento.
+%s out!	¡%s fuera!
+%s warm for a moment.	%s calido por un momento.
+%s covered by a %s %s %s!	¡%s cubierto por un %s %s %s!
+%s violently %s%s%s for a while, then %s.	%s violentamente %s%s%s por un rato, luego %s.
+%s merges and hardens!	¡%s se fusiona y endurece!
+%s %s%s%s%s for a %s.	%s %s%s%s%s por un %s.
+This is %s!	¡Esto es %s!
+Oh, look, what a pretty fire in your %s.	Oh, mira, que fuego tan bonito en tu %s.
+%s of boulders %s %s you!	¡%s de rocas %s %s te!
+something hit %s %s over your %s!	¡algo golpeo a %s %s sobre tu %s!
+%s's %s does not protect %s.	%s %s de %s no protege a %s.
+%s %s explodes!	¡%s %s explota!
+%s %s is lit.	%s %s esta encendido.
+Eliminated %d monster%s.	Eliminado %d monstruo%s.
+%s are already nonexistent.	%s ya no existen.
+Sent in %s%s.	Enviado en %s%s.
+%s a whiff of rotten eggs.	%s un olor a huevos podridos.
+It's %s of "%s"!	¡Es %s de "%s"!
+It seems to be %s of "%s"!	¡Parece ser %s de "%s"!
+should_query_disclose_option: bad disclosure index %d %c	should_query_disclose_option: indice de divulgacion incorrecto %d %c
+should_query_disclose_option: bad category %c	should_query_disclose_option: categoria incorrecta %c
+%s releases you.	%s te suelta.
+Unfortunately you are still genocided...	Desafortunadamente sigues genocidado...
+dealloc_killer (#%d) not on list	dealloc_killer (#%d) no en la lista
+stuff yourself and then vomit voluminously.	te atiborras y luego vomitas abundantemente.
+%s brain is unharmed.	el cerebro de %s esta ileso.
+eat %s brain!	¡come el cerebro de %s!
+%s brain is eaten!	¡el cerebro de %s es comido!
+%s turns to stone!	¡%s se convierte en piedra!
+Unfortunately your brain is still gone.	Desafortunadamente tu cerebro aun ha desaparecido.
+%s last thought fades away...	el ultimo pensamiento de %s se desvanece...
+cannibal!  You will regret this!	¡canibal!  ¡Te arrepentiras!
+Eating that is instantly fatal.	Comer eso es instantaneamente fatal.
+be chillin'.	estas tranquilo.
+discard the open tin.	desecha la lata abierta.
+consume %s %s.	consume %s %s.
+Eating %s food made your %s %s slippery.	Comer la comida de %s hizo tu %s %s resbaladizo.
+This makes you feel like %s!	¡Esto te hace sentir como %s!
+give up your attempt to open the tin.	abandona tu intento de abrir la lata.
+Using %s you try to open the tin.	Usando %s intentas abrir la lata.
+Blecch!  %s %s!	¡Blecch!  ¡%s %s!
+Ulch - that %s was tainted%s!	¡Ulch - ese %s estaba contaminado%s!
+(It must have died too long ago to be safe to eat.)	(Debe haber muerto hace demasiado tiempo para ser seguro comerlo.)
+Ecch - that must have been poisonous!	¡Ecch - eso debio haber sido venenoso!
+seem unaffected by the poison.	pareces no afectado por el veneno.
+This tastes just like chicken!	¡Esto sabe justo como pollo!
+peck the eyeball with delight.	picotea el ojo con deleite.
+%s%s %s %s%c	%s%s %s %s%c
+This satiates your %s!	¡Esto sacia tu %s!
+My, this is a %s %s!	¡Vaya, esto es un %s %s!
+%s -- core dumped.	%s -- nucleo volcado.
+This %s is %s	Este %s esta %s
+Magic spreads through your body as you digest the %s.	La magia se extiende por tu cuerpo mientras digieres el %s.
+sinister laughter as you fall asleep...	risa siniestra mientras te duermes...
+%s%s is delicious!	¡%s%s esta delicioso!
+pause to swallow.	hace una pausa para tragar.
+Ulch - that %s was rustproofed!	¡Ulch - ese %s estaba a prueba de oxido!
+spit out %s.	escupir %s.
+spit %s out onto the %s.	escupir %s sobre el %s.
+%s your meal.	%s tu comida.
+faint from lack of food.	desmayas por falta de comida.
+%s needs food, badly!	¡%s necesita comida, urgentemente!
+%s but you %s eat them.	%s pero tu %s comerlos.
+partly eaten food (%ld) more nutritious than untouched food (%ld)	comida parcialmente comida (%ld) mas nutritiva que comida intacta (%ld)
+notice %s, swaying with the music.	notas %s, balanceandose con la musica.
+%s freezes, then sways with the music%s.	%s se congela, luego se balancea con la musica%s.
+%s listens cheerfully to the music, then seems quieter.	%s escucha alegremente la musica, luego parece mas callado.
+%s the rattle of battle gear being readied.	%s el repiqueteo de equipo de batalla siendo preparado.
+KADOOM!  The boulder falls into a chasm%s!	¡KADOOM!  ¡La roca cae en un abismo%s!
+%s falls into a chasm!	¡%s cae en un abismo!
+destroy %s!	¡destruye %s!
+fall into a chasm!	¡cae en un abismo!
+disseminate a kaleidoscopic display of floating butterflies.	emite un despliegue caleidoscopico de mariposas flotantes.
+%sproduce %s%s music.	%sproduce musica %s%s.
+produce a frightful, grave%s sound.	produce un sonido %s aterrador y grave.
+extract a loud%s noise from %s.	extrae un ruido %s fuerte de %s.
+%s very attractive%s music.	%s musica %s muy atractiva.
+produce a heavy, thunderous rolling!	¡produce un rodar pesado y tronitronante!
+beat a %sdeafening row!	¡toca una fila %s ensordecedora!
+extract a strange sound from %s!	¡extrae un sonido extrano de %s!
+%d tumbler%s click and %d gear%s turn.	%d tumblers%s hacen clic y %d engranaje%s gira.
+%d tumbler%s click.	%d tumbler%s hace clic.
+%d gear%s turn.	%d engranaje%s gira.
+%s %s %s not affected by %s.	%s %s %s no afectado por %s.
+Somehow, %s %s %s not affected by the %s.	De algun modo, %s %s %s no afectado por el %s.
+%s %s %s%s!	¡%s %s %s%s!
+%s %s %s!	¡%s %s %s!
+erode_obj(%d): destroying strangely worn item [%d, 0x%08lx: %s]	erode_obj(%d): destruyendo objeto llevado extranamente [%d, 0x%08lx: %s]
+%s %s %s completely %s.	%s %s %s completamente %s.
+%s's %s %s %s	%s %s de %s %s
+making fixed-dest tele trap pointing to itself	creando trampa de tele de destino fijo apuntando a si misma
+%s down %s!	¡%s abajo %s!
+%s down a %s%sshaft!	¡%s abajo por un pozo %s%s!
+Instead of shattering, %s suddenly %s!	¡En vez de hacerse pedazos, %s de repente %s!
+find %s posing as a statue.	encuentras %s haciendose pasar por una estatua.
+%s %s spider web!	¡%s %s telarana!
+flow through %s spider web.	fluye a traves de %s telarana.
+m_harmless_trap: unknown trap %i	m_harmless_trap: trampa desconocida %i
+notice a crease in the linoleum.	notas una arruga en el linoleo.
+notice a loose board below you.	notas una tabla suelta bajo ti.
+%s squeak %s.	%s chirria %s.
+%s bear trap closes harmlessly through you.	%s trampa para osos se cierra inocuamente a traves de ti.
+%s bear trap closes harmlessly over you.	%s trampa para osos se cierra inocuamente sobre ti.
+%s bear trap closes on %s %s!	¡%s trampa para osos se cierra sobre %s %s!
+%s bear trap closes on your %s!	¡%s trampa para osos se cierra sobre tu %s!
+howl in anger!	¡aulla de rabia!
+%s protects your leg.	%s protege tu pierna.
+%s you on the %s!	¡%s te en el %s!
+%s your left %s!	¡%s tu %s izquierdo!
+%s your right %s!	¡%s tu %s derecho!
+%s %spit below you.	%s %sfoso bajo ti.
+%s pit %sopens up under you!	¡%s foso %sse abre bajo ti!
+carefully %s into the pit.	cuidadosamente %s en el foso.
+move into an adjacent pit.	se mueve a un foso adyacente.
+stumble over debris%s.	tropieza con escombros%s.
+%s into %s pit!	¡%s en %s foso!
+%s protects you from the sharp iron spikes.	%s te protege de los agudos pinchos de hierro.
+dotrap: %ss cannot exist on this level.	dotrap: %ss no pueden existir en este nivel.
+mintrap: %ss cannot exist on this level.	mintrap: %ss no pueden existir en este nivel.
+tear through %s web!	¡desgarra la telarana de %s!
+%s a polymorph trap!	¡%s una trampa de polimorfismo!
+re-equipping iron shoes destroyed them?	¿reequipando zapatos de hierro los destruyo?
+%s %s in a pile of soil below you.	%s %s en un monton de tierra bajo ti.
+KAABLAMM!!!  %s %s%s off!	¡KAABLAMM!!!  ¡%s %s%s fuera!
+Kaablamm!  %s an explosion in the distance!	¡Kaablamm!  ¡%s una explosion en la distancia!
+%sYou trigger a rolling boulder trap!	¡%sActivas una trampa de roca rodante!
+immune_to_trap: bad ttype %u	immune_to_trap: ttype incorrecto %u
+%s encountered a strange trap of type %d.	%s encontro una trampa extrana de tipo %d.
+%s over %s %s.	%s sobre %s %s.
+escape %s %s.	escapa %s %s.
+steed hit by non-existent arrow?	¿corcel golpeado por flecha inexistente?
+steed hit by non-existent dart?	¿corcel golpeado por dardo inexistente?
+%s start to roll.	%s empieza a rodar.
+rumbling %s.	ruido sordo %s.
+KAABLAMM!!!%s	¡KAABLAMM!!!%s
+%s climbs %sout of the pit.	%s trepa %sfuera del foso.
+%s pulls free of the %s.	%s se libera del %s.
+%s touch the %s corpse.	%s toca el cadaver de %s.
+feel lighter, but your %s is still chained to the %s.	te sientes mas ligero, pero tu %s sigue encadenado al %s.
+float up slightly, but you are still stuck in the %s.	flotas ligeramente, pero sigues atascado en el %s.
+float up slightly, but your %s is still stuck.	flotas ligeramente, pero tu %s sigue atascado.
+spiral up into %s.	giras en espiral hacia arriba en %s.
+start to float in the air!	¡empiezas a flotar en el aire!
+float down, but you are still %s.	flotas hacia abajo, pero sigues %s.
+Startled, %s can no longer hold you!	¡Asustado, %s ya no puede sujetarte!
+settle more firmly in the saddle.	se asienta mas firmemente en la silla.
+ascend from the %s.	asciende desde el %s.
+%s from the %s.	%s del %s.
+%s to the edge of the %s.	%s al borde del %s.
+%s %s up!	¡%s %s arriba!
+%s hit lava and burn up!	¡%s golpea lava y arde!
+Some %s gets into your %s!	¡Algo de %s entra en tu %s!
+%s %s of %s.	%s %s de %s.
+%s in %s.	%s en %s.
+%s on top of %s.	%s encima de %s.
+%s into the %s%c	%s en el %s%c
+%s remains entangled.	%s sigue enredado.
+%s %s is difficult to %s.	%s %s es dificil de %s.
+extract %s from %s %s.	extrae %s de %s %s.
+disarm %s bear trap.	desactiva la trampa para osos %s.
+%s %s through %s web!	¡%s %s a traves de la telarana de %s!
+cut through %s web.	corta a traves de la telarana de %s.
+succeed in removing %s web.	logras quitar la telarana de %s.
+disarm %s land mine.	desactiva la mina terrestre %s.
+repair the squeaky board.	repara la tabla chirriante.
+disarm %s trap.	desactiva la trampa %s.
+%s is %s for you to lift.	%s es %s para que lo levantes.
+%s thinks it was nice of you to try.	%s piensa que fue amable de tu parte intentarlo.
+%s isn't trapped.	%s no esta atrapado.
+try to reach out your %s, but %s backs away skeptically.	intenta alcanzar tu %s, pero %s retrocede con escepticismo.
+grab the trapped %s using your bare %s.	agarra el %s atrapado usando tu %s desnudo.
+try to grab %s, but cannot get a firm grasp.	intenta agarrar %s, pero no puede conseguir un agarre firme.
+reach out your %s and grab %s.	alcanza tu %s y agarra %s.
+pull %s out of the pit.	saca %s del foso.
+%s %s %s but you can't reach %s%s.	%s %s %s pero no puedes alcanzar %s%s.
+%s released from %s%s.	%s liberado de %s%s.
+%s%s opens.	%s%s se abre.
+But luckily the %s!	¡Pero por suerte el %s!
+%s%s...	%s%s...
+KABOOM!!  %s was booby-trapped!	¡KABOOM!!  ¡%s estaba trampa-do!
+lava_effects: '%s' (#%u) is already in use; so is #%u.	lava_effects: '%s' (#%u) ya esta en uso; al igual que #%u.
+%s into flame!	¡%s en llama!
+%s item%s in your inventory %s been destroyed.	%s objeto%s en tu inventario %s sido destruido.
+sink into the %s%s!	¡hundes en el %s%s!
+trap sanity: location (%i,%i)	cordura trampa: ubicacion (%i,%i)
+trap sanity: type (%i)	cordura trampa: tipo (%i)
+nh.callback counts are wrong	los recuentos de nh.callback son incorrectos
+nhl_gamestate: inconsistent state (%s vs %s)	nhl_gamestate: estado inconsistente (%s vs %s)
+(%s) line too long	(%s) linea demasiado larga
+steps and perpcall both non-zero	pasos y perpcall ambos no cero
+'%s' %s "%s: %s".	'%s' %s "%s: %s".
+'%s' %s %u.	'%s' %s %u.
+There is no underlying support for 'idlecheckpoint' compiled in.	No hay soporte subyacente para 'idlecheckpoint' compilado.
+'%s' option toggled %s.	opcion '%s' conmutada %s.
+'menustyle' %s "%s".	'menustyle' %s "%s".
+'%s' %s '%s'.	'%s' %s '%s'.
+'msg_window' %.20s "%.20s".	'msg_window' %.20s "%.20s".
+'%s' option is not supported for '%s'.	opcion '%s' no esta soportada para '%s'.
+'perminv_mode' %s '%s' (%s).	'perminv_mode' %s '%s' (%s).
+Error adding the menu color.	Error añadiendo el color del menu.
+Error adding the message type.	Error añadiendo el tipo de mensaje.
+"%s" settable only from %s.	"%s" solo ajustable desde %s.
+%s can be set only from NETHACKOPTIONS or %s.	%s solo puede ajustarse desde NETHACKOPTIONS o %s.
+conflicting option init for %s: %s is %s, %s is %s	inicializacion de opcion conflictiva para %s: %s es %s, %s es %s
+set_option_mod_status: status out of range %d.	set_option_mod_status: estado fuera de rango %d.
+set_wc_option_mod_status: status out of range %d.	set_wc_option_mod_status: estado fuera de rango %d.
+set_wc2_option_mod_status: status out of range %d.	set_wc2_option_mod_status: estado fuera de rango %d.
+Suddenly one of the Vault's %s enters!	¡De repente uno de los %s de la Camara Acorazada entra!
+%s mouths something and looks very angry!	¡%s murmura algo y parece muy enfadado!
+Back from the dead, are you?  I'll remedy that!	¿Vuelves de entre los muertos?  ¡Lo remediare!
+vault guard: no gold at hero's feet?	¿guardia de camara: sin oro a los pies del heroe?
+see %s approaching.	ves a %s acercandose.
+nhassert(%s) failed in file '%s' at line %d	nhassert(%s) fallo en el archivo '%s' en la linea %d
+write_ls: can't find obj #%u!	write_ls: ¡no se puede encontrar obj #%u!
+write_ls: can't find mon%s #%u!	write_ls: ¡no se puede encontrar mon%s #%u!
+obj_adjust_light_radius: can't find %s	obj_adjust_light_radius: no se puede encontrar %s
+%s%s %s to your %s%s!	¡%s%s %s a tu %s%s!
+%s to shine %s!	¡%s para brillar %s!
+%s says "You be careful with my %s!"	%s dice: "¡Ten cuidado con mi %s!"
+%s aren't able to use two weapons at once.	%s no es capaz de usar dos armas a la vez.
+%s %s suitable %s weapon%s.	%s %s arma %s adecuada%s.
+%s isn't one-handed.	%s no es de una mano.
+%s being held second to another weapon!	¡%s siendo sujetado segundo a otra arma!
+%s from your %s!	¡%s de tu %s!
+%s your grasp and %s from your %s!	¡%s tu agarre y %s de tu %s!
+%s can't reach the %s.	%s no puede alcanzar el %s.
+There's some graffiti on the %s here.	Hay graffiti en el %s aqui.
+%s: "%s"%s	%s: "%s"%s
+%s can't wipe out this engraving.	%s no puede borrar este grabado.
+%s %sturns to dust.	%s %sse convierte en polvo.
+%s the %s with %s%s.	%s el %s con %s%s.
+%s the %s with your %s.	%s el %s con tu %s.
+%s, then %s.	%s, luego %s.
+Disturbing grave that isn't a grave? (%d)	¿Profanando tumba que no es una tumba? (%d)
+%s %s, %s evading your %skick.	%s %s, %s evadiendo tu %sempate.
+%s %scatches the gold.	%s %satrapa el oro.
+owe %s %ld %s for objects destroyed.	debes %s %ld %s por objetos destruidos.
+kick %s with your bare %s.	empate %s con tu %s desnudo.
+%s %sn't come loose.	%s %sno se suelta.
+%s %s loose.	%s %s suelto.
+%s falls from the tree!	¡%s cae del arbol!
+%ld %s got caught in the branches.	%ld %s quedaron atrapados en las ramas.
+%s returns!	¡%s vuelve!
+From the impact, %sother %s.	Por el impacto, %s otro %s.
+%s adjacent %s %s.	%s %s %s adyacente.
+owe %s %ld %s for goods lost.	debes %s %ld %s por productos perdidos.
+append_str: 'buf' contains %lu characters.	append_str: 'buf' contiene %lu caracteres.
+bad do_look buffer passed (%s)!	buffer do_look incorrecto pasado (%s)!
+? Seek error on 'data' file!	? Error de busqueda en archivo 'data'!
+'data' file in wrong format or corrupted	archivo 'data' en formato incorrecto o corrupto
+That is a trapped %s.	Eso es un %s atrapado.
+That is %s%s%s.	Eso es %s%s%s.
+cmdhelp: unrecognized &%c conditional at line %d: "%.20s"	cmdhelp: condicional &%c no reconocida en linea %d: "%.20s"
+cmdhelp: mismatched &? &: &. conditionals.	cmdhelp: condicionales &? &: &. no coinciden.
+Ask about '&' or '?' to get more info.%s	Pregunta sobre '&' o '?' para mas informacion.%s
+%s,	%s,
+%8.8s%s	%8.8s%s
+
+%s	
+%s
+
+%d error%s %s %s.
+	
+%d error%s %s %s.
+

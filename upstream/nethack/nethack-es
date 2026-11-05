@@ -1,0 +1,5 @@
+#!/bin/bash
+# NetHack-es: Lanzador con traducción al español
+export NETHACK_LOCALE_DIR="$(cd "$(dirname "$0")" && pwd)/playground/locale"
+cd "$(dirname "$0")/playground"
+exec ./nethack "$@"
