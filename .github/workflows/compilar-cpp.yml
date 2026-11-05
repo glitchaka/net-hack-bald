@@ -1,0 +1,39 @@
+name: Compilar C++ nativo Windows y Linux
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - CMakeLists.txt
+      - include/nhb/**
+      - src/multiplayer/**
+      - .github/workflows/compilar-cpp.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar Windows
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Compilar
+        run: cmake --build build --config Release --parallel 2
+      - name: Comprobar ejecutable
+        shell: pwsh
+        run: |
+          if (-not (Test-Path build/Release/nethack-bald.exe) -and
+              -not (Test-Path build/nethack-bald.exe)) {
+            throw "No se ha generado el ejecutable Windows."
+          }
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar Linux
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Compilar
+        run: cmake --build build --parallel 2
