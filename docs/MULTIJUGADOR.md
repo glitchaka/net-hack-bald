@@ -24,7 +24,7 @@ Servidor autoritativo. Conserva 128 KiB de historial de terminal para nuevos cli
 
 ## Conexión y seguridad
 
-Puerto por defecto **7777**, limitado a \`127.0.0.1\`. Para conexión por red local usar \`--bind=0.0.0.0 --clave=SECRETO\` y pasar esa clave a los clientes. El protocolo **no cifra** el tráfico: no abrir el puerto a Internet. Usar terminal compatible ANSI y de al menos **80 x 36**.
+Puerto por defecto **7777**, limitado a `127.0.0.1`. Para conexión por red local usar `--bind=0.0.0.0 --clave=SECRETO` y pasar esa clave a los clientes. El protocolo **no cifra** el tráfico: no abrir el puerto a Internet. Usar terminal compatible ANSI y de al menos **80 x 36**.
 
 ## Límites y pendientes
 
