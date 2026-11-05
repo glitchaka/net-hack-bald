@@ -1,69 +1,50 @@
-# NetHack Bald — NetHack 5.0 en español + cooperativo C++17
+# NetHack Bald — estado del desarrollo
 
-El proyecto incorpora **el código completo de NetHack 5.0**, a través de su [adaptación española NetHack-es](https://github.com/Ricard1974/nethack-es/tree/NetHack-5.0-es), y un **servidor/cliente multijugador escrito en C++17**.
+Proyecto Windows nativo en C++17. El objetivo del proyecto es un **NetHack fiel al original, traducido íntegramente al español, con gráficos por spritesheet y partidas compartidas por 2 a 6 personajes independientes**.
 
-**Estado:** fuentes publicadas en GitHub. **Todavía no compiladas ni probadas**, respetando la pauta de subir todo antes de las pruebas.
+**No está terminado.** El código que compila actualmente es una base multijugador propia, no una conversión 1:1 de las reglas completas de NetHack.
 
-| Componente | Lenguaje | Funcionalidad |
-| --- | --- | --- |
-| `upstream/nethack/` | C99, Lua | **Motor original completo** (no una imitación simplificada) |
-| `upstream/nethack/po/es.po` y datos | gettext/Lua | Traducción al español **parcial** |
-| `multiplayer/main.cpp` | C++17 | Hasta ocho jugadores compartiendo una partida de NetHack por TCP |
+## Compilar en Windows
 
-El modo multijugador permite **ver una misma partida, conversar y cederse el control del mismo personaje**. **No** dispone de varios héroes simultáneos. Ese modo requerirá refactorización profunda del motor y sigue pendiente. No es correcto llamar a esta versión "clon 1:1 en C++": el **motor genuino** se conserva en C99.
+Necesitas **Git, CMake y un compilador C++17 para Windows**, como MSVC (Visual Studio / Build Tools) o MinGW-w64. **No necesitas Ubuntu ni WSL.**
 
-## Compilar el NetHack original en español
+Desde PowerShell:
 
-Desde la raíz del repositorio, en Linux/WSL:
-
-```bash
-sudo apt install build-essential cmake libncurses-dev flex bison gettext
-cd upstream/nethack
-cd sys/unix && sh setup.sh hints/linux.500 && cd ../..
-make fetch-lua && make
-msgfmt po/es.po -o playground/locale/es/LC_MESSAGES/nethack.mo
-make dlb
-cp dat/nhdat playground/
-cd playground
-LANG=es.UTF-8 ./nethack
-```
-
-Consultar también el README propio dentro de `upstream/nethack`. En Windows se puede recurrir a WSL para el motor original y el **servidor**. Se incluye también un **cliente Windows nativo**, compilado con C++17/WinSock.
-
-## Compilar y conectar el multijugador C++17
-
-Desde la raíz del repositorio:
-
-```bash
+~~~powershell
+git clone https://github.com/glitchaka/net-hack-bald.git
+cd net-hack-bald
 cmake -S . -B build
 cmake --build build --config Release
-./build/nethack-bald-multi servidor --juego=upstream/nethack/playground/nethack --puerto=7777
-```
+~~~
 
-En otras terminales:
+Ejecutable esperado: \`build/Release/nethack-bald.exe\` (Visual Studio) o \`build/nethack-bald.exe\` (otros generadores).
 
-```bash
-./build/nethack-bald-multi cliente --ip=127.0.0.1 --nombre=Uno
-./build/nethack-bald-multi cliente --ip=127.0.0.1 --nombre=Dos
-```
+También existe el instalador [scripts/instalar_y_compilar.ps1](scripts/instalar_y_compilar.ps1), que descarga o actualiza el repositorio y utiliza las herramientas C++ **nativas de Windows**, sin Linux.
 
-En **Windows nativo**, la compilación CMake genera el **cliente** `nethack-bald-multi.exe` (no el servidor). Se ejecuta con `nethack-bald-multi.exe cliente --ip=127.0.0.1 --nombre=Uno`, conectado al servidor Linux/WSL.
+Al ejecutar \`nethack-bald.exe\` **sin argumentos**, aparece el menú para crear partida y jugar, unirse, iniciar servidor, consultar ayuda o salir. Los errores del menú permanecen visibles en la ventana.
 
-- **Ctrl+T:** ceder control al siguiente participante.
-- **Ctrl+G:** chat.
-- **Ctrl+]:** desconectarse.
+Para una partida de dos jugadores en el mismo equipo: abre el ejecutable y selecciona **Crear partida y jugar**; abre una segunda instancia y selecciona **Unirse a una partida** (IP \`127.0.0.1\`). Para equipos distintos, inicia un servidor dedicado en una LAN confiable usando \`--bind=0.0.0.0\` y \`--clave=SECRETO\`, y conecta los clientes con esa misma clave.
 
-Por defecto escucha solamente en 127.0.0.1. Para LAN: servidor con `--bind=0.0.0.0 --clave=SECRETO` y clientes con `--clave=SECRETO`. **No usa TLS: únicamente LAN de confianza, nunca exponer directamente a Internet.**
+**Seguridad:** el protocolo multijugador de esta base todavía no tiene cifrado, por lo que **no se debe abrir directamente a Internet**.
 
-Más información: [docs/MULTIJUGADOR.md](docs/MULTIJUGADOR.md).
+## Código
 
-## Estado real de los requisitos
+- \`src/multiplayer/\`: motor C++17 con un único mundo, hasta seis personajes independientes, acciones sincronizadas por rondas, inventarios propios, mapa con visión individual, monstruos, combate y persistencia.
+- \`include/nhb/\`: estructuras de mundo, red y terminal.
+- \`upstream/nethack/\`: **fuente del NetHack 5.0 original** importada desde [NetHack-es](https://github.com/Ricard1974/nethack-es/tree/NetHack-5.0-es). Es C99 y **no está acoplada al ejecutable multijugador propio**.
+- \`upstream/nethack/win/share/\`: recursos originales de tiles de NetHack en \`monsters.txt\`, \`objects.txt\`, \`other.txt\`, con \`tilemap.c\`. **La interfaz basada en sprites aún no se ha integrado.**
+- \`.github/workflows/compilar-cpp.yml\`: compilación de verificación en Windows y Linux a partir del código publicado.
 
-- **Mecánicas NetHack 5.0:** fuente genuina incorporada.
-- **Español:** gran parte traducida; quedan textos y secuencias de misiones sin traducir.
-- **C++:** infraestructura multijugador implementada; motor original aún C99.
-- **Multijugador:** hasta ocho clientes Linux/Windows; sesión compartida de un personaje, no varios héroes independientes.
-- **Pruebas:** no realizadas.
-- **Licencia:** NetHack General Public License, véase [upstream/nethack/dat/license](upstream/nethack/dat/license) y [LICENCIA.md](LICENCIA.md).
+## Pendientes obligatorios
 
-Código original NetHack DevTeam. Adaptación española Ricard1974. Módulo cooperativo NetHack Bald. El prototipo independiente anterior se retiró por no cumplir el requisito de fidelidad.
+- **Fidelidad 1:1:** faltan mecánicas completas de NetHack en el mundo multijugador C++.
+- **Español 100 %:** la traducción de NetHack-es todavía contiene cadenas sin traducir, especialmente misiones y contenido auxiliar.
+- **Spritesheet:** integrar el tileset original con la correspondencia exacta de cada casilla.
+- **Experiencia multijugador:** revisar y validar simultaneidad, reconexión, guardado y reglas compartidas.
+- **Verificación:** compilar y probar en los entornos objetivo.
+
+No presentar estos elementos como terminados hasta comprobarlos realmente.
+
+## Licencia
+
+La distribución importada de NetHack queda bajo la NetHack General Public License. Consultar \`upstream/nethack/dat/license\`.
