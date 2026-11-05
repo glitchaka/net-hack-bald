@@ -36,8 +36,7 @@ Utiliza una terminal de al menos **80 columnas × 32 filas**, con compatibilidad
 | --- | --- |
 | `h j k l` | Moverse izquierda, abajo, arriba y derecha |
 | `y u b n` | Moverse en diagonal |
-| `W A S D` (minúsculas) | Movimiento alternativo de cuatro direcciones |
-| Flechas | Movimiento cardinal |
+| Flechas y teclado numérico `1-9` | Movimiento en ocho direcciones (5 = esperar) |
 | `.` | Esperar |
 | `,` o `g` | Recoger objeto |
 | `i` | Revisar inventario |
