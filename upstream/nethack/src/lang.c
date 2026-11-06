@@ -44,10 +44,30 @@ void set_lang(const char *code)
         strcpy(current_lang, "en");
     if (strcmp(current_lang, "en") != 0) {
         /* Reload the .mo file for the new language */
+#if defined(WIN32)
+        /* En Windows, la traduccion se distribuye junto al ejecutable.
+         * HACKDIR (\\nethack) no apunta a la carpeta instalada.
+         */
+        char mo_path[MAX_PATH + 64];
+        DWORD len = GetModuleFileNameA(NULL, mo_path, MAX_PATH);
+        if (len > 0 && len < MAX_PATH) {
+            char *file = strrchr(mo_path, '\\');
+            if (!file)
+                file = strrchr(mo_path, '/');
+            if (file) {
+                *(file + 1) = '\0';
+                Strcat(mo_path, "locale\\");
+                Strcat(mo_path, current_lang);
+                Strcat(mo_path, "\\LC_MESSAGES\\nethack.mo");
+                nh_load_mo(mo_path);
+            }
+        }
+#else
         char mo_path[BUFSZ];
         Strcpy(mo_path, HACKDIR "/locale/");
         Strcat(mo_path, current_lang);
         Strcat(mo_path, "/LC_MESSAGES/nethack.mo");
         nh_load_mo(mo_path);
+#endif
     }
 }
