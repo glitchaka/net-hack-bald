@@ -18,7 +18,7 @@ function Decode-PoString([string]$line) {
     }
 }
 
-$catalog = New-Object 'System.Collections.Generic.Dictionary[string,string]' ([StringComparer]::Ordinal)
+$catalog = [System.Collections.Generic.Dictionary[string,string]]::new([StringComparer]::Ordinal)
 [string]$id = ''
 [string]$translated = ''
 [string]$section = ''
@@ -68,8 +68,8 @@ if ($catalog.Count -lt 1000) {
 [string[]]$keys = @($catalog.Keys)
 [Array]::Sort($keys, [StringComparer]::Ordinal)
 $encoding = New-Object System.Text.UTF8Encoding($false)
-$originals = New-Object 'System.Collections.Generic.List[byte[]]'
-$translations = New-Object 'System.Collections.Generic.List[byte[]]'
+$originals = [System.Collections.Generic.List[byte[]]]::new()
+$translations = [System.Collections.Generic.List[byte[]]]::new()
 foreach ($key in $keys) {
     $originals.Add($encoding.GetBytes($key))
     $translations.Add($encoding.GetBytes($catalog[$key]))
@@ -77,7 +77,7 @@ foreach ($key in $keys) {
 
 $folder = Split-Path -Parent ([IO.Path]::GetFullPath($Mo))
 New-Item -ItemType Directory -Path $folder -Force | Out-Null
-$writer = New-Object System.IO.BinaryWriter(
+$writer = [System.IO.BinaryWriter]::new(
     ([IO.File]::Open($Mo, [IO.FileMode]::Create)),
     $encoding
 )
