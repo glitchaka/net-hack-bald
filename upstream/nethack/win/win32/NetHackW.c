@@ -95,7 +95,12 @@ WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine,
     UNREFERENCED_PARAMETER(lpCmdLine);
     UNREFERENCED_PARAMETER(nCmdShow);
 
+    /* Este port de Windows es el juego grafico principal, siempre en es.
+     * El catalogo se carga desde el directorio del ejecutable real.
+     */
+    SetEnvironmentVariableA("LANG", "es_ES.UTF-8");
     win10_init();
+    set_lang("es");
     early_init(0, NULL);  /* Change as needed to support CRASHREPORT */
 
     /* init application structure */
