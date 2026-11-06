@@ -1,5 +1,8 @@
 /* NetHack-es: language detection for i18n */
 #include "hack.h"
+#if defined(WIN32)
+#include <windows.h> /* GetModuleFileNameA, MAX_PATH */
+#endif
 
 static char current_lang[8] = "en"; /* default: English */
 
