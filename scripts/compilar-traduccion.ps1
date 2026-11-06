@@ -67,7 +67,7 @@ if ($catalog.Count -lt 1000) {
 
 [string[]]$keys = @($catalog.Keys)
 [Array]::Sort($keys, [StringComparer]::Ordinal)
-$encoding = New-Object System.Text.UTF8Encoding($false)
+$encoding = [System.Text.UTF8Encoding]::new($false)
 $originals = [System.Collections.Generic.List[byte[]]]::new()
 $translations = [System.Collections.Generic.List[byte[]]]::new()
 foreach ($key in $keys) {
