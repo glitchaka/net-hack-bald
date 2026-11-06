@@ -1,4 +1,4 @@
-name: NetHack original Windows grafico
+name: NetHack GUI Windows y traducción española
 
 on:
   push:
@@ -6,10 +6,12 @@ on:
     paths:
       - CMakeLists.txt
       - scripts/compilar-nethack-original.ps1
-      - scripts/instalar_y_compilar.ps1
+      - scripts/compilar-traduccion.ps1
+      - upstream/nethack/src/lang.c
+      - upstream/nethack/src/nh_gettext.c
+      - upstream/nethack/po/es.po
+      - upstream/nethack/win/win32/NetHackW.c
       - upstream/nethack/sys/windows/vs/**
-      - upstream/nethack/src/**
-      - upstream/nethack/include/**
       - .github/workflows/compilar-cpp.yml
   workflow_dispatch:
 
@@ -17,23 +19,41 @@ permissions:
   contents: read
 
 jobs:
-  compilar-net-hack-original:
+  nethack-grafico-windows:
     runs-on: windows-latest
     timeout-minutes: 45
     steps:
-      - name: Descargar el codigo original
+      - name: Descargar fuentes
         uses: actions/checkout@v4
-      - name: Configurar proyecto Windows
+      - name: Configurar CMake
         run: cmake -S . -B build
-      - name: Compilar el motor original y su interfaz grafica
+      - name: Compilar NetHack original Windows
         run: cmake --build build --config Release
-      - name: Verificar ejecutable grafico y datos
+      - name: Verificar que no se entrega una consola
         shell: pwsh
         run: |
-          if (-not (Test-Path 'build/Release/NetHackW.exe')) {
-            throw 'No se genero el NetHackW.exe original.'
+          $exe = "build/Release/nethack-bald.exe"
+          if (-not (Test-Path $exe)) { throw 'Falta el ejecutable principal.' }
+          if (Test-Path "build/Release/NetHack.exe") {
+            throw 'El paquete final todavía incluye el exe de consola.'
           }
+          $bytes = [IO.File]::ReadAllBytes((Resolve-Path $exe))
+          $offset = [BitConverter]::ToInt32($bytes, 0x3C)
+          $subsystem = [BitConverter]::ToUInt16($bytes, $offset + 24 + 68)
+          if ($subsystem -ne 2) {
+            throw "El exe es de consola; se esperaba subsistema GUI de Windows: $subsystem"
+          }
+          Write-Host "OK: nethack-bald.exe es una aplicación gráfica de Windows."
+      - name: Verificar catalogo español y archivos de NetHack
+        shell: pwsh
+        run: |
+          $mo = "build/Release/locale/es/LC_MESSAGES/nethack.mo"
+          if (-not (Test-Path $mo)) { throw 'No se empaquetó la traducción española.' }
+          $bytes = [IO.File]::ReadAllBytes((Resolve-Path $mo))
+          if ($bytes.Length -lt 10000) { throw 'El catálogo .mo está incompleto.' }
+          $count = [BitConverter]::ToUInt32($bytes, 8)
+          if ($count -lt 1000) { throw "Solo $count traducciones." }
           if (-not (Get-ChildItem 'build/Release' -Filter 'nhdat*')) {
-            throw 'No se empaquetaron los datos originales de NetHack.'
+            throw 'No se empaquetaron los datos del motor original.'
           }
-          Write-Host 'OK: NetHackW.exe original y datos en Windows'
+          Write-Host "OK: $count cadenas españolas, datos originales."
