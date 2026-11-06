@@ -83,6 +83,7 @@ if ($packages.Count -lt 1) { throw 'No se genero el paquete original de NetHack 
 $outputDir = Join-Path $rootDir ('build\' + $Configuration)
 New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
 
+# Limpiar binarios del prototipo, sin tocar partidas guardadas ni datos.
 foreach ($oldName in @('nethack-bald.exe','nethack-bald-multi.exe')) {
   $oldExe = Join-Path $outputDir $oldName
   if (Test-Path -LiteralPath $oldExe) {
@@ -91,8 +92,48 @@ foreach ($oldName in @('nethack-bald.exe','nethack-bald-multi.exe')) {
 }
 
 Expand-Archive -LiteralPath $packages[0].FullName -DestinationPath $outputDir -Force
-$gameExe = Join-Path $outputDir 'NetHackW.exe'
-if (-not (Test-Path -LiteralPath $gameExe)) { throw "No se encontro $gameExe" }
-Write-Host 'NetHack original compilado con interfaz Win32 para un jugador.' -ForegroundColor Green
-Write-Host "Ejecutable: $gameExe"
-Write-Host 'Pendiente: traduccion 100% y multijugador original de seis personajes.' -ForegroundColor Yellow
+
+# Es el NetHackW original del subsistema GRAFICO Win32, no un ejecutable
+# de consola. Cambiamos su nombre para que el usuario abra el correcto.
+$graphicExe = Join-Path $outputDir 'NetHackW.exe'
+$gameExe = Join-Path $outputDir 'nethack-bald.exe'
+if (-not (Test-Path -LiteralPath $graphicExe)) {
+  throw "No se encontro NetHackW.exe en el paquete original."
+}
+Move-Item -LiteralPath $graphicExe -Destination $gameExe -Force
+
+# Retirar el otro ejecutable original (NetHack.exe es de consola).
+# No es necesario ni deseable en una distribucion grafica.
+$consoleExe = Join-Path $outputDir 'NetHack.exe'
+if (Test-Path -LiteralPath $consoleExe) {
+  Remove-Item -LiteralPath $consoleExe -Force
+}
+
+# Verificar en el encabezado PE que el programa es GUI (subsystem = 2)
+# en vez de CUI/console (subsystem = 3).
+$binary = [IO.File]::ReadAllBytes($gameExe)
+if ($binary.Length -lt 512) { throw 'Ejecutable grafico demasiado pequeno.' }
+$peOffset = [BitConverter]::ToInt32($binary, 0x3c)
+if ($peOffset -lt 64 -or $peOffset -gt ($binary.Length - 96)) {
+  throw 'Encabezado PE invalido.'
+}
+$subsystem = [BitConverter]::ToUInt16($binary, $peOffset + 24 + 68)
+if ($subsystem -ne 2) {
+  throw "El ejecutable no es grafico. PE subsystem=$subsystem"
+}
+
+# NetHack-es contiene traducciones en es.po. La importacion anterior
+# no lo convertia a .mo ni lo incluia en los binarios Windows.
+$po = Join-Path $gameDir 'po\es.po'
+$mo = Join-Path $outputDir 'locale\es\LC_MESSAGES\nethack.mo'
+& (Join-Path $rootDir 'scripts\compilar-traduccion.ps1') -Po $po -Mo $mo
+if (-not (Test-Path -LiteralPath $mo)) {
+  throw 'No se genero el catalogo espanol nethack.mo.'
+}
+
+Write-Host ''
+Write-Host 'Compilacion completada del NetHack ORIGINAL con ventana propia en Windows.' -ForegroundColor Green
+Write-Host "Abrir: $gameExe"
+Write-Host "Traduccion incluida: $mo"
+Write-Host 'El catalogo disponible NO cubre aun el 100% del juego.' -ForegroundColor Yellow
+Write-Host 'El multijugador 2-6 sigue pendiente en el motor original.' -ForegroundColor Yellow
