@@ -36,17 +36,17 @@ function Find-MSBuild {
 function Fetch-Archive([string]$Uri, [string]$Destination) {
   Write-Host "Descargando: $Uri" -ForegroundColor DarkCyan
   $ok = $false
-  for ($attempt = 1; $attempt -le 4 -and -not $ok; $attempt++) {
+  for ($attempt = 1; $attempt -le 2 -and -not $ok; $attempt++) {
     if (Test-Path -LiteralPath $Destination) {
       Remove-Item -LiteralPath $Destination -Force
     }
     if (Get-Command 'curl.exe' -ErrorAction SilentlyContinue) {
-      & curl.exe --fail --location --retry 2 --retry-delay 2 --connect-timeout 20 --max-time 150 --output $Destination $Uri
+      & curl.exe --fail --location --retry 1 --retry-delay 2 --connect-timeout 15 --max-time 55 --output $Destination $Uri
       $ok = ($LASTEXITCODE -eq 0 -and (Test-Path -LiteralPath $Destination))
     }
     if (-not $ok) {
       try {
-        Invoke-WebRequest -Uri $Uri -OutFile $Destination -MaximumRedirection 10 -TimeoutSec 90
+        Invoke-WebRequest -Uri $Uri -OutFile $Destination -MaximumRedirection 10 -TimeoutSec 45
         $ok = (Test-Path -LiteralPath $Destination)
       } catch {
         Write-Warning ("Intento " + $attempt + ": " + $_.Exception.Message)
@@ -69,10 +69,25 @@ try {
   $lua = Join-Path $libDir 'lua-5.4.8\src\lua.h'
   if (-not (Test-Path -LiteralPath $lua)) {
     $archive = Join-Path $temp 'lua-5.4.8.tar.gz'
-    Fetch-Archive 'https://www.lua.org/ftp/lua-5.4.8.tar.gz' $archive
-    & tar.exe -xf $archive -C $libDir
-    if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $lua)) {
-      throw 'Error al extraer Lua 5.4.8.'
+    try {
+      Fetch-Archive 'https://www.lua.org/ftp/lua-5.4.8.tar.gz' $archive
+      & tar.exe -xf $archive -C $libDir
+      if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $lua)) {
+        throw 'El tarball oficial de Lua no se extrajo correctamente.'
+      }
+    } catch {
+      # Respaldo versionado y verificable: tag v5.4.8 del repositorio Lua.
+      Write-Warning 'Utilizando el respaldo de Lua v5.4.8 en GitHub.'
+      $archive = Join-Path $temp 'lua-source-v5.4.8.zip'
+      Fetch-Archive 'https://codeload.github.com/lua/lua/zip/refs/tags/v5.4.8' $archive
+      $unpackedLua = Join-Path $temp 'lua-github'
+      Expand-Archive -LiteralPath $archive -DestinationPath $unpackedLua -Force
+      $sourceLua = Get-ChildItem -LiteralPath $unpackedLua -Directory | Select-Object -First 1
+      if ($null -eq $sourceLua) { throw 'El respaldo no contiene fuentes Lua.' }
+      $targetLua = Join-Path $libDir 'lua-5.4.8\src'
+      New-Item -ItemType Directory -Path $targetLua -Force | Out-Null
+      Copy-Item -Path (Join-Path $sourceLua.FullName '*') -Destination $targetLua -Recurse -Force
+      if (-not (Test-Path -LiteralPath $lua)) { throw 'No apareció lua.h en el respaldo.' }
     }
   }
 
