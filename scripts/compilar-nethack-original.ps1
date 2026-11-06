@@ -35,8 +35,28 @@ function Find-MSBuild {
 
 function Fetch-Archive([string]$Uri, [string]$Destination) {
   Write-Host "Descargando: $Uri" -ForegroundColor DarkCyan
-  Invoke-WebRequest -Uri $Uri -OutFile $Destination -MaximumRedirection 10
-  if (-not (Test-Path -LiteralPath $Destination)) { throw "No se pudo descargar $Uri" }
+  $ok = $false
+  for ($attempt = 1; $attempt -le 4 -and -not $ok; $attempt++) {
+    if (Test-Path -LiteralPath $Destination) {
+      Remove-Item -LiteralPath $Destination -Force
+    }
+    if (Get-Command 'curl.exe' -ErrorAction SilentlyContinue) {
+      & curl.exe --fail --location --retry 2 --retry-delay 2 --connect-timeout 20 --max-time 150 --output $Destination $Uri
+      $ok = ($LASTEXITCODE -eq 0 -and (Test-Path -LiteralPath $Destination))
+    }
+    if (-not $ok) {
+      try {
+        Invoke-WebRequest -Uri $Uri -OutFile $Destination -MaximumRedirection 10 -TimeoutSec 90
+        $ok = (Test-Path -LiteralPath $Destination)
+      } catch {
+        Write-Warning ("Intento " + $attempt + ": " + $_.Exception.Message)
+      }
+    }
+    if (-not $ok) { Start-Sleep -Seconds ($attempt * 2) }
+  }
+  if (-not $ok -or (Get-Item -LiteralPath $Destination).Length -lt 2048) {
+    throw "No fue posible descargar la dependencia desde $Uri despues de varios intentos."
+  }
 }
 
 Write-Host 'Preparando NetHack 5.0 grafico original para Windows' -ForegroundColor Cyan
